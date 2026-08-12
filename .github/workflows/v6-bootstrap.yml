@@ -64,6 +64,7 @@ jobs:
           # Le jeton GitHub Actions n'a pas le droit de modifier des workflows.
           # Les workflows seront nettoyés et ajoutés séparément par l'application GitHub.
           git restore --source=HEAD --staged --worktree .github/workflows
+          rm -f .github/workflows/quality-audit.yml
           rm -rf scripts/__pycache__
 
           git config user.name "github-actions[bot]"
