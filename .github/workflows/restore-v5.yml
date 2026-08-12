@@ -1,0 +1,55 @@
+name: Restaurer la maquette V5
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".restore/restore.trigger"
+
+permissions:
+  contents: write
+
+jobs:
+  restore-v5:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Restaurer exactement la V5
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .restore/site.b64.part* | base64 --decode > /tmp/drelard-v5.tar.gz
+          tar -tzf /tmp/drelard-v5.tar.gz >/dev/null
+          tar -xzf /tmp/drelard-v5.tar.gz -C .
+
+          # Nettoyer les correctifs temporaires de la maquette intermédiaire.
+          rm -f assets/dr-stephane-elard-cabinet.webp
+          rm -f assets/dr-stephane-elard-portrait.webp
+          rm -f .github/workflows/fix-site-assets.yml
+          rm -f .restore/site.b64.part*
+
+          # Contrôles avant publication.
+          test -s index.html
+          test -s assets/dr-stephane-elard-cabinet.jpg
+          test -s assets/dr-stephane-elard-portrait.jpg
+          grep -q "Une expertise urologique et andrologique" index.html
+          grep -q "Téléconsultation disponible" index.html
+          grep -q "https://dunf.fr/sos-calcul/" index.html
+          file assets/dr-stephane-elard-cabinet.jpg | grep -q "JPEG image data"
+          file assets/dr-stephane-elard-portrait.jpg | grep -q "JPEG image data"
+
+      - name: Publier la V5 restaurée
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Aucune modification à publier."
+            exit 0
+          fi
+          git commit -m "Restaurer la maquette V5 et ajouter la téléconsultation à Osny"
+          git push
