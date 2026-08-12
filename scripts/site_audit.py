@@ -42,6 +42,16 @@ for file in sorted(ROOT.rglob('*.html')):
     if '/.github/' in str(file) or '/.restore' in str(file): continue
     rel=file.relative_to(ROOT)
     text=file.read_text(encoding='utf-8')
+
+    # Les fichiers Google Search Console sont volontairement de simples fichiers
+    # texte portant l'extension .html. Ils doivent être validés selon le format
+    # imposé par Google, et non selon les règles d'une page HTML complète.
+    if rel.parent == Path('.') and re.fullmatch(r'google[a-zA-Z0-9_-]+\.html', rel.name):
+        expected = f'google-site-verification: {rel.name}'
+        if text.strip() != expected:
+            ERRORS.append(f'{rel}: contenu de vérification Google invalide')
+        continue
+
     p=Parser(); p.feed(text)
     prefix=str(rel)
     if p.lang!='fr': ERRORS.append(f'{prefix}: attribut lang="fr" absent')
