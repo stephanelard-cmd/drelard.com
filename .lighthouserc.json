@@ -1,12 +1,15 @@
 {
   "ci": {
     "collect": {
-      "staticDistDir": ".",
+      "startServerCommand": "python3 -m http.server 8080 --bind 127.0.0.1",
+      "startServerReadyPattern": "Serving HTTP",
+      "startServerReadyTimeout": 15000,
       "url": [
-        "http://localhost/",
-        "http://localhost/prolapsus-genital/",
-        "http://localhost/rendez-vous/",
-        "http://localhost/plan-du-site/"
+        "http://127.0.0.1:8080/",
+        "http://127.0.0.1:8080/prolapsus-genital/",
+        "http://127.0.0.1:8080/rendez-vous/",
+        "http://127.0.0.1:8080/plan-du-site/",
+        "http://127.0.0.1:8080/accessibilite/"
       ],
       "numberOfRuns": 1,
       "settings": {
