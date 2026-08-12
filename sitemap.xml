@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url>
-    <loc>https://drelard.com/</loc>
-    <lastmod>2026-08-12</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url><loc>https://drelard.com/</loc><lastmod>2026-08-12</lastmod><changefreq>monthly</changefreq><priority>1.0</priority><image:image><image:loc>https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg</image:loc></image:image></url>
+  <url><loc>https://drelard.com/prolapsus-genital/</loc><lastmod>2026-08-12</lastmod><changefreq>monthly</changefreq><priority>0.9</priority><image:image><image:loc>https://drelard.com/assets/prolapsus-genital-dr-elard-1200x630.jpg</image:loc></image:image></url>
 </urlset>
