@@ -37,6 +37,19 @@ jobs:
                   line = line[10:]
               lines.append(line)
           script = '\n'.join(lines) + '\n'
+
+          # Le script était initialement inclus dans un bloc YAML indenté. Après
+          # extraction, ses chaînes multilignes sont déjà correctement décalées :
+          # il ne faut pas leur retirer une seconde fois dix espaces.
+          script = script.replace(
+              "write('scripts/site_audit.py', re.sub(r'^          ', '', audit, flags=re.M))",
+              "write('scripts/site_audit.py', audit)",
+          )
+          script = script.replace(
+              "write('.github/workflows/quality-audit.yml', re.sub(r'^          ', '', quality_workflow, flags=re.M))",
+              "write('.github/workflows/quality-audit.yml', quality_workflow)",
+          )
+
           target = Path('scripts/apply_v6.py')
           target.parent.mkdir(parents=True, exist_ok=True)
           target.write_text(script, encoding='utf-8')
