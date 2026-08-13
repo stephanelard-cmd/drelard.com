@@ -6,6 +6,7 @@ on:
     paths:
       - "*.html"
       - "**/*.html"
+      - "assets/**"
       - "robots.txt"
       - "sitemap.xml"
       - "llms.txt"
@@ -17,6 +18,7 @@ on:
     paths:
       - "*.html"
       - "**/*.html"
+      - "assets/**"
       - "robots.txt"
       - "sitemap.xml"
       - "llms.txt"
@@ -40,7 +42,7 @@ jobs:
         run: python3 scripts/site_audit.py
 
   lighthouse:
-    name: Lighthouse — accessibilité, SEO et bonnes pratiques
+    name: Lighthouse — performance, accessibilité, SEO et bonnes pratiques
     runs-on: ubuntu-latest
     steps:
       - name: Récupérer le dépôt
