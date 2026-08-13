@@ -1,0 +1,45 @@
+name: Corriger image accueil
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/fix-hero-image.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Remplacer l'ancienne URL WebP par le nouveau JPG
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('index.html')
+          s = p.read_text(encoding='utf-8')
+          old = '/assets/dr-stephane-elard-cabinet.webp?v=20260812-v5'
+          new = '/assets/dr-stephane-elard-hero-20260813.jpg'
+          if old not in s:
+              print('Déjà corrigé')
+          else:
+              s = s.replace(old, new)
+              p.write_text(s, encoding='utf-8')
+              print('Image d’accueil basculée vers le nouveau JPG')
+          PY
+      - name: Commit si nécessaire
+        shell: bash
+        run: |
+          if git diff --quiet; then
+            echo "Aucune modification à publier"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html
+          git commit -m "Corriger définitivement l’image d’accueil pour tous les navigateurs"
+          git push
