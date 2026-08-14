@@ -1,0 +1,51 @@
+name: Appliquer l'audit SEO Enghien
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/apply-seo-enghien.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  appliquer:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Récupérer le dépôt
+        uses: actions/checkout@v4
+
+      - name: Installer les fichiers optimisés
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat \
+            .seo/payload-000 \
+            .seo/payload-001 \
+            .seo/payload-002 \
+            .seo/payload-003004 \
+            .seo/payload-005 \
+            .seo/payload-006 \
+            .seo/payload-007 \
+            | base64 --decode > /tmp/seo-enghien.tar.gz
+          tar -xzf /tmp/seo-enghien.tar.gz -C .
+          python3 scripts/site_audit.py
+
+      - name: Publier les modifications
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add index.html urologue-enghien-les-bains/index.html sitemap.xml \
+            plan-du-site/index.html rendez-vous/index.html llms.txt \
+            scripts/site_audit.py .lighthouserc.json
+          git rm -r .seo
+          if git diff --cached --quiet; then
+            echo "Aucune modification à publier"
+            exit 0
+          fi
+          git commit -m "Appliquer l'audit SEO pour Enghien-les-Bains"
+          git push
