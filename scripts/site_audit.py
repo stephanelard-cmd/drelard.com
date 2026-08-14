@@ -43,9 +43,6 @@ for file in sorted(ROOT.rglob('*.html')):
     rel=file.relative_to(ROOT)
     text=file.read_text(encoding='utf-8')
 
-    # Les fichiers Google Search Console sont volontairement de simples fichiers
-    # texte portant l'extension .html. Ils doivent être validés selon le format
-    # imposé par Google, et non selon les règles d'une page HTML complète.
     if rel.parent == Path('.') and re.fullmatch(r'google[a-zA-Z0-9_-]+\.html', rel.name):
         expected = f'google-site-verification: {rel.name}'
         if text.strip() != expected:
@@ -78,11 +75,20 @@ for file in sorted(ROOT.rglob('*.html')):
         try: json.loads(raw)
         except Exception as exc: ERRORS.append(f'{prefix}: JSON-LD invalide: {exc}')
 
-for required in ('llms.txt','sitemap.xml','robots.txt','site.webmanifest','rendez-vous/index.html','plan-du-site/index.html','accessibilite/index.html'):
+for required in ('llms.txt','sitemap.xml','robots.txt','site.webmanifest','urologue-enghien-les-bains/index.html','rendez-vous/index.html','plan-du-site/index.html','accessibilite/index.html'):
     if not (ROOT/required).exists(): ERRORS.append(f'Fichier requis absent: {required}')
+
 index=(ROOT/'index.html').read_text(encoding='utf-8')
-for required in ('tel:+33130756301','tel:+33139641494','potentialAction','/prolapsus-genital/','/rendez-vous/'):
+for required in ('tel:+33130756301','tel:+33139641494','potentialAction','/urologue-enghien-les-bains/','/prolapsus-genital/','/rendez-vous/'):
     if required not in index: ERRORS.append(f'Accueil: donnée agentique absente: {required}')
+
+enghien_path=ROOT/'urologue-enghien-les-bains/index.html'
+if enghien_path.exists():
+    enghien=enghien_path.read_text(encoding='utf-8')
+    for required in ('Urologue à Enghien-les-Bains','8 rue de Malleville','tel:+33139641494','FAQPage','Physician'):
+        if required not in enghien: ERRORS.append(f'Page Enghien: donnée locale absente: {required}')
+    if 'Review' in enghien or 'AggregateRating' in enghien:
+        ERRORS.append('Page Enghien: balisage de notation interdit par la politique éditoriale')
 
 print(f'Audit: {len(ERRORS)} erreur(s), {len(WARNINGS)} avertissement(s)')
 for x in WARNINGS: print('WARN',x)
