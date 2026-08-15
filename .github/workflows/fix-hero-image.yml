@@ -1,4 +1,4 @@
-name: Corriger image accueil centrée
+name: Corriger les photos du site
 
 on:
   push:
@@ -15,33 +15,54 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Utiliser la photo centrée pour la page d'accueil
+      - name: Utiliser les photos JPG compatibles sur les pages du site
         shell: bash
         run: |
           python3 - <<'PY'
           from pathlib import Path
-          p = Path('index.html')
-          s = p.read_text(encoding='utf-8')
-          candidates = [
-              '/assets/dr-stephane-elard-social-1200x900.jpg?v=20260813-hd',
-              '/assets/dr-stephane-elard-hero-20260813.jpg',
-              '/assets/dr-stephane-elard-cabinet.webp?v=20260812-v5',
-              '/assets/dr-stephane-elard-cabinet.jpg',
-              '/assets/dr-stephane-elard-cabinet.webp',
-          ]
-          new = '/assets/dr-stephane-elard-cabinet-centre.jpg?v=20260814-center'
-          changed = False
-          for old in candidates:
-              if old in s:
+
+          modified = []
+
+          # Page d'accueil : conserver la photo HD centrée déjà validée.
+          home = Path('index.html')
+          if home.exists():
+              s = home.read_text(encoding='utf-8')
+              candidates = [
+                  '/assets/dr-stephane-elard-social-1200x900.jpg?v=20260813-hd',
+                  '/assets/dr-stephane-elard-hero-20260813.jpg',
+                  '/assets/dr-stephane-elard-cabinet.webp?v=20260812-v5',
+                  '/assets/dr-stephane-elard-cabinet.jpg',
+                  '/assets/dr-stephane-elard-cabinet.webp',
+              ]
+              new = '/assets/dr-stephane-elard-cabinet-centre.jpg?v=20260814-seo'
+              original = s
+              for old in candidates:
                   s = s.replace(old, new)
-                  changed = True
-          s2 = s.replace('object-position: 50% 32%;', 'object-position: 50% 18%;', 1)
-          if s2 != s:
-              changed = True
-              s = s2
-          if changed:
-              p.write_text(s, encoding='utf-8')
-              print('Photo d’accueil centrée et cache actualisé')
+              if s != original:
+                  home.write_text(s, encoding='utf-8')
+                  modified.append(str(home))
+
+          # Page Prolapsus : remplacer l'ancien WebP par le JPG HD fiable.
+          prolapsus = Path('prolapsus-genital/index.html')
+          if prolapsus.exists():
+              s = prolapsus.read_text(encoding='utf-8')
+              original = s
+              replacements = {
+                  '/assets/dr-stephane-elard-cabinet.webp?v=20260812-prolapsus': '/assets/dr-stephane-elard-cabinet-centre.jpg?v=20260815-prolapsus-photo-fix',
+                  'width="448" height="684"': 'width="1200" height="1386"',
+                  'aspect-ratio:448/684;': 'aspect-ratio:1200/1386;',
+                  '<meta property="article:modified_time" content="2026-08-12">': '<meta property="article:modified_time" content="2026-08-15">',
+                  '"dateModified":"2026-08-12"': '"dateModified":"2026-08-15"',
+                  'Dernière mise à jour : 12 août 2026.': 'Dernière mise à jour : 15 août 2026.',
+              }
+              for old, new in replacements.items():
+                  s = s.replace(old, new)
+              if s != original:
+                  prolapsus.write_text(s, encoding='utf-8')
+                  modified.append(str(prolapsus))
+
+          if modified:
+              print('Pages corrigées : ' + ', '.join(modified))
           else:
               print('Aucune modification nécessaire')
           PY
@@ -54,6 +75,6 @@ jobs:
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add index.html
-          git commit -m "Centrer la photo d’accueil"
+          git add index.html prolapsus-genital/index.html
+          git commit -m "Corriger la photo de la page Prolapsus"
           git push
