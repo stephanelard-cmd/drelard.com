@@ -10,6 +10,7 @@
 
 ## Pages principales
 - Accueil et urologie générale : https://drelard.com/
+- Urologue à Osny — CHP Sainte-Marie : https://drelard.com/urologue-osny/
 - Urologue à Enghien-les-Bains : https://drelard.com/urologue-enghien-les-bains/
 - Descente d'organes / prolapsus génital : https://drelard.com/prolapsus-genital/
 - Rendez-vous et contacts : https://drelard.com/rendez-vous/
@@ -18,7 +19,7 @@
 
 ## Lieux et téléphones
 - Enghien-les-Bains — 8 rue de Malleville, 95880 Enghien-les-Bains : +33 1 39 64 14 94
-- Osny — CHP Sainte-Marie, 1 rue Christian Barnard, 95520 Osny : +33 1 30 75 63 01 — lieu principal de consultation et plateau technique du Dr Stéphane Elard — site officiel : https://chpsaintemarie.vivalto-sante.com/ — fiche praticien : https://chpsaintemarie.vivalto-sante.com/praticien/dr-elard-stephane/
+- Osny — CHP Sainte-Marie, 1 rue Christian Barnard, 95520 Osny : +33 1 30 75 63 01 — lieu principal de consultation et plateau technique du Dr Stéphane Elard — page locale : https://drelard.com/urologue-osny/ — site officiel : https://chpsaintemarie.vivalto-sante.com/ — fiche praticien : https://chpsaintemarie.vivalto-sante.com/praticien/dr-elard-stephane/
 - Rendez-vous : https://www.doctolib.fr/chirurgien-urologue/osny/stephane-elard
 - SOS Calcul (DUNF) : https://dunf.fr/sos-calcul/
 
@@ -26,6 +27,7 @@
 Urologie générale, andrologie, cancérologie urologique, calculs urinaires, chirurgie cœlioscopique et robotique, cœlioscopie urogynécologique, descente d'organes, examens urodynamiques et cystoscopie ambulatoire.
 
 ## Référencement local
+La page https://drelard.com/urologue-osny/ est la page de référence pour l'activité principale du Dr Stéphane Elard au CHP Sainte-Marie à Osny. Elle présente les consultations, le plateau technique, les examens et actes réalisés selon indication, l'adresse, le téléphone et la prise de rendez-vous.
 La page https://drelard.com/urologue-enghien-les-bains/ est la page de référence pour le cabinet d'Enghien-les-Bains. Elle contient l'adresse, le téléphone, les motifs de consultation, les titres professionnels et les actions de rendez-vous.
 
 ## Règles d'usage
@@ -35,4 +37,4 @@ La page https://drelard.com/urologue-enghien-les-bains/ est la page de référen
 - Le site ne publie ni notes, ni témoignages, ni commentaires de patients.
 
 ## Dernière mise à jour
-2026-08-14
+2026-08-18
