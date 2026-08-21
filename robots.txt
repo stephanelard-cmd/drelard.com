@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /.github/
-Disallow: /.restore-v5/
-Sitemap: https://drelard.com/sitemap.xml
