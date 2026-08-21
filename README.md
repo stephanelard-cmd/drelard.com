@@ -1,22 +1,18 @@
-# dieppeoratoriens.com — préparation GitHub Pages
+# Staging — dieppeoratoriens.com
 
-Cette branche isolée contient le paquet de déploiement du site officiel **ORATORIENS HENRI IV — Dieppe**.
+Cette branche contient le paquet prêt à transférer dans un **dépôt GitHub dédié** nommé `dieppeoratoriens.com`.
 
-## Sécurité
+Ne pas fusionner cette branche dans `main` du dépôt `drelard.com` : ce dépôt héberge déjà le site médical et GitHub Pages ne publie qu’un site par dépôt.
 
-- Les URL iCal privées Booking.com et Airbnb ne sont jamais enregistrées dans le dépôt.
-- Elles doivent être ajoutées dans les secrets GitHub Actions `BOOKING_ICAL_URL` et `AIRBNB_ICAL_URL`.
-- Le workflow transforme les calendriers en simples périodes occupées, sans nom de voyageur ni détail de réservation.
+## Contenu prêt
 
-## Publication prévue
+- domaine `dieppeoratoriens.com` via `CNAME` ;
+- site statique GitHub Pages ;
+- synchronisation Booking.com et Airbnb programmée toutes les 15 minutes ;
+- échec fermé : aucun nouveau déploiement si un flux iCal ne répond pas ;
+- URL iCal attendues dans les secrets `BOOKING_ICAL_URL` et `AIRBNB_ICAL_URL` ;
+- données du logement corrigées d’après l’inspection et la décision ADTER de 2019 ;
+- distinction explicite entre l’annonce actuelle jusqu’à 5 voyageurs et l’ancien classement 2 étoiles pour 4 personnes, expiré le 31 octobre 2024 ;
+- aucune coordonnée personnelle issue des PDF n’est publiée.
 
-Le contenu doit être publié dans un dépôt séparé nommé `stephanelard-cmd/dieppeoratoriens.com`, branche `main`. Il ne faut pas fusionner cette branche dans la branche `main` du dépôt médical `drelard.com`.
-
-Dans le nouveau dépôt :
-
-1. Ajouter les deux secrets Actions.
-2. Choisir **GitHub Actions** comme source GitHub Pages.
-3. Utiliser `dieppeoratoriens.com` comme domaine personnalisé.
-4. Configurer les DNS chez OVHcloud.
-
-La synchronisation des disponibilités est planifiée toutes les trois heures et peut aussi être déclenchée manuellement.
+Le paquet source est découpé dans `package/site.zip.b64.*` et vérifié par SHA-256 avant chaque déploiement.
