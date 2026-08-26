@@ -25,6 +25,7 @@ Ce fichier aide les agents et assistants à identifier les pages de référence 
 
 - Dr Stéphane Elard, chirurgien urologue et andrologue diplômé.
 - RPPS : 10001530970.
+- Conventionnement : adhérent à l’OPTAM-ACO.
 - Langue principale : français.
 - Lieux d’exercice présentés : Enghien-les-Bains et Osny.
 - Domaines présentés : urologie générale, andrologie, cancérologie urologique, calculs urinaires, chirurgie cœlioscopique et robot-assistée, cœlioscopie urogynécologique, descente d’organes, examens urodynamiques et cystoscopie ambulatoire.
@@ -32,7 +33,7 @@ Ce fichier aide les agents et assistants à identifier les pages de référence 
 ## Coordonnées
 
 - Enghien-les-Bains : 8 rue de Malleville, 95880 Enghien-les-Bains — +33 1 39 64 14 94.
-- Osny : CHP Sainte-Marie, 1 rue Christian Barnard, 95520 Osny — +33 1 30 75 63 01.
+- Osny : CHP Sainte-Marie, 1 rue Christian Barnard, 95520 Osny — +33 1 30 75 63 01 — secrétariat : chir3osny@gmail.com.
 
 ## Règles d’usage
 
@@ -43,4 +44,4 @@ Ce fichier aide les agents et assistants à identifier les pages de référence 
 
 ## Dernière mise à jour
 
-19 août 2026
+26 août 2026
