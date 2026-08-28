@@ -6,6 +6,8 @@
       "startServerReadyTimeout": 15000,
       "url": [
         "http://127.0.0.1:8080/",
+        "http://127.0.0.1:8080/dr-stephane-elard/",
+        "http://127.0.0.1:8080/urologue-osny/",
         "http://127.0.0.1:8080/urologue-enghien-les-bains/",
         "http://127.0.0.1:8080/prolapsus-genital/",
         "http://127.0.0.1:8080/rendez-vous/",
