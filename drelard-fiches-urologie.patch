@@ -1,0 +1,616 @@
+diff --git a/adenome-prostate/index.html b/adenome-prostate/index.html
+new file mode 100644
+index 0000000..bd05462
+--- /dev/null
++++ b/adenome-prostate/index.html
+@@ -0,0 +1,127 @@
++<!doctype html>
++<html lang="fr">
++<head>
++  <meta charset="utf-8">
++  <meta name="viewport" content="width=device-width,initial-scale=1">
++  <meta name="theme-color" content="#0b4d5b">
++  <title>Adénome de la prostate | Dr Stéphane Elard</title>
++  <meta name="description" content="Adénome de la prostate : symptômes urinaires, bilan, traitements médicaux et chirurgicaux. Information du Dr Stéphane Elard, urologue à Enghien-les-Bains et Osny.">
++  <meta name="author" content="Dr Stéphane Elard">
++  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
++  <meta name="referrer" content="strict-origin-when-cross-origin">
++  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-src 'none'; form-action 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src 'self'">
++  <link rel="canonical" href="https://drelard.com/adenome-prostate/">
++  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
++  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
++  <meta property="og:type" content="article">
++  <meta property="og:locale" content="fr_FR">
++  <meta property="og:site_name" content="Dr Stéphane Elard">
++  <meta property="og:url" content="https://drelard.com/adenome-prostate/">
++  <meta property="og:title" content="Adénome de la prostate — Dr Stéphane Elard">
++  <meta property="og:description" content="Symptômes, bilan et options thérapeutiques de l’hypertrophie bénigne de la prostate.">
++  <meta property="og:image" content="https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg">
++  <meta property="og:image:secure_url" content="https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg">
++  <meta property="og:image:type" content="image/jpeg">
++  <meta property="og:image:width" content="1200">
++  <meta property="og:image:height" content="630">
++  <meta property="og:image:alt" content="Dr Stéphane Elard — prise en charge de l’adénome de la prostate">
++  <meta property="article:published_time" content="2026-09-15">
++  <meta property="article:modified_time" content="2026-09-15">
++  <meta property="article:section" content="Urologie masculine">
++  <meta name="twitter:card" content="summary_large_image">
++  <meta name="twitter:title" content="Adénome de la prostate — Dr Stéphane Elard">
++  <meta name="twitter:description" content="Symptômes, bilan et options thérapeutiques de l’hypertrophie bénigne de la prostate.">
++  <meta name="twitter:image" content="https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg">
++  <style>
++    :root{--ink:#17323a;--muted:#5d7278;--brand:#0b4d5b;--brand2:#126d78;--soft:#e8f3f2;--canvas:#f6f9f8;--paper:#fff;--line:#dbe6e4;--gold:#c99e61;--shadow:0 22px 60px rgba(11,77,91,.12);--max:1120px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);line-height:1.65;-webkit-font-smoothing:antialiased}a{color:inherit}img{display:block;max-width:100%}.container{width:min(calc(100% - 40px),var(--max));margin-inline:auto}.topbar{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.nav{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{display:flex;align-items:center;gap:13px;text-decoration:none}.mono{width:46px;height:46px;display:grid;place-items:center;border-radius:15px;background:linear-gradient(145deg,var(--brand),var(--brand2));color:white;font-weight:900;box-shadow:0 9px 24px rgba(11,77,91,.24)}.brand-copy{line-height:1.15}.brand-copy strong,.brand-copy span{display:block}.brand-copy span{color:var(--muted);font-size:.79rem}.nav-links{display:flex;align-items:center;gap:20px}.nav-links a{text-decoration:none;font-size:.9rem;font-weight:750}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 21px;border-radius:999px;text-decoration:none;font-weight:850;border:1px solid transparent}.btn-primary{background:var(--brand);color:white;box-shadow:0 12px 30px rgba(11,77,91,.22)}.btn-secondary{background:white;color:var(--brand);border-color:var(--line)}.hero{padding:86px 0 78px;background:radial-gradient(circle at 8% 10%,rgba(201,158,97,.18),transparent 27%),radial-gradient(circle at 92% 5%,rgba(18,109,120,.18),transparent 30%),linear-gradient(180deg,#fbfdfc,#f2f8f7)}.hero-grid{display:grid;grid-template-columns:1.14fr .86fr;gap:68px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--brand2);font-size:.78rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase}.eyebrow:before{content:"";width:28px;height:2px;background:var(--gold)}h1,h2,h3{margin:0;line-height:1.12;letter-spacing:-.035em}h1{margin-top:16px;font-size:clamp(2.65rem,6vw,5rem)}h1 span{color:var(--brand2)}h2{font-size:clamp(2rem,4vw,3.2rem)}h3{font-size:1.17rem}.lead{margin-top:22px;color:var(--muted);font-size:clamp(1.05rem,1.7vw,1.23rem)}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.credentials{display:flex;flex-wrap:wrap;gap:9px;margin-top:25px}.pill{padding:8px 12px;border-radius:999px;background:white;border:1px solid var(--line);font-size:.83rem;font-weight:750}.hero-card{padding:14px;border-radius:34px;background:white;border:1px solid var(--line);box-shadow:var(--shadow)}.hero-card img{width:100%;aspect-ratio:1200/1386;max-height:570px;object-fit:cover;object-position:center 25%;border-radius:25px}.hero-card figcaption{padding:17px 10px 8px}.hero-card strong,.hero-card span{display:block}.hero-card span{color:var(--muted);font-size:.86rem}.section{padding:92px 0}.section-soft{background:var(--canvas)}.section-head{display:grid;gap:15px;max-width:800px;margin-bottom:40px}.section-head p{color:var(--muted);font-size:1.03rem}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{padding:26px;border-radius:23px;background:white;border:1px solid var(--line)}.card p{margin:11px 0 0;color:var(--muted)}.symptom{border-top:4px solid var(--gold)}.expertise{color:white;background:radial-gradient(circle at 8% 0,rgba(201,158,97,.24),transparent 29%),linear-gradient(135deg,#082f38,#0b4d5b 58%,#105f6b)}.expertise .eyebrow{color:#e3c496}.expertise .lead{color:rgba(255,255,255,.77)}.expertise-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.expertise-card{padding:28px;border-radius:24px;background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.16)}.expertise-card p{margin-top:12px;color:rgba(255,255,255,.76)}.treatment-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.treatment-card{padding:30px;border-radius:24px;border:1px solid var(--line);background:white}.treatment-card ul{margin:16px 0 0;padding-left:20px}.treatment-card li{margin:9px 0;color:var(--muted)}.decision{margin-top:22px;padding:22px;border-left:4px solid var(--gold);border-radius:14px;background:#fffaf1}.faq{display:grid;gap:12px}.faq details{border:1px solid var(--line);border-radius:18px;background:white;padding:0 20px}.faq summary{cursor:pointer;padding:19px 0;font-weight:850}.faq details div{padding:0 0 20px;color:var(--muted)}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.contact-card{padding:26px;border-radius:22px;border:1px solid var(--line);background:white}.contact-card p{margin:10px 0;color:var(--muted)}.contact-card a.phone{display:inline-flex;margin:4px 0 17px;color:var(--brand);font-size:1.25rem;font-weight:900;text-decoration:none}.share{padding:30px;border-radius:24px;background:var(--soft);border:1px solid var(--line)}.share h3{margin-bottom:8px}.share p{color:var(--muted)}.share-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.share-link{display:inline-flex;align-items:center;min-height:43px;padding:0 15px;border-radius:999px;background:white;border:1px solid var(--line);text-decoration:none;color:var(--brand);font-weight:800;font-size:.88rem}.sources{margin-top:30px;color:var(--muted);font-size:.86rem}.cta{padding:64px 0;background:#eef6f4}.cta-box{display:flex;align-items:center;justify-content:space-between;gap:28px;padding:36px;border-radius:28px;background:white;border:1px solid var(--line);box-shadow:var(--shadow)}footer{padding:42px 0;background:#102f36;color:#dce9ea}.footer-grid{display:flex;justify-content:space-between;gap:28px}.footer-links{display:grid;gap:8px}.footer-links a{color:white}.legal{margin-top:22px;color:#aac2c6;font-size:.82rem}@media(max-width:880px){.hero-grid,.expertise-grid,.treatment-grid,.contact-grid{grid-template-columns:1fr}.grid3{grid-template-columns:1fr 1fr}.nav-links a:not(.btn){display:none}.hero-card{max-width:390px}.cta-box{display:grid}}@media(max-width:580px){.container{width:min(calc(100% - 28px),var(--max))}.brand-copy span{display:none}.nav-links .btn{padding:0 14px;font-size:.81rem}.hero{padding:62px 0}.section{padding:72px 0}.grid3{grid-template-columns:1fr}.footer-grid{display:grid}}
++  
++/* V6 technique : accessibilité, clavier et réduction des animations */
++:where(a,button,summary,[tabindex]):focus-visible{outline:3px solid #f2b84b;outline-offset:4px;border-radius:6px}
++:where(a,button,summary){touch-action:manipulation}
++.skip-link,.v6-skip{position:fixed;left:16px;top:-100px;z-index:9999;padding:12px 16px;border-radius:10px;background:#102f36;color:#fff;text-decoration:none;font-weight:850;box-shadow:0 10px 30px rgba(0,0,0,.25)}
++.skip-link:focus,.v6-skip:focus{top:16px}
++.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
++.v6-utility-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px;font-size:.86rem}
++.v6-utility-links a{color:inherit;text-underline-offset:3px}
++.v6-action-link{min-height:44px;display:inline-flex;align-items:center}
++.v6-breadcrumb{padding:15px 0;border-bottom:1px solid var(--line,#dbe6e4);background:#fff}
++.v6-breadcrumb ol{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none;font-size:.86rem;color:var(--muted,#5d7278)}
++.v6-breadcrumb li+li:before{content:"/";margin-right:8px;color:#87989d}
++.v6-breadcrumb a{text-underline-offset:3px}
++@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
++@media(forced-colors:active){:where(a,button,summary):focus-visible{outline:3px solid CanvasText}.btn{border:1px solid ButtonText}}
++/* V6 contraste partage */.share p{color:#4e646a}</style>
++  <script type="application/ld+json">
++{
++  "@context": "https://schema.org",
++  "@graph": [
++    {
++      "@type": "MedicalWebPage",
++      "@id": "https://drelard.com/adenome-prostate/#webpage",
++      "url": "https://drelard.com/adenome-prostate/",
++      "name": "Adénome de la prostate — Dr Stéphane Elard",
++      "description": "Information médicale sur les symptômes, le bilan et le traitement de l’adénome de la prostate par le Dr Stéphane Elard.",
++      "datePublished": "2026-09-15",
++      "dateModified": "2026-09-15",
++      "inLanguage": "fr-FR",
++      "about": {
++        "@type": "MedicalCondition",
++        "name": "Hypertrophie bénigne de la prostate",
++        "alternateName": "Adénome de la prostate"
++      },
++      "reviewedBy": {
++        "@id": "https://drelard.com/#dr-stephane-elard"
++      },
++      "isPartOf": {
++        "@id": "https://drelard.com/urologie/#collection"
++      }
++    },
++    {
++      "@type": "Physician",
++      "@id": "https://drelard.com/#dr-stephane-elard",
++      "name": "Dr Stéphane Elard",
++      "url": "https://drelard.com/",
++      "telephone": "+33139641494",
++      "medicalSpecialty": "Urologic",
++      "knowsAbout": [
++        "Adénome de la prostate",
++        "Hypertrophie bénigne de la prostate",
++        "Troubles mictionnels de l’homme",
++        "Chirurgie endoscopique de la prostate"
++      ]
++    },
++    {
++      "@type": "BreadcrumbList",
++      "itemListElement": [
++        {
++          "@type": "ListItem",
++          "position": 1,
++          "name": "Accueil",
++          "item": "https://drelard.com/"
++        },
++        {
++          "@type": "ListItem",
++          "position": 2,
++          "name": "Urologie",
++          "item": "https://drelard.com/urologie/"
++        },
++        {
++          "@type": "ListItem",
++          "position": 3,
++          "name": "Adénome de la prostate",
++          "item": "https://drelard.com/adenome-prostate/"
++        }
++      ]
++    }
++  ]
++}
++  </script>
++<meta name="color-scheme" content="light"><link rel="manifest" href="/site.webmanifest"><link rel="contents" href="/plan-du-site/" title="Plan du site"><link rel="help" href="/accessibilite/" title="Accessibilité"><link rel="alternate" type="text/plain" href="/llms.txt" title="Résumé du site pour les agents et assistants"><script type="application/ld+json" id="v6-faq-schema">{"@context": "https://schema.org", "@type": "FAQPage", "@id": "https://drelard.com/adenome-prostate/#faq", "mainEntity": [{"@type": "Question", "name": "Un adénome de la prostate évolue-t-il en cancer ?", "acceptedAnswer": {"@type": "Answer", "text": "Non. L’adénome est une tumeur bénigne et il n’augmente pas le risque de cancer de la prostate. Les deux situations sont distinctes, même si elles peuvent coexister chez un même homme."}}, {"@type": "Question", "name": "Faut-il opérer dès que les symptômes apparaissent ?", "acceptedAnswer": {"@type": "Answer", "text": "Non. Lorsque la gêne reste modérée et qu’il n’existe pas de complication, une surveillance accompagnée de mesures d’hygiène de vie est souvent suffisante. Un traitement médicamenteux est proposé ensuite, la chirurgie n’intervenant qu’en cas d’échec ou de complication."}}, {"@type": "Question", "name": "Quels signes doivent conduire à consulter rapidement ?", "acceptedAnswer": {"@type": "Answer", "text": "L’impossibilité totale d’uriner malgré une envie pressante correspond à une rétention aiguë d’urine et constitue une urgence. La présence de sang dans les urines, une fièvre ou des infections urinaires répétées justifient également un avis rapide."}}]}</script><script type="application/ld+json" id="v6-agent-actions">{"@context": "https://schema.org", "@type": "MedicalWebPage", "@id": "https://drelard.com/adenome-prostate/#agent-actions", "url": "https://drelard.com/adenome-prostate/", "about": {"@type": "MedicalCondition", "name": "Hypertrophie bénigne de la prostate", "alternateName": "Adénome de la prostate"}, "potentialAction": [{"@type": "ScheduleAction", "name": "Prendre rendez-vous", "target": "https://www.doctolib.fr/chirurgien-urologue/osny/stephane-elard"}, {"@type": "CommunicateAction", "name": "Appeler Enghien-les-Bains", "target": "tel:+33139641494"}, {"@type": "CommunicateAction", "name": "Appeler Osny", "target": "tel:+33130756301"}]}</script></head>
++<body><a class="v6-skip" href="#main">Aller au contenu principal</a>
++  <header class="topbar"><div class="container nav"><a class="brand" href="/" aria-label="Retour à l’accueil"><span class="mono" aria-hidden="true">SE</span><span class="brand-copy"><strong>Dr Stéphane Elard</strong><span>Chirurgien urologue · Andrologue diplômé</span></span></a><nav class="nav-links" aria-label="Navigation"><a href="/urologie/">Pathologies</a><a href="/#cabinets">Cabinets</a><a class="btn btn-primary" href="https://www.doctolib.fr/chirurgien-urologue/osny/stephane-elard" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">Prendre rendez-vous</a></nav></div></header>
++  <main id="main"><nav class="v6-breadcrumb" aria-label="Fil d’Ariane"><div class="container"><ol><li><a href="/">Accueil</a></li><li><a href="/urologie/">Urologie</a></li><li aria-current="page">Adénome de la prostate</li></ol></div></nav>
++<section class="hero"><div class="container hero-grid"><div><p class="eyebrow">Urologie masculine · Troubles mictionnels</p><h1>Adénome de la prostate<br><span>hypertrophie bénigne</span></h1><p class="lead">L’adénome de la prostate est la tumeur bénigne la plus fréquente chez l’homme. Le Dr Stéphane Elard en assure le bilan et la prise en charge à Enghien-les-Bains et au CHP Sainte-Marie d’Osny, de la surveillance simple aux traitements médicamenteux et chirurgicaux lorsqu’ils sont indiqués.</p><div class="hero-actions"><a class="btn btn-primary" href="https://www.doctolib.fr/chirurgien-urologue/osny/stephane-elard" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">Prendre rendez-vous</a><a class="btn btn-secondary" href="tel:+33130756301">Appeler Osny : 01 30 75 63 01</a></div><div class="credentials"><span class="pill">Débitmétrie et échographie selon indication</span><span class="pill">Bilan urodynamique si nécessaire</span><span class="pill">Chirurgie endoscopique</span></div></div><figure class="hero-card"><img src="/assets/dr-stephane-elard-cabinet-centre.jpg" width="1024" height="1536" alt="Dr Stéphane Elard, chirurgien urologue, prise en charge de l’adénome de la prostate" loading="eager" decoding="async" fetchpriority="high"><figcaption><strong>Dr Stéphane Elard</strong><span>Chirurgien urologue · Andrologue diplômé</span></figcaption></figure></div></section><section class="section"><div class="container"><div class="section-head"><p class="eyebrow">Comprendre</p><h2>Qu’est-ce que l’adénome de la prostate ?</h2><p>La prostate augmente progressivement de volume à partir de la quarantaine. Lorsque cette augmentation comprime l’urètre, elle gêne la vidange de la vessie et provoque des troubles urinaires. Après 70 ans, environ 37 % des hommes présentent un adénome accompagné de symptômes.</p></div><div class="grid3"><article class="card symptom"><h3>Envies fréquentes et nocturnes</h3><p>Besoin d’uriner rapproché dans la journée et réveils nocturnes répétés, parfois plusieurs par nuit.</p></article><article class="card symptom"><h3>Modification du jet</h3><p>Démarrage retardé, jet faible ou interrompu, gouttes retardataires en fin de miction.</p></article><article class="card symptom"><h3>Vidange incomplète</h3><p>Sensation que la vessie ne se vide pas entièrement, urgences mictionnelles, parfois fuites.</p></article></div></div></section><section class="section section-soft"><div class="container"><div class="section-head"><p class="eyebrow">Le bilan</p><h2>Mesurer la gêne avant de traiter</h2><p>L’importance des symptômes et leur retentissement sur la qualité de vie guident la décision, davantage que le volume de la prostate lui-même.</p></div><div class="grid3"><article class="card"><h3>Interrogatoire et calendrier mictionnel</h3><p>Relevé sur deux à trois jours des horaires, volumes et difficultés, complété par un score de symptômes.</p></article><article class="card"><h3>Examen clinique</h3><p>Toucher rectal appréciant le volume, la surface et la consistance de la prostate, et bandelette urinaire.</p></article><article class="card"><h3>Examens complémentaires</h3><p>Débitmétrie, mesure du résidu post-mictionnel, échographie ou bilan sanguin lorsque la situation le justifie.</p></article></div></div></section><section class="section expertise"><div class="container"><div class="section-head"><p class="eyebrow">Complications à prévenir</p><h2>Pourquoi ne pas laisser évoluer sans avis</h2><p class="lead">L’adénome n’est pas une maladie grave, mais son obstruction prolongée peut retentir sur la vessie et les reins. Un suivi régulier permet d’intervenir avant ce stade.</p></div><div class="expertise-grid"><article class="expertise-card"><h3>Rétention aiguë d’urine</h3><p>Impossibilité brutale d’uriner malgré une envie douloureuse. C’est une urgence qui impose un sondage sans délai, puis une réévaluation de la prise en charge.</p></article><article class="expertise-card"><h3>Retentissement vésical et rénal</h3><p>Infections urinaires à répétition, calculs dans la vessie, distension de la vessie et, plus rarement, atteinte de la fonction rénale par obstruction prolongée.</p></article></div></div></section><section class="section"><div class="container"><div class="section-head"><p class="eyebrow">Options thérapeutiques</p><h2>De la surveillance à la chirurgie</h2><p>Les solutions sont graduées. Le choix dépend de la gêne ressentie, du volume de la prostate, des traitements déjà essayés, des autres maladies et des priorités de chacun.</p></div><div class="treatment-grid"><article class="treatment-card"><h3>Surveillance et traitements médicaux</h3><ul><li>Adaptation des apports de boisson en soirée, de l’alcool et de certains médicaments.</li><li>Prise en charge de la constipation et de l’activité physique.</li><li>Traitements médicamenteux : extraits de plantes, alpha-bloquants, inhibiteurs de la 5-alpha-réductase, selon le profil et le volume prostatique.</li></ul></article><article class="treatment-card"><h3>Traitements chirurgicaux</h3><ul><li>Résection transurétrale de prostate, technique chirurgicale de référence.</li><li>Techniques d’énucléation ou de vaporisation, notamment par laser, selon le volume.</li><li>Adénomectomie par voie haute pour les prostates de grand volume.</li><li>Information préalable sur les effets attendus, en particulier sur l’éjaculation.</li></ul></article></div><div class="decision"><strong>Décision partagée :</strong> les bénéfices attendus, les limites, les alternatives et les effets indésirables possibles de chaque option sont exposés avant tout choix thérapeutique. Aucune technique n’est proposée de façon systématique.</div></div></section><section class="section section-soft"><div class="container"><div class="section-head"><p class="eyebrow">Questions fréquentes</p><h2>Repères utiles</h2></div><div class="faq"><details><summary>Un adénome de la prostate évolue-t-il en cancer ?</summary><div>Non. L’adénome est une tumeur bénigne et il n’augmente pas le risque de cancer de la prostate. Les deux situations sont distinctes, même si elles peuvent coexister chez un même homme.</div></details><details><summary>Faut-il opérer dès que les symptômes apparaissent ?</summary><div>Non. Lorsque la gêne reste modérée et qu’il n’existe pas de complication, une surveillance accompagnée de mesures d’hygiène de vie est souvent suffisante. Un traitement médicamenteux est proposé ensuite, la chirurgie n’intervenant qu’en cas d’échec ou de complication.</div></details><details><summary>Quels signes doivent conduire à consulter rapidement ?</summary><div>L’impossibilité totale d’uriner malgré une envie pressante correspond à une rétention aiguë d’urine et constitue une urgence. La présence de sang dans les urines, une fièvre ou des infections urinaires répétées justifient également un avis rapide.</div></details></div><p class="sources">Sources médicales : <a href="https://www.ameli.fr/assure/sante/themes/adenome-prostate/definition-adenome-prostate" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">Assurance Maladie — Adénome de la prostate</a>, <a href="https://www.ameli.fr/assure/sante/themes/adenome-prostate/symptomes-diagnostic-evolution" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">Assurance Maladie — Symptômes et diagnostic</a>, <a href="https://www.urofrance.org/patient/pathologies-urologiques/hypertrophie-benigne-de-la-prostate/" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">Association française d’urologie — Hypertrophie bénigne de la prostate</a>. Contenu rédigé et validé par le Dr Stéphane Elard. Dernière mise à jour : 15 septembre 2026.</p></div></section><section class="section"><div class="container"><div class="section-head"><p class="eyebrow">Consultations</p><h2>Osny et Enghien-les-Bains</h2></div><div class="contact-grid"><article class="contact-card"><h3>CHP Sainte-Marie — Osny</h3><p>1 rue Christian Barnard, 95520 Osny</p><a class="phone" href="tel:+33130756301">01 30 75 63 01</a><p>Débitmétrie, échographie, cystoscopie ambulatoire et chirurgie endoscopique selon l’indication.</p></article><article class="contact-card"><h3>Cabinet médical — Enghien-les-Bains</h3><p>8 rue de Malleville, 95880 Enghien-les-Bains</p><a class="phone" href="tel:+33139641494">01 39 64 14 94</a><p>Consultations d’urologie et d’andrologie, bilan des troubles mictionnels et téléconsultation sur rendez-vous.</p></article></div><div class="share"><h3>Partager cette page</h3><p>Ces liens permettent de diffuser une information médicale validée, sans système de notation ni collecte de données de santé.</p><div class="share-row"><a class="share-link" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdrelard.com%2Fadenome-prostate%2F" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">LinkedIn</a><a class="share-link" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdrelard.com%2Fadenome-prostate%2F" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">Facebook</a><a class="share-link" href="https://wa.me/?text=Ad%C3%A9nome%20de%20la%20prostate%20%3A%20informations%20du%20Dr%20St%C3%A9phane%20Elard%20https%3A%2F%2Fdrelard.com%2Fadenome-prostate%2F" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">WhatsApp</a></div></div></div></section><section class="cta"><div class="container cta-box"><div><h2>Faire le point sur des troubles urinaires</h2><p class="lead">Une consultation permet de mesurer la gêne réelle, d’écarter les autres causes et de choisir, avec vous, la prise en charge adaptée.</p></div><a class="btn btn-primary" href="https://www.doctolib.fr/chirurgien-urologue/osny/stephane-elard" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">Accéder à Doctolib</a></div></section>
++  </main>
++  <footer><div class="container"><div class="footer-grid"><div><strong>Dr Stéphane Elard — Chirurgien urologue</strong><p>Urologie générale · Andrologie · Urologie féminine</p></div><div class="footer-links"><a href="/">Retour au site principal</a><a href="tel:+33139641494">Enghien : 01 39 64 14 94</a><a href="tel:+33130756301">Osny : 01 30 75 63 01</a></div></div><div class="legal">Site professionnel d’information médicale. Aucun avis, témoignage ou système de notation n’est publié. Les informations ne remplacent pas une consultation.</div></div><div class="v6-utility-links" aria-label="Liens techniques et d’aide"><a href="/urologie/">Pathologies urologiques</a><a href="/rendez-vous/">Rendez-vous et contacts</a><a href="/plan-du-site/">Plan du site</a><a href="/accessibilite/">Accessibilité</a><a href="/llms.txt">Résumé texte du site</a></div></footer>
++</body>
++</html>
+diff --git a/calculs-urinaires/index.html b/calculs-urinaires/index.html
+new file mode 100644
+index 0000000..68ec97d
+--- /dev/null
++++ b/calculs-urinaires/index.html
+@@ -0,0 +1,127 @@
++<!doctype html>
++<html lang="fr">
++<head>
++  <meta charset="utf-8">
++  <meta name="viewport" content="width=device-width,initial-scale=1">
++  <meta name="theme-color" content="#0b4d5b">
++  <title>Calculs urinaires et colique néphrétique | Dr Stéphane Elard</title>
++  <meta name="description" content="Calculs urinaires : colique néphrétique, signes d’urgence, examens, urétéroscopie laser et prévention des récidives. Dr Stéphane Elard, urologue à Osny et Enghien.">
++  <meta name="author" content="Dr Stéphane Elard">
++  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
++  <meta name="referrer" content="strict-origin-when-cross-origin">
++  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-src 'none'; form-action 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src 'self'">
++  <link rel="canonical" href="https://drelard.com/calculs-urinaires/">
++  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
++  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
++  <meta property="og:type" content="article">
++  <meta property="og:locale" content="fr_FR">
++  <meta property="og:site_name" content="Dr Stéphane Elard">
++  <meta property="og:url" content="https://drelard.com/calculs-urinaires/">
++  <meta property="og:title" content="Calculs urinaires et colique néphrétique — Dr Stéphane Elard">
++  <meta property="og:description" content="Signes d’urgence, examens, traitements du calcul et prévention des récidives.">
++  <meta property="og:image" content="https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg">
++  <meta property="og:image:secure_url" content="https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg">
++  <meta property="og:image:type" content="image/jpeg">
++  <meta property="og:image:width" content="1200">
++  <meta property="og:image:height" content="630">
++  <meta property="og:image:alt" content="Dr Stéphane Elard — prise en charge des calculs urinaires">
++  <meta property="article:published_time" content="2026-09-15">
++  <meta property="article:modified_time" content="2026-09-15">
++  <meta property="article:section" content="Lithiase urinaire">
++  <meta name="twitter:card" content="summary_large_image">
++  <meta name="twitter:title" content="Calculs urinaires et colique néphrétique — Dr Stéphane Elard">
++  <meta name="twitter:description" content="Signes d’urgence, examens, traitements du calcul et prévention des récidives.">
++  <meta name="twitter:image" content="https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg">
++  <style>
++    :root{--ink:#17323a;--muted:#5d7278;--brand:#0b4d5b;--brand2:#126d78;--soft:#e8f3f2;--canvas:#f6f9f8;--paper:#fff;--line:#dbe6e4;--gold:#c99e61;--shadow:0 22px 60px rgba(11,77,91,.12);--max:1120px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);line-height:1.65;-webkit-font-smoothing:antialiased}a{color:inherit}img{display:block;max-width:100%}.container{width:min(calc(100% - 40px),var(--max));margin-inline:auto}.topbar{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.nav{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{display:flex;align-items:center;gap:13px;text-decoration:none}.mono{width:46px;height:46px;display:grid;place-items:center;border-radius:15px;background:linear-gradient(145deg,var(--brand),var(--brand2));color:white;font-weight:900;box-shadow:0 9px 24px rgba(11,77,91,.24)}.brand-copy{line-height:1.15}.brand-copy strong,.brand-copy span{display:block}.brand-copy span{color:var(--muted);font-size:.79rem}.nav-links{display:flex;align-items:center;gap:20px}.nav-links a{text-decoration:none;font-size:.9rem;font-weight:750}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 21px;border-radius:999px;text-decoration:none;font-weight:850;border:1px solid transparent}.btn-primary{background:var(--brand);color:white;box-shadow:0 12px 30px rgba(11,77,91,.22)}.btn-secondary{background:white;color:var(--brand);border-color:var(--line)}.hero{padding:86px 0 78px;background:radial-gradient(circle at 8% 10%,rgba(201,158,97,.18),transparent 27%),radial-gradient(circle at 92% 5%,rgba(18,109,120,.18),transparent 30%),linear-gradient(180deg,#fbfdfc,#f2f8f7)}.hero-grid{display:grid;grid-template-columns:1.14fr .86fr;gap:68px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--brand2);font-size:.78rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase}.eyebrow:before{content:"";width:28px;height:2px;background:var(--gold)}h1,h2,h3{margin:0;line-height:1.12;letter-spacing:-.035em}h1{margin-top:16px;font-size:clamp(2.65rem,6vw,5rem)}h1 span{color:var(--brand2)}h2{font-size:clamp(2rem,4vw,3.2rem)}h3{font-size:1.17rem}.lead{margin-top:22px;color:var(--muted);font-size:clamp(1.05rem,1.7vw,1.23rem)}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.credentials{display:flex;flex-wrap:wrap;gap:9px;margin-top:25px}.pill{padding:8px 12px;border-radius:999px;background:white;border:1px solid var(--line);font-size:.83rem;font-weight:750}.hero-card{padding:14px;border-radius:34px;background:white;border:1px solid var(--line);box-shadow:var(--shadow)}.hero-card img{width:100%;aspect-ratio:1200/1386;max-height:570px;object-fit:cover;object-position:center 25%;border-radius:25px}.hero-card figcaption{padding:17px 10px 8px}.hero-card strong,.hero-card span{display:block}.hero-card span{color:var(--muted);font-size:.86rem}.section{padding:92px 0}.section-soft{background:var(--canvas)}.section-head{display:grid;gap:15px;max-width:800px;margin-bottom:40px}.section-head p{color:var(--muted);font-size:1.03rem}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{padding:26px;border-radius:23px;background:white;border:1px solid var(--line)}.card p{margin:11px 0 0;color:var(--muted)}.symptom{border-top:4px solid var(--gold)}.expertise{color:white;background:radial-gradient(circle at 8% 0,rgba(201,158,97,.24),transparent 29%),linear-gradient(135deg,#082f38,#0b4d5b 58%,#105f6b)}.expertise .eyebrow{color:#e3c496}.expertise .lead{color:rgba(255,255,255,.77)}.expertise-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.expertise-card{padding:28px;border-radius:24px;background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.16)}.expertise-card p{margin-top:12px;color:rgba(255,255,255,.76)}.treatment-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.treatment-card{padding:30px;border-radius:24px;border:1px solid var(--line);background:white}.treatment-card ul{margin:16px 0 0;padding-left:20px}.treatment-card li{margin:9px 0;color:var(--muted)}.decision{margin-top:22px;padding:22px;border-left:4px solid var(--gold);border-radius:14px;background:#fffaf1}.faq{display:grid;gap:12px}.faq details{border:1px solid var(--line);border-radius:18px;background:white;padding:0 20px}.faq summary{cursor:pointer;padding:19px 0;font-weight:850}.faq details div{padding:0 0 20px;color:var(--muted)}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.contact-card{padding:26px;border-radius:22px;border:1px solid var(--line);background:white}.contact-card p{margin:10px 0;color:var(--muted)}.contact-card a.phone{display:inline-flex;margin:4px 0 17px;color:var(--brand);font-size:1.25rem;font-weight:900;text-decoration:none}.share{padding:30px;border-radius:24px;background:var(--soft);border:1px solid var(--line)}.share h3{margin-bottom:8px}.share p{color:var(--muted)}.share-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.share-link{display:inline-flex;align-items:center;min-height:43px;padding:0 15px;border-radius:999px;background:white;border:1px solid var(--line);text-decoration:none;color:var(--brand);font-weight:800;font-size:.88rem}.sources{margin-top:30px;color:var(--muted);font-size:.86rem}.cta{padding:64px 0;background:#eef6f4}.cta-box{display:flex;align-items:center;justify-content:space-between;gap:28px;padding:36px;border-radius:28px;background:white;border:1px solid var(--line);box-shadow:var(--shadow)}footer{padding:42px 0;background:#102f36;color:#dce9ea}.footer-grid{display:flex;justify-content:space-between;gap:28px}.footer-links{display:grid;gap:8px}.footer-links a{color:white}.legal{margin-top:22px;color:#aac2c6;font-size:.82rem}@media(max-width:880px){.hero-grid,.expertise-grid,.treatment-grid,.contact-grid{grid-template-columns:1fr}.grid3{grid-template-columns:1fr 1fr}.nav-links a:not(.btn){display:none}.hero-card{max-width:390px}.cta-box{display:grid}}@media(max-width:580px){.container{width:min(calc(100% - 28px),var(--max))}.brand-copy span{display:none}.nav-links .btn{padding:0 14px;font-size:.81rem}.hero{padding:62px 0}.section{padding:72px 0}.grid3{grid-template-columns:1fr}.footer-grid{display:grid}}
++  
++/* V6 technique : accessibilité, clavier et réduction des animations */
++:where(a,button,summary,[tabindex]):focus-visible{outline:3px solid #f2b84b;outline-offset:4px;border-radius:6px}
++:where(a,button,summary){touch-action:manipulation}
++.skip-link,.v6-skip{position:fixed;left:16px;top:-100px;z-index:9999;padding:12px 16px;border-radius:10px;background:#102f36;color:#fff;text-decoration:none;font-weight:850;box-shadow:0 10px 30px rgba(0,0,0,.25)}
++.skip-link:focus,.v6-skip:focus{top:16px}
++.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
++.v6-utility-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px;font-size:.86rem}
++.v6-utility-links a{color:inherit;text-underline-offset:3px}
++.v6-action-link{min-height:44px;display:inline-flex;align-items:center}
++.v6-breadcrumb{padding:15px 0;border-bottom:1px solid var(--line,#dbe6e4);background:#fff}
++.v6-breadcrumb ol{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none;font-size:.86rem;color:var(--muted,#5d7278)}
++.v6-breadcrumb li+li:before{content:"/";margin-right:8px;color:#87989d}
++.v6-breadcrumb a{text-underline-offset:3px}
++@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
++@media(forced-colors:active){:where(a,button,summary):focus-visible{outline:3px solid CanvasText}.btn{border:1px solid ButtonText}}
++/* V6 contraste partage */.share p{color:#4e646a}</style>
++  <script type="application/ld+json">
++{
++  "@context": "https://schema.org",
++  "@graph": [
++    {
++      "@type": "MedicalWebPage",
++      "@id": "https://drelard.com/calculs-urinaires/#webpage",
++      "url": "https://drelard.com/calculs-urinaires/",
++      "name": "Calculs urinaires et colique néphrétique — Dr Stéphane Elard",
++      "description": "Information médicale sur les calculs urinaires, la colique néphrétique, leur traitement et la prévention des récidives.",
++      "datePublished": "2026-09-15",
++      "dateModified": "2026-09-15",
++      "inLanguage": "fr-FR",
++      "about": {
++        "@type": "MedicalCondition",
++        "name": "Lithiase urinaire",
++        "alternateName": "Calculs urinaires"
++      },
++      "reviewedBy": {
++        "@id": "https://drelard.com/#dr-stephane-elard"
++      },
++      "isPartOf": {
++        "@id": "https://drelard.com/urologie/#collection"
++      }
++    },
++    {
++      "@type": "Physician",
++      "@id": "https://drelard.com/#dr-stephane-elard",
++      "name": "Dr Stéphane Elard",
++      "url": "https://drelard.com/",
++      "telephone": "+33139641494",
++      "medicalSpecialty": "Urologic",
++      "knowsAbout": [
++        "Lithiase urinaire",
++        "Colique néphrétique",
++        "Urétéroscopie laser",
++        "Prévention des récidives lithiasiques"
++      ]
++    },
++    {
++      "@type": "BreadcrumbList",
++      "itemListElement": [
++        {
++          "@type": "ListItem",
++          "position": 1,
++          "name": "Accueil",
++          "item": "https://drelard.com/"
++        },
++        {
++          "@type": "ListItem",
++          "position": 2,
++          "name": "Urologie",
++          "item": "https://drelard.com/urologie/"
++        },
++        {
++          "@type": "ListItem",
++          "position": 3,
++          "name": "Calculs urinaires",
++          "item": "https://drelard.com/calculs-urinaires/"
++        }
++      ]
++    }
++  ]
++}
++  </script>
++<meta name="color-scheme" content="light"><link rel="manifest" href="/site.webmanifest"><link rel="contents" href="/plan-du-site/" title="Plan du site"><link rel="help" href="/accessibilite/" title="Accessibilité"><link rel="alternate" type="text/plain" href="/llms.txt" title="Résumé du site pour les agents et assistants"><script type="application/ld+json" id="v6-faq-schema">{"@context": "https://schema.org", "@type": "FAQPage", "@id": "https://drelard.com/calculs-urinaires/#faq", "mainEntity": [{"@type": "Question", "name": "Une colique néphrétique impose-t-elle d’aller aux urgences ?", "acceptedAnswer": {"@type": "Answer", "text": "Une crise sans signe de gravité peut être soulagée par un traitement antalgique adapté. En revanche, une fièvre associée, une absence d’urines, des vomissements importants ou une douleur qui s’aggrave imposent d’appeler le 15 sans attendre."}}, {"@type": "Question", "name": "Tous les calculs doivent-ils être opérés ?", "acceptedAnswer": {"@type": "Answer", "text": "Non. Les calculs de petite taille s’éliminent souvent spontanément, parfois avec un traitement facilitant leur passage. Une intervention est envisagée selon la taille, la localisation, la douleur et le retentissement sur le rein."}}, {"@type": "Question", "name": "Comment limiter le risque de récidive ?", "acceptedAnswer": {"@type": "Answer", "text": "L’hydratation régulière et répartie sur la journée reste la mesure la plus efficace. Une analyse du calcul et, selon les cas, un bilan métabolique permettent d’adapter les conseils alimentaires à la nature du calcul."}}]}</script><script type="application/ld+json" id="v6-agent-actions">{"@context": "https://schema.org", "@type": "MedicalWebPage", "@id": "https://drelard.com/calculs-urinaires/#agent-actions", "url": "https://drelard.com/calculs-urinaires/", "about": {"@type": "MedicalCondition", "name": "Lithiase urinaire", "alternateName": "Calculs urinaires"}, "potentialAction": [{"@type": "ScheduleAction", "name": "Prendre rendez-vous", "target": "https://www.doctolib.fr/chirurgien-urologue/osny/stephane-elard"}, {"@type": "CommunicateAction", "name": "Appeler Enghien-les-Bains", "target": "tel:+33139641494"}, {"@type": "CommunicateAction", "name": "Appeler Osny", "target": "tel:+33130756301"}]}</script></head>
++<body><a class="v6-skip" href="#main">Aller au contenu principal</a>
++  <header class="topbar"><div class="container nav"><a class="brand" href="/" aria-label="Retour à l’accueil"><span class="mono" aria-hidden="true">SE</span><span class="brand-copy"><strong>Dr Stéphane Elard</strong><span>Chirurgien urologue · Andrologue diplômé</span></span></a><nav class="nav-links" aria-label="Navigation"><a href="/urologie/">Pathologies</a><a href="/#cabinets">Cabinets</a><a class="btn btn-primary" href="https://www.doctolib.fr/chirurgien-urologue/osny/stephane-elard" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">Prendre rendez-vous</a></nav></div></header>
++  <main id="main"><nav class="v6-breadcrumb" aria-label="Fil d’Ariane"><div class="container"><ol><li><a href="/">Accueil</a></li><li><a href="/urologie/">Urologie</a></li><li aria-current="page">Calculs urinaires</li></ol></div></nav>
++<section class="hero"><div class="container hero-grid"><div><p class="eyebrow">Urgences urologiques · Lithiase</p><h1>Calculs urinaires<br><span>et colique néphrétique</span></h1><p class="lead">Un calcul urinaire est une concrétion minérale formée dans le rein ou l’uretère. Le Dr Stéphane Elard en assure le diagnostic, le traitement et la prévention des récidives. Le CHP Sainte-Marie d’Osny participe au dispositif SOS Calcul du Département d’urologie Nord-Francilien.</p><div class="hero-actions"><a class="btn btn-primary" href="https://www.doctolib.fr/chirurgien-urologue/osny/stephane-elard" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">Prendre rendez-vous</a><a class="btn btn-secondary" href="https://dunf.fr/sos-calcul/" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">Filière SOS Calcul</a></div><div class="credentials"><span class="pill">Urétéroscopie souple et laser</span><span class="pill">Bilan de récidive</span><span class="pill">Filière SOS Calcul</span></div></div><figure class="hero-card"><img src="/assets/dr-stephane-elard-cabinet-centre.jpg" width="1024" height="1536" alt="Dr Stéphane Elard, chirurgien urologue, prise en charge des calculs urinaires" loading="eager" decoding="async" fetchpriority="high"><figcaption><strong>Dr Stéphane Elard</strong><span>Chirurgien urologue · Andrologue diplômé</span></figcaption></figure></div></section><section class="section"><div class="container"><div class="section-head"><p class="eyebrow">Comprendre</p><h2>Qu’est-ce qu’un calcul urinaire ?</h2><p>Les calculs se forment par cristallisation de sels minéraux présents dans l’urine, le plus souvent à base d’oxalate de calcium. Environ une personne sur dix est concernée au cours de sa vie, plus fréquemment les hommes, avec un pic entre 30 et 50 ans.</p></div><div class="grid3"><article class="card symptom"><h3>Colique néphrétique</h3><p>Douleur lombaire intense et brutale, d’un seul côté, descendant vers l’abdomen et l’aine.</p></article><article class="card symptom"><h3>Signes associés</h3><p>Nausées, vomissements, envies fréquentes d’uriner, parfois présence de sang dans les urines.</p></article><article class="card symptom"><h3>Formes silencieuses</h3><p>Certains calculs ne provoquent aucune douleur et sont découverts lors d’un examen d’imagerie.</p></article></div></div></section><section class="section expertise"><div class="container"><div class="section-head"><p class="eyebrow">Urgence</p><h2>Les situations qui imposent d’appeler le 15</h2><p class="lead">La colique néphrétique est le plus souvent bénigne, mais certaines associations font craindre une infection ou une obstruction du rein et nécessitent une prise en charge immédiate.</p></div><div class="expertise-grid"><article class="expertise-card"><h3>Signes d’alerte</h3><p>Fièvre ou frissons, absence d’urines depuis vingt-quatre heures, vomissements incoercibles, douleur qui augmente ou se diffuse malgré le traitement.</p></article><article class="expertise-card"><h3>Terrains à risque</h3><p>Grossesse, rein unique, insuffisance rénale connue, immunodépression ou transplantation : l’avis doit être pris sans délai, quelle que soit l’intensité de la douleur.</p></article></div></div></section><section class="section section-soft"><div class="container"><div class="section-head"><p class="eyebrow">Le bilan</p><h2>Localiser le calcul et évaluer le rein</h2><p>L’imagerie précise la taille, le siège et le retentissement du calcul, éléments qui déterminent la conduite à tenir.</p></div><div class="grid3"><article class="card"><h3>Bandelette et analyses</h3><p>Recherche de sang et de signes d’infection dans les urines, bilan sanguin selon le contexte.</p></article><article class="card"><h3>Imagerie</h3><p>Le scanner abdomino-pelvien est l’examen de référence. L’échographie est privilégiée pendant la grossesse.</p></article><article class="card"><h3>Bilan de récidive</h3><p>Analyse du calcul éliminé ou extrait et, selon les cas, bilan métabolique pour adapter la prévention.</p></article></div></div></section><section class="section"><div class="container"><div class="section-head"><p class="eyebrow">Traitements</p><h2>Du traitement de la crise à l’ablation du calcul</h2><p>La priorité est le soulagement de la douleur. Le traitement du calcul lui-même est décidé dans un second temps, sauf urgence.</p></div><div class="treatment-grid"><article class="treatment-card"><h3>Traitement de la crise</h3><ul><li>Antalgiques et anti-inflammatoires selon les contre-indications.</li><li>Surveillance de l’élimination spontanée des calculs de petite taille.</li><li>Drainage en urgence en cas d’infection ou d’obstruction du rein.</li></ul></article><article class="treatment-card"><h3>Traitement du calcul</h3><ul><li>Urétéroscopie, souple ou rigide, avec fragmentation au laser.</li><li>Lithotritie extracorporelle par ondes de choc.</li><li>Néphrolithotomie percutanée pour les calculs volumineux du rein.</li><li>Choix guidé par la taille, la composition présumée, le siège et l’anatomie.</li></ul></article></div><div class="decision"><strong>Prévention :</strong> une hydratation régulière, de l’ordre de deux litres par jour et davantage en cas de chaleur ou d’activité physique, reste la mesure de prévention la mieux établie. Les conseils alimentaires sont ensuite adaptés à la nature du calcul.</div></div></section><section class="section section-soft"><div class="container"><div class="section-head"><p class="eyebrow">Questions fréquentes</p><h2>Repères utiles</h2></div><div class="faq"><details><summary>Une colique néphrétique impose-t-elle d’aller aux urgences ?</summary><div>Une crise sans signe de gravité peut être soulagée par un traitement antalgique adapté. En revanche, une fièvre associée, une absence d’urines, des vomissements importants ou une douleur qui s’aggrave imposent d’appeler le 15 sans attendre.</div></details><details><summary>Tous les calculs doivent-ils être opérés ?</summary><div>Non. Les calculs de petite taille s’éliminent souvent spontanément, parfois avec un traitement facilitant leur passage. Une intervention est envisagée selon la taille, la localisation, la douleur et le retentissement sur le rein.</div></details><details><summary>Comment limiter le risque de récidive ?</summary><div>L’hydratation régulière et répartie sur la journée reste la mesure la plus efficace. Une analyse du calcul et, selon les cas, un bilan métabolique permettent d’adapter les conseils alimentaires à la nature du calcul.</div></details></div><p class="sources">Sources médicales : <a href="https://www.ameli.fr/assure/sante/urgence/pathologies/colique-nephretique-calcul-renal-urinaire" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">Assurance Maladie — Colique néphrétique et calcul urinaire</a>, <a href="https://www.urofrance.org/patient/pathologies-urologiques/lithiase-urinaire/" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">Association française d’urologie — Lithiase urinaire</a>. Contenu rédigé et validé par le Dr Stéphane Elard. Dernière mise à jour : 15 septembre 2026.</p></div></section><section class="section"><div class="container"><div class="section-head"><p class="eyebrow">Consultations</p><h2>Osny et Enghien-les-Bains</h2></div><div class="contact-grid"><article class="contact-card"><h3>CHP Sainte-Marie — Osny</h3><p>1 rue Christian Barnard, 95520 Osny</p><a class="phone" href="tel:+33130756301">01 30 75 63 01</a><p>Prise en charge des calculs, urétéroscopie laser et accès à la filière SOS Calcul du CHP Sainte-Marie.</p></article><article class="contact-card"><h3>Cabinet médical — Enghien-les-Bains</h3><p>8 rue de Malleville, 95880 Enghien-les-Bains</p><a class="phone" href="tel:+33139641494">01 39 64 14 94</a><p>Consultations d’urologie, bilan de récidive lithiasique et téléconsultation sur rendez-vous.</p></article></div><div class="share"><h3>Partager cette page</h3><p>Ces liens permettent de diffuser une information médicale validée, sans système de notation ni collecte de données de santé.</p><div class="share-row"><a class="share-link" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdrelard.com%2Fcalculs-urinaires%2F" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">LinkedIn</a><a class="share-link" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdrelard.com%2Fcalculs-urinaires%2F" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">Facebook</a><a class="share-link" href="https://wa.me/?text=Calculs%20urinaires%20%3A%20informations%20du%20Dr%20St%C3%A9phane%20Elard%20https%3A%2F%2Fdrelard.com%2Fcalculs-urinaires%2F" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">WhatsApp</a></div></div></div></section><section class="cta"><div class="container cta-box"><div><h2>Consulter après une colique néphrétique</h2><p class="lead">Après la crise, un bilan permet de localiser le calcul restant, de décider du traitement et de mettre en place la prévention des récidives.</p></div><a class="btn btn-primary" href="https://www.doctolib.fr/chirurgien-urologue/osny/stephane-elard" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">Accéder à Doctolib</a></div></section>
++  </main>
++  <footer><div class="container"><div class="footer-grid"><div><strong>Dr Stéphane Elard — Chirurgien urologue</strong><p>Urologie générale · Andrologie · Urologie féminine</p></div><div class="footer-links"><a href="/">Retour au site principal</a><a href="tel:+33139641494">Enghien : 01 39 64 14 94</a><a href="tel:+33130756301">Osny : 01 30 75 63 01</a></div></div><div class="legal">Site professionnel d’information médicale. Aucun avis, témoignage ou système de notation n’est publié. Les informations ne remplacent pas une consultation.</div></div><div class="v6-utility-links" aria-label="Liens techniques et d’aide"><a href="/urologie/">Pathologies urologiques</a><a href="/rendez-vous/">Rendez-vous et contacts</a><a href="/plan-du-site/">Plan du site</a><a href="/accessibilite/">Accessibilité</a><a href="/llms.txt">Résumé texte du site</a></div></footer>
++</body>
++</html>
+diff --git a/cancer-prostate/index.html b/cancer-prostate/index.html
+new file mode 100644
+index 0000000..4adc9a0
+--- /dev/null
++++ b/cancer-prostate/index.html
+@@ -0,0 +1,127 @@
++<!doctype html>
++<html lang="fr">
++<head>
++  <meta charset="utf-8">
++  <meta name="viewport" content="width=device-width,initial-scale=1">
++  <meta name="theme-color" content="#0b4d5b">
++  <title>Cancer de la prostate | Dr Stéphane Elard</title>
++  <meta name="description" content="Cancer de la prostate : signes, interprétation du PSA, IRM et biopsies, dépistage et traitements. Information du Dr Stéphane Elard, urologue à Osny et Enghien.">
++  <meta name="author" content="Dr Stéphane Elard">
++  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
++  <meta name="referrer" content="strict-origin-when-cross-origin">
++  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-src 'none'; form-action 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src 'self'">
++  <link rel="canonical" href="https://drelard.com/cancer-prostate/">
++  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
++  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
++  <meta property="og:type" content="article">
++  <meta property="og:locale" content="fr_FR">
++  <meta property="og:site_name" content="Dr Stéphane Elard">
++  <meta property="og:url" content="https://drelard.com/cancer-prostate/">
++  <meta property="og:title" content="Cancer de la prostate — Dr Stéphane Elard">
++  <meta property="og:description" content="PSA, IRM, biopsies, surveillance active et traitements : repères pour comprendre.">
++  <meta property="og:image" content="https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg">
++  <meta property="og:image:secure_url" content="https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg">
++  <meta property="og:image:type" content="image/jpeg">
++  <meta property="og:image:width" content="1200">
++  <meta property="og:image:height" content="630">
++  <meta property="og:image:alt" content="Dr Stéphane Elard — prise en charge du cancer de la prostate">
++  <meta property="article:published_time" content="2026-09-15">
++  <meta property="article:modified_time" content="2026-09-15">
++  <meta property="article:section" content="Cancérologie urologique">
++  <meta name="twitter:card" content="summary_large_image">
++  <meta name="twitter:title" content="Cancer de la prostate — Dr Stéphane Elard">
++  <meta name="twitter:description" content="PSA, IRM, biopsies, surveillance active et traitements : repères pour comprendre.">
++  <meta name="twitter:image" content="https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg">
++  <style>
++    :root{--ink:#17323a;--muted:#5d7278;--brand:#0b4d5b;--brand2:#126d78;--soft:#e8f3f2;--canvas:#f6f9f8;--paper:#fff;--line:#dbe6e4;--gold:#c99e61;--shadow:0 22px 60px rgba(11,77,91,.12);--max:1120px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);line-height:1.65;-webkit-font-smoothing:antialiased}a{color:inherit}img{display:block;max-width:100%}.container{width:min(calc(100% - 40px),var(--max));margin-inline:auto}.topbar{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.nav{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{display:flex;align-items:center;gap:13px;text-decoration:none}.mono{width:46px;height:46px;display:grid;place-items:center;border-radius:15px;background:linear-gradient(145deg,var(--brand),var(--brand2));color:white;font-weight:900;box-shadow:0 9px 24px rgba(11,77,91,.24)}.brand-copy{line-height:1.15}.brand-copy strong,.brand-copy span{display:block}.brand-copy span{color:var(--muted);font-size:.79rem}.nav-links{display:flex;align-items:center;gap:20px}.nav-links a{text-decoration:none;font-size:.9rem;font-weight:750}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 21px;border-radius:999px;text-decoration:none;font-weight:850;border:1px solid transparent}.btn-primary{background:var(--brand);color:white;box-shadow:0 12px 30px rgba(11,77,91,.22)}.btn-secondary{background:white;color:var(--brand);border-color:var(--line)}.hero{padding:86px 0 78px;background:radial-gradient(circle at 8% 10%,rgba(201,158,97,.18),transparent 27%),radial-gradient(circle at 92% 5%,rgba(18,109,120,.18),transparent 30%),linear-gradient(180deg,#fbfdfc,#f2f8f7)}.hero-grid{display:grid;grid-template-columns:1.14fr .86fr;gap:68px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--brand2);font-size:.78rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase}.eyebrow:before{content:"";width:28px;height:2px;background:var(--gold)}h1,h2,h3{margin:0;line-height:1.12;letter-spacing:-.035em}h1{margin-top:16px;font-size:clamp(2.65rem,6vw,5rem)}h1 span{color:var(--brand2)}h2{font-size:clamp(2rem,4vw,3.2rem)}h3{font-size:1.17rem}.lead{margin-top:22px;color:var(--muted);font-size:clamp(1.05rem,1.7vw,1.23rem)}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.credentials{display:flex;flex-wrap:wrap;gap:9px;margin-top:25px}.pill{padding:8px 12px;border-radius:999px;background:white;border:1px solid var(--line);font-size:.83rem;font-weight:750}.hero-card{padding:14px;border-radius:34px;background:white;border:1px solid var(--line);box-shadow:var(--shadow)}.hero-card img{width:100%;aspect-ratio:1200/1386;max-height:570px;object-fit:cover;object-position:center 25%;border-radius:25px}.hero-card figcaption{padding:17px 10px 8px}.hero-card strong,.hero-card span{display:block}.hero-card span{color:var(--muted);font-size:.86rem}.section{padding:92px 0}.section-soft{background:var(--canvas)}.section-head{display:grid;gap:15px;max-width:800px;margin-bottom:40px}.section-head p{color:var(--muted);font-size:1.03rem}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{padding:26px;border-radius:23px;background:white;border:1px solid var(--line)}.card p{margin:11px 0 0;color:var(--muted)}.symptom{border-top:4px solid var(--gold)}.expertise{color:white;background:radial-gradient(circle at 8% 0,rgba(201,158,97,.24),transparent 29%),linear-gradient(135deg,#082f38,#0b4d5b 58%,#105f6b)}.expertise .eyebrow{color:#e3c496}.expertise .lead{color:rgba(255,255,255,.77)}.expertise-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.expertise-card{padding:28px;border-radius:24px;background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.16)}.expertise-card p{margin-top:12px;color:rgba(255,255,255,.76)}.treatment-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.treatment-card{padding:30px;border-radius:24px;border:1px solid var(--line);background:white}.treatment-card ul{margin:16px 0 0;padding-left:20px}.treatment-card li{margin:9px 0;color:var(--muted)}.decision{margin-top:22px;padding:22px;border-left:4px solid var(--gold);border-radius:14px;background:#fffaf1}.faq{display:grid;gap:12px}.faq details{border:1px solid var(--line);border-radius:18px;background:white;padding:0 20px}.faq summary{cursor:pointer;padding:19px 0;font-weight:850}.faq details div{padding:0 0 20px;color:var(--muted)}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.contact-card{padding:26px;border-radius:22px;border:1px solid var(--line);background:white}.contact-card p{margin:10px 0;color:var(--muted)}.contact-card a.phone{display:inline-flex;margin:4px 0 17px;color:var(--brand);font-size:1.25rem;font-weight:900;text-decoration:none}.share{padding:30px;border-radius:24px;background:var(--soft);border:1px solid var(--line)}.share h3{margin-bottom:8px}.share p{color:var(--muted)}.share-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.share-link{display:inline-flex;align-items:center;min-height:43px;padding:0 15px;border-radius:999px;background:white;border:1px solid var(--line);text-decoration:none;color:var(--brand);font-weight:800;font-size:.88rem}.sources{margin-top:30px;color:var(--muted);font-size:.86rem}.cta{padding:64px 0;background:#eef6f4}.cta-box{display:flex;align-items:center;justify-content:space-between;gap:28px;padding:36px;border-radius:28px;background:white;border:1px solid var(--line);box-shadow:var(--shadow)}footer{padding:42px 0;background:#102f36;color:#dce9ea}.footer-grid{display:flex;justify-content:space-between;gap:28px}.footer-links{display:grid;gap:8px}.footer-links a{color:white}.legal{margin-top:22px;color:#aac2c6;font-size:.82rem}@media(max-width:880px){.hero-grid,.expertise-grid,.treatment-grid,.contact-grid{grid-template-columns:1fr}.grid3{grid-template-columns:1fr 1fr}.nav-links a:not(.btn){display:none}.hero-card{max-width:390px}.cta-box{display:grid}}@media(max-width:580px){.container{width:min(calc(100% - 28px),var(--max))}.brand-copy span{display:none}.nav-links .btn{padding:0 14px;font-size:.81rem}.hero{padding:62px 0}.section{padding:72px 0}.grid3{grid-template-columns:1fr}.footer-grid{display:grid}}
++  
++/* V6 technique : accessibilité, clavier et réduction des animations */
++:where(a,button,summary,[tabindex]):focus-visible{outline:3px solid #f2b84b;outline-offset:4px;border-radius:6px}
++:where(a,button,summary){touch-action:manipulation}
++.skip-link,.v6-skip{position:fixed;left:16px;top:-100px;z-index:9999;padding:12px 16px;border-radius:10px;background:#102f36;color:#fff;text-decoration:none;font-weight:850;box-shadow:0 10px 30px rgba(0,0,0,.25)}
++.skip-link:focus,.v6-skip:focus{top:16px}
++.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
++.v6-utility-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px;font-size:.86rem}
++.v6-utility-links a{color:inherit;text-underline-offset:3px}
++.v6-action-link{min-height:44px;display:inline-flex;align-items:center}
++.v6-breadcrumb{padding:15px 0;border-bottom:1px solid var(--line,#dbe6e4);background:#fff}
++.v6-breadcrumb ol{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none;font-size:.86rem;color:var(--muted,#5d7278)}
++.v6-breadcrumb li+li:before{content:"/";margin-right:8px;color:#87989d}
++.v6-breadcrumb a{text-underline-offset:3px}
++@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
++@media(forced-colors:active){:where(a,button,summary):focus-visible{outline:3px solid CanvasText}.btn{border:1px solid ButtonText}}
++/* V6 contraste partage */.share p{color:#4e646a}</style>
++  <script type="application/ld+json">
++{
++  "@context": "https://schema.org",
++  "@graph": [
++    {
++      "@type": "MedicalWebPage",
++      "@id": "https://drelard.com/cancer-prostate/#webpage",
++      "url": "https://drelard.com/cancer-prostate/",
++      "name": "Cancer de la prostate — Dr Stéphane Elard",
++      "description": "Information médicale sur le cancer de la prostate : diagnostic, dépistage et options thérapeutiques.",
++      "datePublished": "2026-09-15",
++      "dateModified": "2026-09-15",
++      "inLanguage": "fr-FR",
++      "about": {
++        "@type": "MedicalCondition",
++        "name": "Cancer de la prostate"
++      },
++      "reviewedBy": {
++        "@id": "https://drelard.com/#dr-stephane-elard"
++      },
++      "isPartOf": {
++        "@id": "https://drelard.com/urologie/#collection"
++      }
++    },
++    {
++      "@type": "Physician",
++      "@id": "https://drelard.com/#dr-stephane-elard",
++      "name": "Dr Stéphane Elard",
++      "url": "https://drelard.com/",
++      "telephone": "+33139641494",
++      "medicalSpecialty": "Urologic",
++      "knowsAbout": [
++        "Cancer de la prostate",
++        "Biopsies prostatiques",
++        "Prostatectomie",
++        "Chirurgie robot-assistée",
++        "Cancérologie urologique"
++      ]
++    },
++    {
++      "@type": "BreadcrumbList",
++      "itemListElement": [
++        {
++          "@type": "ListItem",
++          "position": 1,
++          "name": "Accueil",
++          "item": "https://drelard.com/"
++        },
++        {
++          "@type": "ListItem",
++          "position": 2,
++          "name": "Urologie",
++          "item": "https://drelard.com/urologie/"
++        },
++        {
++          "@type": "ListItem",
++          "position": 3,
++          "name": "Cancer de la prostate",
++          "item": "https://drelard.com/cancer-prostate/"
++        }
++      ]
++    }
++  ]
++}
++  </script>
++<meta name="color-scheme" content="light"><link rel="manifest" href="/site.webmanifest"><link rel="contents" href="/plan-du-site/" title="Plan du site"><link rel="help" href="/accessibilite/" title="Accessibilité"><link rel="alternate" type="text/plain" href="/llms.txt" title="Résumé du site pour les agents et assistants"><script type="application/ld+json" id="v6-faq-schema">{"@context": "https://schema.org", "@type": "FAQPage", "@id": "https://drelard.com/cancer-prostate/#faq", "mainEntity": [{"@type": "Question", "name": "Un taux de PSA élevé signifie-t-il un cancer ?", "acceptedAnswer": {"@type": "Answer", "text": "Non. Un taux supérieur à 4 nanogrammes par millilitre n’est pas synonyme de cancer. Un adénome, une infection de la prostate ou un rapport sexuel récent peuvent également l’élever. L’interprétation tient compte de l’évolution du taux et de l’examen clinique."}}, {"@type": "Question", "name": "Existe-t-il un dépistage organisé en France ?", "acceptedAnswer": {"@type": "Answer", "text": "Non. Aucune autorité de santé ne recommande un dépistage systématique par dosage du PSA chez l’homme sans symptôme, le bénéfice n’étant pas clairement démontré. La démarche relève d’un choix personnel, pris après une information complète sur les avantages et les inconvénients."}}, {"@type": "Question", "name": "Un cancer de la prostate impose-t-il toujours un traitement immédiat ?", "acceptedAnswer": {"@type": "Answer", "text": "Non. Certains cancers peu évolutifs relèvent d’une surveillance active, avec des contrôles réguliers et un traitement différé si la maladie progresse. Le choix dépend du stade, du profil de la tumeur, de l’âge et de l’état de santé général."}}]}</script><script type="application/ld+json" id="v6-agent-actions">{"@context": "https://schema.org", "@type": "MedicalWebPage", "@id": "https://drelard.com/cancer-prostate/#agent-actions", "url": "https://drelard.com/cancer-prostate/", "about": {"@type": "MedicalCondition", "name": "Cancer de la prostate"}, "potentialAction": [{"@type": "ScheduleAction", "name": "Prendre rendez-vous", "target": "https://www.doctolib.fr/chirurgien-urologue/osny/stephane-elard"}, {"@type": "CommunicateAction", "name": "Appeler Enghien-les-Bains", "target": "tel:+33139641494"}, {"@type": "CommunicateAction", "name": "Appeler Osny", "target": "tel:+33130756301"}]}</script></head>
++<body><a class="v6-skip" href="#main">Aller au contenu principal</a>
++  <header class="topbar"><div class="container nav"><a class="brand" href="/" aria-label="Retour à l’accueil"><span class="mono" aria-hidden="true">SE</span><span class="brand-copy"><strong>Dr Stéphane Elard</strong><span>Chirurgien urologue · Andrologue diplômé</span></span></a><nav class="nav-links" aria-label="Navigation"><a href="/urologie/">Pathologies</a><a href="/#cabinets">Cabinets</a><a class="btn btn-primary" href="https://www.doctolib.fr/chirurgien-urologue/osny/stephane-elard" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">Prendre rendez-vous</a></nav></div></header>
++  <main id="main"><nav class="v6-breadcrumb" aria-label="Fil d’Ariane"><div class="container"><ol><li><a href="/">Accueil</a></li><li><a href="/urologie/">Urologie</a></li><li aria-current="page">Cancer de la prostate</li></ol></div></nav>
++<section class="hero"><div class="container hero-grid"><div><p class="eyebrow">Cancérologie urologique</p><h1>Cancer de la prostate<br><span>information et prise en charge</span></h1><p class="lead">Le cancer de la prostate est le cancer masculin le plus fréquent en France. Il évolue le plus souvent lentement et son pronostic est globalement favorable. Le Dr Stéphane Elard accompagne le bilan, l’explication des options et le suivi, en lien avec la réunion de concertation pluridisciplinaire du CHP Sainte-Marie d’Osny.</p><div class="hero-actions"><a class="btn btn-primary" href="https://www.doctolib.fr/chirurgien-urologue/osny/stephane-elard" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">Prendre rendez-vous</a><a class="btn btn-secondary" href="tel:+33130756301">Appeler Osny : 01 30 75 63 01</a></div><div class="credentials"><span class="pill">Biopsies ciblées par fusion d’images</span><span class="pill">Chirurgie robot-assistée</span><span class="pill">Réunion de concertation pluridisciplinaire</span></div></div><figure class="hero-card"><img src="/assets/dr-stephane-elard-cabinet-centre.jpg" width="1024" height="1536" alt="Dr Stéphane Elard, chirurgien urologue, prise en charge du cancer de la prostate" loading="eager" decoding="async" fetchpriority="high"><figcaption><strong>Dr Stéphane Elard</strong><span>Chirurgien urologue · Andrologue diplômé</span></figcaption></figure></div></section><section class="section"><div class="container"><div class="section-head"><p class="eyebrow">Comprendre</p><h2>Une maladie fréquente et le plus souvent d’évolution lente</h2><p>Il s’agit d’une tumeur maligne développée à partir des cellules de la prostate, dans neuf cas sur dix un adénocarcinome. Il représente environ un quart des cancers masculins en France. Majoritairement d’évolution lente, il est de bon, voire de très bon pronostic.</p></div><div class="grid3"><article class="card symptom"><h3>Souvent sans symptôme</h3><p>Au début de son évolution, le cancer de la prostate ne provoque aucun signe particulier.</p></article><article class="card symptom"><h3>Signes non spécifiques</h3><p>Troubles urinaires, sang dans les urines ou le sperme : ces signes évoquent bien plus souvent un adénome ou une prostatite, nettement plus fréquents.</p></article><article class="card symptom"><h3>Facteurs de risque</h3><p>L’âge, les antécédents familiaux, certaines prédispositions génétiques et l’exposition professionnelle aux pesticides sont identifiés.</p></article></div></div></section><section class="section section-soft"><div class="container"><div class="section-head"><p class="eyebrow">Le bilan</p><h2>Du dosage du PSA au diagnostic</h2><p>Aucun examen ne suffit à lui seul. La démarche associe l’examen clinique, la biologie et l’imagerie avant d’envisager des prélèvements.</p></div><div class="grid3"><article class="card"><h3>Examen clinique</h3><p>Le toucher rectal apprécie le volume, la surface et la consistance de la prostate.</p></article><article class="card"><h3>Dosage du PSA</h3><p>Marqueur utile mais non spécifique : son élévation peut avoir plusieurs causes bénignes.</p></article><article class="card"><h3>IRM et biopsies</h3><p>L’IRM prostatique oriente les prélèvements. Les biopsies, systématisées ou ciblées, établissent le diagnostic et caractérisent la tumeur.</p></article></div></div></section><section class="section expertise"><div class="container"><div class="section-head"><p class="eyebrow">Dépistage</p><h2>Une décision personnelle, prise après information</h2><p class="lead">Il n’existe pas de dépistage organisé du cancer de la prostate en France. Les grandes études internationales aboutissent à des conclusions divergentes et le bénéfice d’un dépistage systématique n’est pas clairement démontré.</p></div><div class="expertise-grid"><article class="expertise-card"><h3>Ce qui est discuté en consultation</h3><p>L’intérêt d’un diagnostic précoce, mais aussi le risque de détecter des tumeurs qui n’auraient jamais eu de conséquence, et les examens que cette découverte entraîne.</p></article><article class="expertise-card"><h3>Situations particulières</h3><p>Antécédents familiaux ou facteurs de prédisposition connus : la discussion est adaptée individuellement, sans qu’une règle unique puisse s’appliquer à tous.</p></article></div></div></section><section class="section"><div class="container"><div class="section-head"><p class="eyebrow">Options thérapeutiques</p><h2>Des stratégies adaptées au stade et au profil</h2><p>Les propositions sont examinées en réunion de concertation pluridisciplinaire, puis exposées et discutées avec le patient.</p></div><div class="treatment-grid"><article class="treatment-card"><h3>Surveillance</h3><ul><li>Surveillance active des tumeurs peu évolutives, avec contrôles programmés.</li><li>Traitement différé si la maladie progresse.</li><li>Surveillance simple lorsque l’âge ou les autres maladies rendent un traitement inutile.</li></ul></article><article class="treatment-card"><h3>Traitements actifs</h3><ul><li>Prostatectomie totale, pouvant être réalisée par voie cœlioscopique ou robot-assistée.</li><li>Radiothérapie externe ou curiethérapie selon l’indication.</li><li>Hormonothérapie, seule ou associée, dans certaines situations.</li><li>Information sur les effets possibles, notamment urinaires et sexuels.</li></ul></article></div><div class="decision"><strong>Décision partagée :</strong> aucune option n’est présentée comme supérieure aux autres dans l’absolu. Les bénéfices attendus, les effets indésirables et les alternatives sont exposés afin que le choix soit fait avec le patient.</div></div></section><section class="section section-soft"><div class="container"><div class="section-head"><p class="eyebrow">Questions fréquentes</p><h2>Repères utiles</h2></div><div class="faq"><details><summary>Un taux de PSA élevé signifie-t-il un cancer ?</summary><div>Non. Un taux supérieur à 4 nanogrammes par millilitre n’est pas synonyme de cancer. Un adénome, une infection de la prostate ou un rapport sexuel récent peuvent également l’élever. L’interprétation tient compte de l’évolution du taux et de l’examen clinique.</div></details><details><summary>Existe-t-il un dépistage organisé en France ?</summary><div>Non. Aucune autorité de santé ne recommande un dépistage systématique par dosage du PSA chez l’homme sans symptôme, le bénéfice n’étant pas clairement démontré. La démarche relève d’un choix personnel, pris après une information complète sur les avantages et les inconvénients.</div></details><details><summary>Un cancer de la prostate impose-t-il toujours un traitement immédiat ?</summary><div>Non. Certains cancers peu évolutifs relèvent d’une surveillance active, avec des contrôles réguliers et un traitement différé si la maladie progresse. Le choix dépend du stade, du profil de la tumeur, de l’âge et de l’état de santé général.</div></details></div><p class="sources">Sources médicales : <a href="https://www.ameli.fr/assure/sante/themes/cancer-prostate/comprendre-cancer-prostate" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">Assurance Maladie — Comprendre le cancer de la prostate</a>, <a href="https://www.ameli.fr/assure/sante/themes/cancer-prostate/depistage" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">Assurance Maladie — Dépistage du cancer de la prostate</a>, <a href="https://www.urofrance.org/patient/pathologies-urologiques/cancer-de-la-prostate/" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">Association française d’urologie — Cancer de la prostate</a>. Contenu rédigé et validé par le Dr Stéphane Elard. Dernière mise à jour : 15 septembre 2026.</p></div></section><section class="section"><div class="container"><div class="section-head"><p class="eyebrow">Consultations</p><h2>Osny et Enghien-les-Bains</h2></div><div class="contact-grid"><article class="contact-card"><h3>CHP Sainte-Marie — Osny</h3><p>1 rue Christian Barnard, 95520 Osny</p><a class="phone" href="tel:+33130756301">01 30 75 63 01</a><p>Biopsies prostatiques, chirurgie et suivi oncologique en lien avec la concertation pluridisciplinaire.</p></article><article class="contact-card"><h3>Cabinet médical — Enghien-les-Bains</h3><p>8 rue de Malleville, 95880 Enghien-les-Bains</p><a class="phone" href="tel:+33139641494">01 39 64 14 94</a><p>Consultations d’urologie, information et suivi, téléconsultation sur rendez-vous.</p></article></div><div class="share"><h3>Partager cette page</h3><p>Ces liens permettent de diffuser une information médicale validée, sans système de notation ni collecte de données de santé.</p><div class="share-row"><a class="share-link" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdrelard.com%2Fcancer-prostate%2F" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">LinkedIn</a><a class="share-link" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdrelard.com%2Fcancer-prostate%2F" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">Facebook</a><a class="share-link" href="https://wa.me/?text=Cancer%20de%20la%20prostate%20%3A%20informations%20du%20Dr%20St%C3%A9phane%20Elard%20https%3A%2F%2Fdrelard.com%2Fcancer-prostate%2F" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">WhatsApp</a></div></div></div></section><section class="cta"><div class="container cta-box"><div><h2>Faire le point sur un PSA ou un résultat</h2><p class="lead">Une consultation permet d’interpréter un dosage, d’expliquer les examens utiles et, si un diagnostic est posé, d’exposer les options possibles.</p></div><a class="btn btn-primary" href="https://www.doctolib.fr/chirurgien-urologue/osny/stephane-elard" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">Accéder à Doctolib</a></div></section>
++  </main>
++  <footer><div class="container"><div class="footer-grid"><div><strong>Dr Stéphane Elard — Chirurgien urologue</strong><p>Urologie générale · Andrologie · Urologie féminine</p></div><div class="footer-links"><a href="/">Retour au site principal</a><a href="tel:+33139641494">Enghien : 01 39 64 14 94</a><a href="tel:+33130756301">Osny : 01 30 75 63 01</a></div></div><div class="legal">Site professionnel d’information médicale. Aucun avis, témoignage ou système de notation n’est publié. Les informations ne remplacent pas une consultation.</div></div><div class="v6-utility-links" aria-label="Liens techniques et d’aide"><a href="/urologie/">Pathologies urologiques</a><a href="/rendez-vous/">Rendez-vous et contacts</a><a href="/plan-du-site/">Plan du site</a><a href="/accessibilite/">Accessibilité</a><a href="/llms.txt">Résumé texte du site</a></div></footer>
++</body>
++</html>
+diff --git a/index.html b/index.html
+index c053aa2..543c658 100644
+--- a/index.html
++++ b/index.html
+@@ -237,7 +237,7 @@
+ 
+     <section class="section" id="comprendre">
+       <div class="container education-grid">
+-        <div class="education-intro"><p class="eyebrow">Informations médicales</p><h2>L’urologie en quelques repères</h2><p class="lead">Ces informations aident à comprendre les principaux motifs de consultation sans remplacer un examen médical individualisé.</p></div>
++        <div class="education-intro"><p class="eyebrow">Informations médicales</p><h2>L’urologie en quelques repères</h2><p class="lead">Ces informations aident à comprendre les principaux motifs de consultation sans remplacer un examen médical individualisé.</p><p><a href="/urologie/">Fiches d’information en urologie</a> : <a href="/adenome-prostate/">adénome de la prostate</a>, <a href="/cancer-prostate/">cancer de la prostate</a>, <a href="/calculs-urinaires/">calculs urinaires</a>, <a href="/prolapsus-genital/">prolapsus génital</a>.</p></div>
+         <div>
+           <div class="accordions">
+             <details open><summary>Quand consulter pour des troubles urinaires ?</summary><div class="answer">Un jet faible, une difficulté à démarrer, des envies fréquentes ou nocturnes, une urgence urinaire, des fuites ou une sensation de mauvaise vidange méritent un bilan lorsqu’ils sont nouveaux, persistants ou gênants.</div></details>
+diff --git a/llms.txt b/llms.txt
+index 90e6924..80830b3 100644
+--- a/llms.txt
++++ b/llms.txt
+@@ -9,6 +9,10 @@ Ce fichier aide les agents et assistants à identifier les pages de référence
+ - [Accueil — Dr Stéphane Elard](https://drelard.com/): présentation du chirurgien urologue, de son parcours, de ses compétences et de ses lieux d’exercice.
+ - [Urologue à Osny — CHP Sainte-Marie](https://drelard.com/urologue-osny/): page de référence pour l’activité principale à Osny, les consultations, le plateau technique, les examens et les actes réalisés selon l’indication.
+ - [Urologue à Enghien-les-Bains](https://drelard.com/urologue-enghien-les-bains/): page de référence du cabinet d’Enghien-les-Bains, avec adresse, téléphone, motifs de consultation et prise de rendez-vous.
++- [Urologie — pathologies et prises en charge](https://drelard.com/urologie/): rubrique regroupant les fiches d’information médicale du site.
++- [Adénome de la prostate](https://drelard.com/adenome-prostate/): information médicale sur l’hypertrophie bénigne de la prostate, ses symptômes urinaires, son bilan et ses traitements.
++- [Cancer de la prostate](https://drelard.com/cancer-prostate/): information médicale sur le diagnostic, l’interprétation du PSA, le dépistage individuel et les options thérapeutiques.
++- [Calculs urinaires et colique néphrétique](https://drelard.com/calculs-urinaires/): information médicale sur les calculs, les signes d’urgence, les traitements et la prévention des récidives.
+ - [Prolapsus génital et descente d’organes](https://drelard.com/prolapsus-genital/): information médicale sur le bilan, les traitements conservateurs et les options chirurgicales du prolapsus génital.
+ - [Rendez-vous et contacts](https://drelard.com/rendez-vous/): coordonnées pratiques et accès à la prise de rendez-vous.
+ 
+@@ -44,4 +48,4 @@ Ce fichier aide les agents et assistants à identifier les pages de référence
+ 
+ ## Dernière mise à jour
+ 
+-26 août 2026
+\ No newline at end of file
++15 septembre 2026
+\ No newline at end of file
+diff --git a/plan-du-site/index.html b/plan-du-site/index.html
+index 65c0a62..8996fa8 100644
+--- a/plan-du-site/index.html
++++ b/plan-du-site/index.html
+@@ -1 +1 @@
+-<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b4d5b"><meta name="color-scheme" content="light"><title>Plan du site | Dr Stéphane Elard</title><meta name="description" content="Plan des pages officielles du Dr Stéphane Elard, des consultations à Enghien-les-Bains et Osny et des informations d’urologie."><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="https://drelard.com/plan-du-site/"><link rel="manifest" href="/site.webmanifest"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><style>:root{--ink:#17323a;--muted:#5d7278;--brand:#0b4d5b;--soft:#eef6f4;--line:#dbe6e4;--paper:#fff;--max:960px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);line-height:1.65;background:var(--paper)}a{color:var(--brand);text-underline-offset:3px}.container{width:min(calc(100% - 32px),var(--max));margin:auto}.skip{position:fixed;left:16px;top:-90px;z-index:99;padding:11px 15px;background:#102f36;color:#fff;border-radius:9px;text-decoration:none;font-weight:800}.skip:focus{top:16px}:focus-visible{outline:3px solid #f2b84b;outline-offset:4px}.top{border-bottom:1px solid var(--line);background:#fff}.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{text-decoration:none;color:var(--ink);font-weight:900}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 19px;border-radius:999px;background:var(--brand);color:#fff;text-decoration:none;font-weight:850}.hero{padding:72px 0 52px;background:linear-gradient(180deg,#fbfdfc,var(--soft))}h1{font-size:clamp(2.35rem,6vw,4.2rem);line-height:1.08;letter-spacing:-.04em;margin:0}.lead{font-size:1.08rem;color:var(--muted);max-width:760px}.section{padding:60px 0}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.card{padding:24px;border:1px solid var(--line);border-radius:22px;background:#fff}.card h2{margin-top:0}.footer{padding:38px 0;background:#102f36;color:#dce9ea}.footer a{color:#fff}@media(max-width:680px){.grid{grid-template-columns:1fr}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}</style><script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Plan du site","url":"https://drelard.com/plan-du-site/","dateModified":"2026-08-28"}</script></head><body><a class="skip" href="#main">Aller au contenu principal</a><header class="top"><div class="container nav"><a class="brand" href="/">Dr Stéphane Elard · Chirurgien urologue</a><a class="btn" href="/rendez-vous/">Rendez-vous</a></div></header><main id="main"><section class="hero"><div class="container"><h1>Plan du site</h1><p class="lead">Accès aux pages officielles, aux informations médicales et aux lieux de consultation du Dr Stéphane Elard.</p></div></section><section class="section"><div class="container grid"><nav class="card" aria-label="Pages principales"><h2>Pages principales</h2><ul><li><a href="/">Accueil</a></li><li><a href="/dr-stephane-elard/">Dr Stéphane Elard — page officielle</a></li><li><a href="/urologue-osny/">Urologue à Osny — CHP Sainte-Marie</a></li><li><a href="/urologue-enghien-les-bains/">Urologue à Enghien-les-Bains</a></li><li><a href="/prolapsus-genital/">Descente d’organes et prolapsus génital</a></li><li><a href="/rendez-vous/">Rendez-vous et contacts</a></li><li><a href="/accessibilite/">Accessibilité</a></li></ul></nav><nav class="card" aria-label="Rubriques de l'accueil"><h2>Rubriques de l’accueil</h2><ul><li><a href="/#expertises">Prises en charge</a></li><li><a href="/#competences">Compétences distinctives</a></li><li><a href="/#comprendre">Informations médicales</a></li><li><a href="/#parcours">Parcours</a></li><li><a href="/#cabinets">Cabinets</a></li><li><a href="/#politique-editoriale">Politique éditoriale</a></li></ul></nav></div></section></main><footer class="footer"><div class="container"><strong>Dr Stéphane Elard</strong> · <a href="/dr-stephane-elard/">Page officielle</a> · <a href="/urologue-osny/">Osny</a> · <a href="/urologue-enghien-les-bains/">Enghien-les-Bains</a></div></footer></body></html>
+\ No newline at end of file
++<!doctype html><html lang="fr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b4d5b"><meta name="color-scheme" content="light"><title>Plan du site | Dr Stéphane Elard</title><meta name="description" content="Plan des pages officielles du Dr Stéphane Elard, des consultations à Enghien-les-Bains et Osny et des informations d’urologie."><meta name="robots" content="index,follow,max-image-preview:large"><link rel="canonical" href="https://drelard.com/plan-du-site/"><link rel="manifest" href="/site.webmanifest"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><style>:root{--ink:#17323a;--muted:#5d7278;--brand:#0b4d5b;--soft:#eef6f4;--line:#dbe6e4;--paper:#fff;--max:960px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);line-height:1.65;background:var(--paper)}a{color:var(--brand);text-underline-offset:3px}.container{width:min(calc(100% - 32px),var(--max));margin:auto}.skip{position:fixed;left:16px;top:-90px;z-index:99;padding:11px 15px;background:#102f36;color:#fff;border-radius:9px;text-decoration:none;font-weight:800}.skip:focus{top:16px}:focus-visible{outline:3px solid #f2b84b;outline-offset:4px}.top{border-bottom:1px solid var(--line);background:#fff}.nav{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:18px}.brand{text-decoration:none;color:var(--ink);font-weight:900}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:0 19px;border-radius:999px;background:var(--brand);color:#fff;text-decoration:none;font-weight:850}.hero{padding:72px 0 52px;background:linear-gradient(180deg,#fbfdfc,var(--soft))}h1{font-size:clamp(2.35rem,6vw,4.2rem);line-height:1.08;letter-spacing:-.04em;margin:0}.lead{font-size:1.08rem;color:var(--muted);max-width:760px}.section{padding:60px 0}.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}.card{padding:24px;border:1px solid var(--line);border-radius:22px;background:#fff}.card h2{margin-top:0}.footer{padding:38px 0;background:#102f36;color:#dce9ea}.footer a{color:#fff}@media(max-width:680px){.grid{grid-template-columns:1fr}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}</style><script type="application/ld+json">{"@context":"https://schema.org","@type":"CollectionPage","name":"Plan du site","url":"https://drelard.com/plan-du-site/","dateModified":"2026-09-15"}</script></head><body><a class="skip" href="#main">Aller au contenu principal</a><header class="top"><div class="container nav"><a class="brand" href="/">Dr Stéphane Elard · Chirurgien urologue</a><a class="btn" href="/rendez-vous/">Rendez-vous</a></div></header><main id="main"><section class="hero"><div class="container"><h1>Plan du site</h1><p class="lead">Accès aux pages officielles, aux informations médicales et aux lieux de consultation du Dr Stéphane Elard.</p></div></section><section class="section"><div class="container grid"><nav class="card" aria-label="Pages principales"><h2>Pages principales</h2><ul><li><a href="/">Accueil</a></li><li><a href="/dr-stephane-elard/">Dr Stéphane Elard — page officielle</a></li><li><a href="/urologue-osny/">Urologue à Osny — CHP Sainte-Marie</a></li><li><a href="/urologue-enghien-les-bains/">Urologue à Enghien-les-Bains</a></li><li><a href="/urologie/">Urologie — pathologies et prises en charge</a></li><li><a href="/prolapsus-genital/">Descente d’organes et prolapsus génital</a></li><li><a href="/rendez-vous/">Rendez-vous et contacts</a></li><li><a href="/accessibilite/">Accessibilité</a></li></ul></nav><nav class="card" aria-label="Fiches d'information médicale"><h2>Fiches d’information médicale</h2><ul><li><a href="/urologie/">Toutes les fiches d’urologie</a></li><li><a href="/adenome-prostate/">Adénome de la prostate</a></li><li><a href="/cancer-prostate/">Cancer de la prostate</a></li><li><a href="/calculs-urinaires/">Calculs urinaires et colique néphrétique</a></li><li><a href="/prolapsus-genital/">Descente d’organes et prolapsus génital</a></li></ul></nav><nav class="card" aria-label="Rubriques de l'accueil"><h2>Rubriques de l’accueil</h2><ul><li><a href="/#expertises">Prises en charge</a></li><li><a href="/#competences">Compétences distinctives</a></li><li><a href="/#comprendre">Informations médicales</a></li><li><a href="/#parcours">Parcours</a></li><li><a href="/#cabinets">Cabinets</a></li><li><a href="/#politique-editoriale">Politique éditoriale</a></li></ul></nav></div></section></main><footer class="footer"><div class="container"><strong>Dr Stéphane Elard</strong> · <a href="/dr-stephane-elard/">Page officielle</a> · <a href="/urologue-osny/">Osny</a> · <a href="/urologue-enghien-les-bains/">Enghien-les-Bains</a></div></footer></body></html>
+\ No newline at end of file
+diff --git a/sitemap.xml b/sitemap.xml
+index 272e4bd..ce2c3cb 100644
+--- a/sitemap.xml
++++ b/sitemap.xml
+@@ -4,6 +4,10 @@
+ <url><loc>https://drelard.com/dr-stephane-elard/</loc><lastmod>2026-08-28</lastmod><changefreq>monthly</changefreq><priority>1.0</priority><image:image><image:loc>https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg</image:loc><image:title>Dr Stéphane Elard, chirurgien urologue — site officiel</image:title></image:image></url>
+ <url><loc>https://drelard.com/urologue-osny/</loc><lastmod>2026-08-28</lastmod><changefreq>monthly</changefreq><priority>0.95</priority><image:image><image:loc>https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg</image:loc><image:title>Urologue à Osny — Dr Stéphane Elard</image:title></image:image></url>
+ <url><loc>https://drelard.com/urologue-enghien-les-bains/</loc><lastmod>2026-08-26</lastmod><changefreq>monthly</changefreq><priority>0.95</priority><image:image><image:loc>https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg</image:loc><image:title>Urologue à Enghien-les-Bains — Dr Stéphane Elard</image:title></image:image></url>
++<url><loc>https://drelard.com/urologie/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.9</priority><image:image><image:loc>https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg</image:loc><image:title>Urologie — pathologies et prises en charge — Dr Stéphane Elard</image:title></image:image></url>
++<url><loc>https://drelard.com/adenome-prostate/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.85</priority><image:image><image:loc>https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg</image:loc><image:title>Adénome de la prostate — Dr Stéphane Elard</image:title></image:image></url>
++<url><loc>https://drelard.com/cancer-prostate/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.85</priority><image:image><image:loc>https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg</image:loc><image:title>Cancer de la prostate — Dr Stéphane Elard</image:title></image:image></url>
++<url><loc>https://drelard.com/calculs-urinaires/</loc><lastmod>2026-09-15</lastmod><changefreq>monthly</changefreq><priority>0.85</priority><image:image><image:loc>https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg</image:loc><image:title>Calculs urinaires et colique néphrétique — Dr Stéphane Elard</image:title></image:image></url>
+ <url><loc>https://drelard.com/prolapsus-genital/</loc><lastmod>2026-08-12</lastmod><changefreq>monthly</changefreq><priority>0.85</priority><image:image><image:loc>https://drelard.com/assets/prolapsus-genital-dr-elard-1200x630.jpg</image:loc><image:title>Descente d’organes et prolapsus génital</image:title></image:image></url>
+ <url><loc>https://drelard.com/rendez-vous/</loc><lastmod>2026-08-26</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+ <url><loc>https://drelard.com/plan-du-site/</loc><lastmod>2026-08-28</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>
+diff --git a/urologie/index.html b/urologie/index.html
+new file mode 100644
+index 0000000..b8b849b
+--- /dev/null
++++ b/urologie/index.html
+@@ -0,0 +1,151 @@
++<!doctype html>
++<html lang="fr">
++<head>
++  <meta charset="utf-8">
++  <meta name="viewport" content="width=device-width,initial-scale=1">
++  <meta name="theme-color" content="#0b4d5b">
++  <title>Urologie : pathologies et prises en charge | Dr Stéphane Elard</title>
++  <meta name="description" content="Fiches d’information en urologie du Dr Stéphane Elard : adénome et cancer de la prostate, calculs urinaires, prolapsus génital. Symptômes, bilan et prises en charge.">
++  <meta name="author" content="Dr Stéphane Elard">
++  <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
++  <meta name="referrer" content="strict-origin-when-cross-origin">
++  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; base-uri 'self'; object-src 'none'; frame-src 'none'; form-action 'none'; img-src 'self' data:; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'; font-src 'self' data:; connect-src 'self'">
++  <link rel="canonical" href="https://drelard.com/urologie/">
++  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
++  <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png">
++  <meta property="og:type" content="website">
++  <meta property="og:locale" content="fr_FR">
++  <meta property="og:site_name" content="Dr Stéphane Elard">
++  <meta property="og:url" content="https://drelard.com/urologie/">
++  <meta property="og:title" content="Urologie — pathologies et prises en charge | Dr Stéphane Elard">
++  <meta property="og:description" content="Fiches d’information sur les pathologies urologiques, rédigées à partir de sources institutionnelles.">
++  <meta property="og:image" content="https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg">
++  <meta property="og:image:secure_url" content="https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg">
++  <meta property="og:image:type" content="image/jpeg">
++  <meta property="og:image:width" content="1200">
++  <meta property="og:image:height" content="630">
++  <meta property="og:image:alt" content="Dr Stéphane Elard — fiches d’information en urologie">
++  <meta property="article:published_time" content="2026-09-15">
++  <meta property="article:modified_time" content="2026-09-15">
++  <meta property="article:section" content="Urologie">
++  <meta name="twitter:card" content="summary_large_image">
++  <meta name="twitter:title" content="Urologie — pathologies et prises en charge | Dr Stéphane Elard">
++  <meta name="twitter:description" content="Fiches d’information sur les pathologies urologiques, rédigées à partir de sources institutionnelles.">
++  <meta name="twitter:image" content="https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg">
++  <style>
++    :root{--ink:#17323a;--muted:#5d7278;--brand:#0b4d5b;--brand2:#126d78;--soft:#e8f3f2;--canvas:#f6f9f8;--paper:#fff;--line:#dbe6e4;--gold:#c99e61;--shadow:0 22px 60px rgba(11,77,91,.12);--max:1120px}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);line-height:1.65;-webkit-font-smoothing:antialiased}a{color:inherit}img{display:block;max-width:100%}.container{width:min(calc(100% - 40px),var(--max));margin-inline:auto}.topbar{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.94);backdrop-filter:blur(16px);border-bottom:1px solid var(--line)}.nav{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:22px}.brand{display:flex;align-items:center;gap:13px;text-decoration:none}.mono{width:46px;height:46px;display:grid;place-items:center;border-radius:15px;background:linear-gradient(145deg,var(--brand),var(--brand2));color:white;font-weight:900;box-shadow:0 9px 24px rgba(11,77,91,.24)}.brand-copy{line-height:1.15}.brand-copy strong,.brand-copy span{display:block}.brand-copy span{color:var(--muted);font-size:.79rem}.nav-links{display:flex;align-items:center;gap:20px}.nav-links a{text-decoration:none;font-size:.9rem;font-weight:750}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 21px;border-radius:999px;text-decoration:none;font-weight:850;border:1px solid transparent}.btn-primary{background:var(--brand);color:white;box-shadow:0 12px 30px rgba(11,77,91,.22)}.btn-secondary{background:white;color:var(--brand);border-color:var(--line)}.hero{padding:86px 0 78px;background:radial-gradient(circle at 8% 10%,rgba(201,158,97,.18),transparent 27%),radial-gradient(circle at 92% 5%,rgba(18,109,120,.18),transparent 30%),linear-gradient(180deg,#fbfdfc,#f2f8f7)}.hero-grid{display:grid;grid-template-columns:1.14fr .86fr;gap:68px;align-items:center}.eyebrow{display:inline-flex;align-items:center;gap:9px;color:var(--brand2);font-size:.78rem;font-weight:900;letter-spacing:.12em;text-transform:uppercase}.eyebrow:before{content:"";width:28px;height:2px;background:var(--gold)}h1,h2,h3{margin:0;line-height:1.12;letter-spacing:-.035em}h1{margin-top:16px;font-size:clamp(2.65rem,6vw,5rem)}h1 span{color:var(--brand2)}h2{font-size:clamp(2rem,4vw,3.2rem)}h3{font-size:1.17rem}.lead{margin-top:22px;color:var(--muted);font-size:clamp(1.05rem,1.7vw,1.23rem)}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:28px}.credentials{display:flex;flex-wrap:wrap;gap:9px;margin-top:25px}.pill{padding:8px 12px;border-radius:999px;background:white;border:1px solid var(--line);font-size:.83rem;font-weight:750}.hero-card{padding:14px;border-radius:34px;background:white;border:1px solid var(--line);box-shadow:var(--shadow)}.hero-card img{width:100%;aspect-ratio:1200/1386;max-height:570px;object-fit:cover;object-position:center 25%;border-radius:25px}.hero-card figcaption{padding:17px 10px 8px}.hero-card strong,.hero-card span{display:block}.hero-card span{color:var(--muted);font-size:.86rem}.section{padding:92px 0}.section-soft{background:var(--canvas)}.section-head{display:grid;gap:15px;max-width:800px;margin-bottom:40px}.section-head p{color:var(--muted);font-size:1.03rem}.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{padding:26px;border-radius:23px;background:white;border:1px solid var(--line)}.card p{margin:11px 0 0;color:var(--muted)}.symptom{border-top:4px solid var(--gold)}.expertise{color:white;background:radial-gradient(circle at 8% 0,rgba(201,158,97,.24),transparent 29%),linear-gradient(135deg,#082f38,#0b4d5b 58%,#105f6b)}.expertise .eyebrow{color:#e3c496}.expertise .lead{color:rgba(255,255,255,.77)}.expertise-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.expertise-card{padding:28px;border-radius:24px;background:rgba(255,255,255,.09);border:1px solid rgba(255,255,255,.16)}.expertise-card p{margin-top:12px;color:rgba(255,255,255,.76)}.treatment-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.treatment-card{padding:30px;border-radius:24px;border:1px solid var(--line);background:white}.treatment-card ul{margin:16px 0 0;padding-left:20px}.treatment-card li{margin:9px 0;color:var(--muted)}.decision{margin-top:22px;padding:22px;border-left:4px solid var(--gold);border-radius:14px;background:#fffaf1}.faq{display:grid;gap:12px}.faq details{border:1px solid var(--line);border-radius:18px;background:white;padding:0 20px}.faq summary{cursor:pointer;padding:19px 0;font-weight:850}.faq details div{padding:0 0 20px;color:var(--muted)}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:20px}.contact-card{padding:26px;border-radius:22px;border:1px solid var(--line);background:white}.contact-card p{margin:10px 0;color:var(--muted)}.contact-card a.phone{display:inline-flex;margin:4px 0 17px;color:var(--brand);font-size:1.25rem;font-weight:900;text-decoration:none}.share{padding:30px;border-radius:24px;background:var(--soft);border:1px solid var(--line)}.share h3{margin-bottom:8px}.share p{color:var(--muted)}.share-row{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}.share-link{display:inline-flex;align-items:center;min-height:43px;padding:0 15px;border-radius:999px;background:white;border:1px solid var(--line);text-decoration:none;color:var(--brand);font-weight:800;font-size:.88rem}.sources{margin-top:30px;color:var(--muted);font-size:.86rem}.cta{padding:64px 0;background:#eef6f4}.cta-box{display:flex;align-items:center;justify-content:space-between;gap:28px;padding:36px;border-radius:28px;background:white;border:1px solid var(--line);box-shadow:var(--shadow)}footer{padding:42px 0;background:#102f36;color:#dce9ea}.footer-grid{display:flex;justify-content:space-between;gap:28px}.footer-links{display:grid;gap:8px}.footer-links a{color:white}.legal{margin-top:22px;color:#aac2c6;font-size:.82rem}@media(max-width:880px){.hero-grid,.expertise-grid,.treatment-grid,.contact-grid{grid-template-columns:1fr}.grid3{grid-template-columns:1fr 1fr}.nav-links a:not(.btn){display:none}.hero-card{max-width:390px}.cta-box{display:grid}}@media(max-width:580px){.container{width:min(calc(100% - 28px),var(--max))}.brand-copy span{display:none}.nav-links .btn{padding:0 14px;font-size:.81rem}.hero{padding:62px 0}.section{padding:72px 0}.grid3{grid-template-columns:1fr}.footer-grid{display:grid}}
++  
++/* V6 technique : accessibilité, clavier et réduction des animations */
++:where(a,button,summary,[tabindex]):focus-visible{outline:3px solid #f2b84b;outline-offset:4px;border-radius:6px}
++:where(a,button,summary){touch-action:manipulation}
++.skip-link,.v6-skip{position:fixed;left:16px;top:-100px;z-index:9999;padding:12px 16px;border-radius:10px;background:#102f36;color:#fff;text-decoration:none;font-weight:850;box-shadow:0 10px 30px rgba(0,0,0,.25)}
++.skip-link:focus,.v6-skip:focus{top:16px}
++.sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
++.v6-utility-links{display:flex;flex-wrap:wrap;gap:12px;margin-top:20px;font-size:.86rem}
++.v6-utility-links a{color:inherit;text-underline-offset:3px}
++.v6-action-link{min-height:44px;display:inline-flex;align-items:center}
++.v6-breadcrumb{padding:15px 0;border-bottom:1px solid var(--line,#dbe6e4);background:#fff}
++.v6-breadcrumb ol{display:flex;flex-wrap:wrap;gap:8px;margin:0;padding:0;list-style:none;font-size:.86rem;color:var(--muted,#5d7278)}
++.v6-breadcrumb li+li:before{content:"/";margin-right:8px;color:#87989d}
++.v6-breadcrumb a{text-underline-offset:3px}
++@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
++@media(forced-colors:active){:where(a,button,summary):focus-visible{outline:3px solid CanvasText}.btn{border:1px solid ButtonText}}
++/* V6 contraste partage */.share p{color:#4e646a}</style>
++  <script type="application/ld+json">
++{
++  "@context": "https://schema.org",
++  "@graph": [
++    {
++      "@type": "CollectionPage",
++      "@id": "https://drelard.com/urologie/#collection",
++      "url": "https://drelard.com/urologie/",
++      "name": "Urologie — pathologies et prises en charge",
++      "description": "Fiches d’information médicale en urologie rédigées et validées par le Dr Stéphane Elard.",
++      "datePublished": "2026-09-15",
++      "dateModified": "2026-09-15",
++      "inLanguage": "fr-FR",
++      "isPartOf": {
++        "@type": "WebSite",
++        "url": "https://drelard.com/",
++        "name": "Dr Stéphane Elard"
++      },
++      "about": {
++        "@type": "MedicalSpecialty",
++        "name": "Urologic"
++      },
++      "mainEntity": {
++        "@type": "ItemList",
++        "itemListOrder": "https://schema.org/ItemListUnordered",
++        "numberOfItems": 4,
++        "itemListElement": [
++          {
++            "@type": "ListItem",
++            "position": 1,
++            "name": "Adénome de la prostate",
++            "url": "https://drelard.com/adenome-prostate/"
++          },
++          {
++            "@type": "ListItem",
++            "position": 2,
++            "name": "Cancer de la prostate",
++            "url": "https://drelard.com/cancer-prostate/"
++          },
++          {
++            "@type": "ListItem",
++            "position": 3,
++            "name": "Calculs urinaires",
++            "url": "https://drelard.com/calculs-urinaires/"
++          },
++          {
++            "@type": "ListItem",
++            "position": 4,
++            "name": "Prolapsus génital",
++            "url": "https://drelard.com/prolapsus-genital/"
++          }
++        ]
++      }
++    },
++    {
++      "@type": "Physician",
++      "@id": "https://drelard.com/#dr-stephane-elard",
++      "name": "Dr Stéphane Elard",
++      "url": "https://drelard.com/",
++      "telephone": "+33139641494",
++      "medicalSpecialty": "Urologic",
++      "knowsAbout": [
++        "Urologie",
++        "Andrologie",
++        "Urologie féminine",
++        "Cancérologie urologique",
++        "Chirurgie robot-assistée"
++      ]
++    },
++    {
++      "@type": "BreadcrumbList",
++      "itemListElement": [
++        {
++          "@type": "ListItem",
++          "position": 1,
++          "name": "Accueil",
++          "item": "https://drelard.com/"
++        },
++        {
++          "@type": "ListItem",
++          "position": 2,
++          "name": "Urologie",
++          "item": "https://drelard.com/urologie/"
++        }
++      ]
++    }
++  ]
++}
++  </script>
++<meta name="color-scheme" content="light"><link rel="manifest" href="/site.webmanifest"><link rel="contents" href="/plan-du-site/" title="Plan du site"><link rel="help" href="/accessibilite/" title="Accessibilité"><link rel="alternate" type="text/plain" href="/llms.txt" title="Résumé du site pour les agents et assistants"></head>
++<body><a class="v6-skip" href="#main">Aller au contenu principal</a>
++  <header class="topbar"><div class="container nav"><a class="brand" href="/" aria-label="Retour à l’accueil"><span class="mono" aria-hidden="true">SE</span><span class="brand-copy"><strong>Dr Stéphane Elard</strong><span>Chirurgien urologue · Andrologue diplômé</span></span></a><nav class="nav-links" aria-label="Navigation"><a href="/urologie/">Pathologies</a><a href="/#cabinets">Cabinets</a><a class="btn btn-primary" href="https://www.doctolib.fr/chirurgien-urologue/osny/stephane-elard" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">Prendre rendez-vous</a></nav></div></header>
++  <main id="main"><nav class="v6-breadcrumb" aria-label="Fil d’Ariane"><div class="container"><ol><li><a href="/">Accueil</a></li><li aria-current="page">Urologie</li></ol></div></nav>
++<section class="hero"><div class="container hero-grid"><div><p class="eyebrow">Information médicale</p><h1>Urologie<br><span>pathologies et prises en charge</span></h1><p class="lead">Cette rubrique rassemble les fiches d’information rédigées par le Dr Stéphane Elard sur les pathologies urologiques les plus fréquemment rencontrées en consultation. Chaque fiche décrit les symptômes, le bilan et les options de prise en charge, et s’appuie sur des sources institutionnelles. Elle ne remplace pas une consultation.</p><div class="hero-actions"><a class="btn btn-primary" href="https://www.doctolib.fr/chirurgien-urologue/osny/stephane-elard" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">Prendre rendez-vous</a><a class="btn btn-secondary" href="/rendez-vous/">Rendez-vous et contacts</a></div><div class="credentials"><span class="pill">Urologie générale</span><span class="pill">Andrologie</span><span class="pill">Urologie féminine</span><span class="pill">Cancérologie urologique</span></div></div><figure class="hero-card"><img src="/assets/dr-stephane-elard-cabinet-centre.jpg" width="1024" height="1536" alt="Dr Stéphane Elard, chirurgien urologue à Enghien-les-Bains et Osny" loading="eager" decoding="async" fetchpriority="high"><figcaption><strong>Dr Stéphane Elard</strong><span>Chirurgien urologue · Andrologue diplômé</span></figcaption></figure></div></section><section class="section"><div class="container"><div class="section-head"><p class="eyebrow">Fiches d’information</p><h2>Pathologies documentées</h2><p>Les fiches ci-dessous sont mises à jour au fil des recommandations. D’autres sujets seront ajoutés progressivement.</p></div><div class="grid3"><article class="card symptom"><h3><a href="/adenome-prostate/">Adénome de la prostate</a></h3><p>Hypertrophie bénigne de la prostate : envies fréquentes, jet faible, vidange incomplète. Du suivi simple aux traitements médicaux et chirurgicaux.</p><p><a class="v6-action-link" href="/adenome-prostate/">Consulter la fiche</a></p></article><article class="card symptom"><h3><a href="/cancer-prostate/">Cancer de la prostate</a></h3><p>Interprétation du PSA, place de l’IRM et des biopsies, dépistage individuel et options thérapeutiques, de la surveillance active à la chirurgie.</p><p><a class="v6-action-link" href="/cancer-prostate/">Consulter la fiche</a></p></article><article class="card symptom"><h3><a href="/calculs-urinaires/">Calculs urinaires</a></h3><p>Colique néphrétique, signes qui imposent l’urgence, examens, urétéroscopie laser et prévention des récidives.</p><p><a class="v6-action-link" href="/calculs-urinaires/">Consulter la fiche</a></p></article><article class="card symptom"><h3><a href="/prolapsus-genital/">Prolapsus génital</a></h3><p>Descente d’organes : bilan, rééducation, pessaire et chirurgie vaginale, cœlioscopique ou robot-assistée selon l’indication.</p><p><a class="v6-action-link" href="/prolapsus-genital/">Consulter la fiche</a></p></article></div></div></section><section class="section section-soft"><div class="container"><div class="section-head"><p class="eyebrow">Domaines de prise en charge</p><h2>Ce que recouvre la consultation d’urologie</h2><p>Au-delà des fiches détaillées, la consultation couvre l’ensemble de l’urologie de l’adulte, en explorant d’abord la gêne ressentie et son retentissement.</p></div><div class="grid3"><article class="card"><h3>Urologie masculine et andrologie</h3><p>Troubles mictionnels, prostate, troubles sexuels et de la fertilité, contraception masculine définitive.</p></article><article class="card"><h3>Urologie féminine</h3><p>Incontinence urinaire, infections urinaires récidivantes, descente d’organes.</p></article><article class="card"><h3>Cancérologie urologique</h3><p>Prostate, vessie, rein et testicule : diagnostic, chirurgie et suivi en concertation pluridisciplinaire.</p></article></div></div></section><section class="section expertise"><div class="container"><div class="section-head"><p class="eyebrow">Politique éditoriale</p><h2>Une information vérifiable, sans avis ni notation</h2><p class="lead">Les contenus de cette rubrique sont rédigés à partir de sources institutionnelles françaises et validés par le Dr Stéphane Elard. Conformément au code de déontologie médicale, ce site ne publie ni témoignage, ni note, ni classement de patients.</p></div><div class="expertise-grid"><article class="expertise-card"><h3>Sources utilisées</h3><p>Association française d’urologie, Assurance Maladie et Haute Autorité de santé. Chaque fiche indique ses références et sa date de mise à jour.</p></article><article class="expertise-card"><h3>Portée de l’information</h3><p>Ces pages décrivent des situations générales. Elles ne constituent ni un diagnostic, ni une prescription, et ne remplacent pas un avis médical personnalisé.</p></article></div></div></section><section class="section"><div class="container"><div class="section-head"><p class="eyebrow">Consultations</p><h2>Osny et Enghien-les-Bains</h2></div><div class="contact-grid"><article class="contact-card"><h3>CHP Sainte-Marie — Osny</h3><p>1 rue Christian Barnard, 95520 Osny</p><a class="phone" href="tel:+33130756301">01 30 75 63 01</a><p>Consultations, examens et chirurgie urologique au CHP Sainte-Marie.</p></article><article class="contact-card"><h3>Cabinet médical — Enghien-les-Bains</h3><p>8 rue de Malleville, 95880 Enghien-les-Bains</p><a class="phone" href="tel:+33139641494">01 39 64 14 94</a><p>Consultations d’urologie, d’andrologie et d’urologie féminine, téléconsultation sur rendez-vous.</p></article></div><div class="share"><h3>Partager cette page</h3><p>Ces liens permettent de diffuser une information médicale validée, sans système de notation ni collecte de données de santé.</p><div class="share-row"><a class="share-link" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fdrelard.com%2Furologie%2F" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">LinkedIn</a><a class="share-link" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fdrelard.com%2Furologie%2F" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">Facebook</a><a class="share-link" href="https://wa.me/?text=Fiches%20d%27information%20en%20urologie%20du%20Dr%20St%C3%A9phane%20Elard%20https%3A%2F%2Fdrelard.com%2Furologie%2F" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">WhatsApp</a></div></div></div></section><section class="cta"><div class="container cta-box"><div><h2>Prendre rendez-vous</h2><p class="lead">Une consultation permet d’évaluer votre situation personnelle et de déterminer les examens réellement utiles.</p></div><a class="btn btn-primary" href="https://www.doctolib.fr/chirurgien-urologue/osny/stephane-elard" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir ce lien dans un nouvel onglet">Accéder à Doctolib</a></div></section>
++  </main>
++  <footer><div class="container"><div class="footer-grid"><div><strong>Dr Stéphane Elard — Chirurgien urologue</strong><p>Urologie générale · Andrologie · Urologie féminine</p></div><div class="footer-links"><a href="/">Retour au site principal</a><a href="tel:+33139641494">Enghien : 01 39 64 14 94</a><a href="tel:+33130756301">Osny : 01 30 75 63 01</a></div></div><div class="legal">Site professionnel d’information médicale. Aucun avis, témoignage ou système de notation n’est publié. Les informations ne remplacent pas une consultation.</div></div><div class="v6-utility-links" aria-label="Liens techniques et d’aide"><a href="/urologie/">Pathologies urologiques</a><a href="/rendez-vous/">Rendez-vous et contacts</a><a href="/plan-du-site/">Plan du site</a><a href="/accessibilite/">Accessibilité</a><a href="/llms.txt">Résumé texte du site</a></div></footer>
++</body>
++</html>
