@@ -9,6 +9,10 @@ Ce fichier aide les agents et assistants à identifier les pages de référence 
 - [Accueil — Dr Stéphane Elard](https://drelard.com/): présentation du chirurgien urologue, de son parcours, de ses compétences et de ses lieux d’exercice.
 - [Urologue à Osny — CHP Sainte-Marie](https://drelard.com/urologue-osny/): page de référence pour l’activité principale à Osny, les consultations, le plateau technique, les examens et les actes réalisés selon l’indication.
 - [Urologue à Enghien-les-Bains](https://drelard.com/urologue-enghien-les-bains/): page de référence du cabinet d’Enghien-les-Bains, avec adresse, téléphone, motifs de consultation et prise de rendez-vous.
+- [Urologie — pathologies et prises en charge](https://drelard.com/urologie/): rubrique regroupant les fiches d’information médicale du site.
+- [Adénome de la prostate](https://drelard.com/adenome-prostate/): information médicale sur l’hypertrophie bénigne de la prostate, ses symptômes urinaires, son bilan et ses traitements.
+- [Cancer de la prostate](https://drelard.com/cancer-prostate/): information médicale sur le diagnostic, l’interprétation du PSA, le dépistage individuel et les options thérapeutiques.
+- [Calculs urinaires et colique néphrétique](https://drelard.com/calculs-urinaires/): information médicale sur les calculs, les signes d’urgence, les traitements et la prévention des récidives.
 - [Prolapsus génital et descente d’organes](https://drelard.com/prolapsus-genital/): information médicale sur le bilan, les traitements conservateurs et les options chirurgicales du prolapsus génital.
 - [Rendez-vous et contacts](https://drelard.com/rendez-vous/): coordonnées pratiques et accès à la prise de rendez-vous.
 
@@ -44,4 +48,4 @@ Ce fichier aide les agents et assistants à identifier les pages de référence 
 
 ## Dernière mise à jour
 
-26 août 2026
+15 septembre 2026
