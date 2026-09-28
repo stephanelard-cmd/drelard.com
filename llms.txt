@@ -7,6 +7,7 @@ Ce fichier aide les agents et assistants à identifier les pages de référence 
 ## Pages principales
 
 - [Accueil — Dr Stéphane Elard](https://drelard.com/): présentation du chirurgien urologue, de son parcours, de ses compétences et de ses lieux d’exercice.
+- [Dr Stéphane Elard — parcours et diplômes](https://drelard.com/dr-stephane-elard/): parcours hospitalo-universitaire, diplômes (DESC, DIU), accréditation HAS, domaines d’expertise et lieux d’exercice.
 - [Urologue à Osny — CHP Sainte-Marie](https://drelard.com/urologue-osny/): page de référence pour l’activité principale à Osny, les consultations, le plateau technique, les examens et les actes réalisés selon l’indication.
 - [Urologue à Enghien-les-Bains](https://drelard.com/urologue-enghien-les-bains/): page de référence du cabinet d’Enghien-les-Bains, avec adresse, téléphone, motifs de consultation et prise de rendez-vous.
 - [Urologie — pathologies et prises en charge](https://drelard.com/urologie/): rubrique regroupant les fiches d’information médicale du site.
@@ -30,6 +31,8 @@ Ce fichier aide les agents et assistants à identifier les pages de référence 
 - Dr Stéphane Elard, chirurgien urologue et andrologue diplômé.
 - RPPS : 10001530970.
 - Conventionnement : adhérent à l’OPTAM-ACO.
+- Accréditation : médecin accrédité par la Haute Autorité de santé en chirurgie urologique (date d’accréditation : 20 novembre 2025).
+- Exercice : CHP Sainte-Marie d’Osny (clinique Sainte-Marie), au sein du Département d’Urologie Nord-Francilien (DUNF), et cabinet d’Enghien-les-Bains.
 - Langue principale : français.
 - Lieux d’exercice présentés : Enghien-les-Bains et Osny.
 - Domaines présentés : urologie générale, andrologie, cancérologie urologique, calculs urinaires, chirurgie cœlioscopique et robot-assistée, cœlioscopie urogynécologique, descente d’organes, examens urodynamiques et cystoscopie ambulatoire.
@@ -48,4 +51,4 @@ Ce fichier aide les agents et assistants à identifier les pages de référence 
 
 ## Dernière mise à jour
 
-15 septembre 2026
+28 septembre 2026
