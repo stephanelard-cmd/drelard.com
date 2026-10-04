@@ -58,7 +58,16 @@ for file in sorted(ROOT.rglob('*.html')):
         if tag not in p.tags: ERRORS.append(f'{prefix}: repère sémantique <{tag}> absent')
     if len(p.ids)!=len(set(p.ids)): ERRORS.append(f'{prefix}: identifiants HTML dupliqués')
     if 'meta name="description"' not in text: ERRORS.append(f'{prefix}: meta description absente')
-    if 'rel="canonical"' not in text: ERRORS.append(f'{prefix}: URL canonique absente')
+    noindex = bool(re.search(r'<meta name="robots" content="[^"]*noindex', text))
+    if not noindex and 'rel="canonical"' not in text: ERRORS.append(f'{prefix}: URL canonique absente')
+    if noindex and 'rel="canonical"' in text: WARNINGS.append(f'{prefix}: page noindex avec URL canonique')
+    if str(rel) == '404.html' and not noindex: ERRORS.append('404.html: doit être en noindex')
+    if not noindex:
+        m = re.search(r'name="description" content="([^"]*)"', text)
+        if m and len(m.group(1)) > 170: WARNINGS.append(f'{prefix}: meta description trop longue ({len(m.group(1))} car.)')
+        if len(p.title.strip()) > 65: WARNINGS.append(f'{prefix}: title trop long ({len(p.title.strip())} car.)')
+        for tag in ('og:title','og:description','og:image','og:url','twitter:card'):
+            if f'"{tag}"' not in text: WARNINGS.append(f'{prefix}: balise {tag} absente')
     if 'focus-visible' not in text: ERRORS.append(f'{prefix}: style de focus visible absent')
     if 'prefers-reduced-motion' not in text: ERRORS.append(f'{prefix}: réduction des animations absente')
     if 'Aller au contenu' not in text: WARNINGS.append(f'{prefix}: lien d’évitement non détecté')
