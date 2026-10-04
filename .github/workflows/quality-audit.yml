@@ -11,7 +11,7 @@ on:
       - "sitemap.xml"
       - "llms.txt"
       - "site.webmanifest"
-      - "scripts/site_audit.py"
+      - "scripts/**/*.py"
       - ".lighthouserc.json"
       - ".github/workflows/quality-audit.yml"
   pull_request:
@@ -23,7 +23,7 @@ on:
       - "sitemap.xml"
       - "llms.txt"
       - "site.webmanifest"
-      - "scripts/site_audit.py"
+      - "scripts/**/*.py"
       - ".lighthouserc.json"
       - ".github/workflows/quality-audit.yml"
   workflow_dispatch:
@@ -38,6 +38,8 @@ jobs:
     steps:
       - name: Récupérer le dépôt
         uses: actions/checkout@v4
+      - name: Vérifier les régressions médicales et d’accessibilité
+        run: python3 -m unittest discover -s scripts -p 'test_*.py' -v
       - name: Vérifier le HTML, les liens locaux, le JSON-LD et les actions
         run: python3 scripts/site_audit.py
 
