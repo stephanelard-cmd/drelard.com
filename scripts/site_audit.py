@@ -84,7 +84,7 @@ for file in sorted(ROOT.rglob('*.html')):
         try: json.loads(raw)
         except Exception as exc: ERRORS.append(f'{prefix}: JSON-LD invalide: {exc}')
 
-for required in ('llms.txt','sitemap.xml','robots.txt','site.webmanifest','urologue-enghien-les-bains/index.html','rendez-vous/index.html','plan-du-site/index.html','accessibilite/index.html'):
+for required in ('llms.txt','sitemap.xml','robots.txt','site.webmanifest','urologue-enghien-les-bains/index.html','rendez-vous/index.html','incontinence-urinaire/index.html','infections-urinaires/index.html','sang-dans-les-urines/index.html','troubles-erection/index.html','infertilite-masculine/index.html','vasectomie/index.html','cystoscopie-bilan-urodynamique/index.html','chirurgie-robot-assistee/index.html','plan-du-site/index.html','accessibilite/index.html'):
     if not (ROOT/required).exists(): ERRORS.append(f'Fichier requis absent: {required}')
 
 index=(ROOT/'index.html').read_text(encoding='utf-8')
