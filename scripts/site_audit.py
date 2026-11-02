@@ -58,6 +58,9 @@ for file in sorted(ROOT.rglob('*.html')):
         if tag not in p.tags: ERRORS.append(f'{prefix}: repère sémantique <{tag}> absent')
     if len(p.ids)!=len(set(p.ids)): ERRORS.append(f'{prefix}: identifiants HTML dupliqués')
     if 'meta name="description"' not in text: ERRORS.append(f'{prefix}: meta description absente')
+    desc_match = re.search(r'<meta\s+name="description"\s+content="([^"]*)"', text)
+    if desc_match and len(desc_match.group(1)) > 170:
+        WARNINGS.append(f'{prefix}: meta description longue ({len(desc_match.group(1))} caractères)')
     if 'rel="canonical"' not in text: ERRORS.append(f'{prefix}: URL canonique absente')
     if 'focus-visible' not in text: ERRORS.append(f'{prefix}: style de focus visible absent')
     if 'prefers-reduced-motion' not in text: ERRORS.append(f'{prefix}: réduction des animations absente')
