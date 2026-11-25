@@ -6,6 +6,8 @@ on:
     paths:
       - "*.html"
       - "**/*.html"
+      - "_src/**"
+      - "scripts/build.py"
       - "assets/**"
       - "robots.txt"
       - "sitemap.xml"
@@ -18,6 +20,8 @@ on:
     paths:
       - "*.html"
       - "**/*.html"
+      - "_src/**"
+      - "scripts/build.py"
       - "assets/**"
       - "robots.txt"
       - "sitemap.xml"
@@ -38,6 +42,8 @@ jobs:
     steps:
       - name: Récupérer le dépôt
         uses: actions/checkout@v4
+      - name: Vérifier que les pages publiées correspondent aux sources (_src/)
+        run: python3 scripts/build.py --check
       - name: Vérifier le HTML, les liens locaux, le JSON-LD et les actions
         run: python3 scripts/site_audit.py
 

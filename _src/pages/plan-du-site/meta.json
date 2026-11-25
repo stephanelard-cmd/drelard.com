@@ -1,0 +1,36 @@
+{
+ "title": "Plan du site | Dr Stéphane Elard",
+ "description": "Plan des pages officielles du Dr Stéphane Elard, des consultations à Enghien-les-Bains et Osny et des informations d’urologie.",
+ "canonical": "https://drelard.com/plan-du-site/",
+ "robots": "index,follow,max-image-preview:large",
+ "lastmod": "2026-11-25",
+ "nav": null,
+ "crumbs": [
+  [
+   "Accueil",
+   "/"
+  ],
+  [
+   "Plan du site",
+   "/plan-du-site/"
+  ]
+ ],
+ "sitemap": {
+  "priority": "0.3",
+  "changefreq": "yearly"
+ },
+ "extra": [],
+ "social": [],
+ "jsonld": [
+  {
+   "id": null,
+   "data": {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    "name": "Plan du site",
+    "url": "https://drelard.com/plan-du-site/",
+    "dateModified": "2026-11-18"
+   }
+  }
+ ]
+}

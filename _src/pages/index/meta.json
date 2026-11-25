@@ -1,0 +1,327 @@
+{
+ "title": "Dr Stéphane Elard | Urologue à Enghien-les-Bains et Osny",
+ "description": "Dr Stéphane Elard, chirurgien urologue et andrologue à Enghien-les-Bains et Osny : urologie générale, cancers urologiques, calculs, robotique et descente d’organes.",
+ "canonical": "https://drelard.com/",
+ "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+ "lastmod": "2026-11-25",
+ "nav": null,
+ "portrait": "Dr Stéphane Elard, chirurgien urologue à Enghien-les-Bains et Osny",
+ "sitemap": {
+  "priority": "1.0",
+  "changefreq": "monthly",
+  "image": "/assets/dr-stephane-elard-social-1200x630.jpg",
+  "image_title": "Dr Stéphane Elard, chirurgien urologue à Enghien-les-Bains et Osny"
+ },
+ "book": {
+  "id": "cabinets",
+  "title": "Consultations à Enghien-les-Bains et Osny",
+  "text": "Prenez rendez-vous en ligne sur Doctolib ou appelez le secrétariat du lieu choisi. Une téléconsultation est possible selon la situation.",
+  "osny": "Lieu principal d’exercice et site de l’activité médico-chirurgicale : consultations, chirurgie, endoscopie, cystoscopie ambulatoire et examens urodynamiques selon indication. <a href=\"https://chpsaintemarie.vivalto-sante.com/praticien/dr-elard-stephane/\">Fiche du Dr Elard au CHP Sainte-Marie</a>.",
+  "enghien": "Consultations d’urologie générale, d’andrologie, de cancérologie urologique et d’urologie féminine, sur rendez-vous. Téléconsultation disponible selon la situation.",
+  "note_id": "politique-editoriale",
+  "note": "<strong>Information médicale, fiabilité et absence de notation :</strong> les contenus sont rédigés ou validés par le Dr Stéphane Elard. Ils ont une finalité d’information générale et ne remplacent pas une consultation. Le site ne publie ni note, ni classement, ni témoignage de patient, ni commentaire public et ne sollicite aucun avis en ligne.",
+  "white": true
+ },
+ "extra": [
+  "<link rel=\"alternate\" hreflang=\"fr\" href=\"https://drelard.com/\">",
+  "<link rel=\"alternate\" hreflang=\"x-default\" href=\"https://drelard.com/\">",
+  "<meta name=\"geo.region\" content=\"FR-IDF\">",
+  "<meta name=\"geo.placename\" content=\"Enghien-les-Bains, Osny\">"
+ ],
+ "social": [
+  [
+   "property",
+   "og:url",
+   "https://drelard.com/"
+  ],
+  [
+   "property",
+   "og:site_name",
+   "Dr Stéphane Elard"
+  ],
+  [
+   "property",
+   "og:type",
+   "website"
+  ],
+  [
+   "property",
+   "og:locale",
+   "fr_FR"
+  ],
+  [
+   "property",
+   "og:title",
+   "Dr Stéphane Elard — Urologue à Enghien-les-Bains et Osny"
+  ],
+  [
+   "property",
+   "og:description",
+   "Urologie générale, andrologie, cancérologie urologique et chirurgie mini-invasive à Enghien-les-Bains et Osny."
+  ],
+  [
+   "property",
+   "og:image",
+   "https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg"
+  ],
+  [
+   "property",
+   "og:image:secure_url",
+   "https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg"
+  ],
+  [
+   "property",
+   "og:image:type",
+   "image/jpeg"
+  ],
+  [
+   "property",
+   "og:image:width",
+   "1200"
+  ],
+  [
+   "property",
+   "og:image:height",
+   "630"
+  ],
+  [
+   "property",
+   "og:image:alt",
+   "Dr Stéphane Elard, chirurgien urologue à Enghien-les-Bains et Osny"
+  ],
+  [
+   "name",
+   "twitter:card",
+   "summary_large_image"
+  ],
+  [
+   "name",
+   "twitter:title",
+   "Dr Stéphane Elard — Urologue à Enghien-les-Bains et Osny"
+  ],
+  [
+   "name",
+   "twitter:description",
+   "Urologie générale, andrologie, cancers urologiques et chirurgie mini-invasive."
+  ],
+  [
+   "name",
+   "twitter:image",
+   "https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg"
+  ]
+ ],
+ "jsonld": [
+  {
+   "id": null,
+   "data": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "WebSite",
+      "@id": "https://drelard.com/#website",
+      "url": "https://drelard.com/",
+      "name": "Dr Stéphane Elard — Chirurgien urologue",
+      "description": "Site professionnel d’information en urologie et andrologie.",
+      "inLanguage": "fr-FR",
+      "publisher": {
+       "@id": "https://drelard.com/#dr-stephane-elard"
+      },
+      "potentialAction": [
+       {
+        "@type": "ScheduleAction",
+        "name": "Prendre rendez-vous sur Doctolib",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "https://www.doctolib.fr/chirurgien-urologue/osny/stephane-elard"
+        }
+       },
+       {
+        "@type": "CommunicateAction",
+        "name": "Appeler le cabinet d’Enghien-les-Bains",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "tel:+33139641494"
+        }
+       },
+       {
+        "@type": "CommunicateAction",
+        "name": "Appeler la consultation d’Osny",
+        "target": {
+         "@type": "EntryPoint",
+         "urlTemplate": "tel:+33130756301"
+        }
+       }
+      ]
+     },
+     {
+      "@type": "WebPage",
+      "@id": "https://drelard.com/#webpage",
+      "url": "https://drelard.com/",
+      "name": "Dr Stéphane Elard | Urologue à Enghien-les-Bains et Osny",
+      "description": "Urologie générale, andrologie, cancérologie urologique, calculs, chirurgie mini-invasive et descente d’organes.",
+      "isPartOf": {
+       "@id": "https://drelard.com/#website"
+      },
+      "about": {
+       "@id": "https://drelard.com/#dr-stephane-elard"
+      },
+      "primaryImageOfPage": {
+       "@id": "https://drelard.com/#primaryimage"
+      },
+      "datePublished": "2026-08-12",
+      "dateModified": "2026-11-25",
+      "inLanguage": "fr-FR"
+     },
+     {
+      "@type": "ImageObject",
+      "@id": "https://drelard.com/#primaryimage",
+      "url": "https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg",
+      "contentUrl": "https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg",
+      "width": 1200,
+      "height": 630,
+      "caption": "Dr Stéphane Elard, chirurgien urologue à Enghien-les-Bains et Osny"
+     },
+     {
+      "@type": "Person",
+      "@id": "https://drelard.com/#dr-stephane-elard",
+      "name": "Stéphane Elard",
+      "honorificPrefix": "Dr",
+      "jobTitle": [
+       "Chirurgien urologue",
+       "Andrologue diplômé"
+      ],
+      "url": "https://drelard.com/",
+      "image": {
+       "@id": "https://drelard.com/#primaryimage"
+      },
+      "telephone": "+33130756301",
+      "identifier": {
+       "@type": "PropertyValue",
+       "propertyID": "RPPS",
+       "value": "10001530970"
+      },
+      "award": "Médaille d’argent de thèse — Lauréat de la Faculté",
+      "hasCredential": [
+       {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "DESC",
+        "name": "DESC de chirurgie urologique"
+       },
+       {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "DESC",
+        "name": "DESC d’andrologie"
+       },
+       {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "DIU",
+        "name": "DIU de cancérologie urologique"
+       },
+       {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "DIU",
+        "name": "DIU de cœlioscopie urogynécologique"
+       }
+      ],
+      "knowsAbout": [
+       "Urologie générale",
+       "Andrologie",
+       "Cancérologie urologique",
+       "Chirurgie robotique",
+       "Cœlioscopie urogynécologique",
+       "Descente d’organes",
+       "Calculs urinaires",
+       "Examens urodynamiques",
+       "Cystoscopie ambulatoire",
+       "Prélèvement rénal chez le donneur vivant apparenté",
+       "SOS Calcul"
+      ],
+      "memberOf": {
+       "@type": "Organization",
+       "name": "Association Française d’Urologie"
+      },
+      "workLocation": [
+       {
+        "@id": "https://drelard.com/#enghien"
+       },
+       {
+        "@id": "https://drelard.com/#osny"
+       }
+      ],
+      "sameAs": [
+       "https://www.doctolib.fr/chirurgien-urologue/osny/stephane-elard",
+       "https://dunf.fr/lequipe/",
+       "https://www.has-sante.fr/jcms/p_3793934/en/docteur-stephane-elard",
+       "https://chpsaintemarie.vivalto-sante.com/praticien/dr-elard-stephane/"
+      ]
+     },
+     {
+      "@type": "Physician",
+      "@id": "https://drelard.com/#enghien",
+      "name": "Dr Stéphane Elard — Chirurgien urologue à Enghien-les-Bains",
+      "url": "https://drelard.com/urologue-enghien-les-bains/",
+      "image": "https://drelard.com/assets/dr-stephane-elard-social-1200x1200.jpg",
+      "medicalSpecialty": "Urologic",
+      "telephone": "+33139641494",
+      "description": "Consultations d’urologie générale, d’andrologie, de cancérologie urologique et d’urologie féminine à Enghien-les-Bains.",
+      "address": {
+       "@type": "PostalAddress",
+       "streetAddress": "8 rue de Malleville",
+       "postalCode": "95880",
+       "addressLocality": "Enghien-les-Bains",
+       "addressRegion": "Île-de-France",
+       "addressCountry": "FR"
+      },
+      "employee": {
+       "@id": "https://drelard.com/#dr-stephane-elard"
+      },
+      "areaServed": [
+       {
+        "@type": "City",
+        "name": "Enghien-les-Bains"
+       },
+       {
+        "@type": "AdministrativeArea",
+        "name": "Val-d’Oise"
+       }
+      ]
+     },
+     {
+      "@type": "Physician",
+      "@id": "https://drelard.com/#osny",
+      "name": "Dr Stéphane Elard — Chirurgien urologue à Osny",
+      "url": "https://drelard.com/urologue-osny/",
+      "image": "https://drelard.com/assets/dr-stephane-elard-social-1200x1200.jpg",
+      "medicalSpecialty": "Urologic",
+      "telephone": "+33130756301",
+      "description": "Lieu principal de consultation et plateau technique du Dr Stéphane Elard : urologie, andrologie, chirurgie urologique, examens urodynamiques et cystoscopies ambulatoires au CHP Sainte-Marie d’Osny.",
+      "address": {
+       "@type": "PostalAddress",
+       "streetAddress": "1 rue Christian Barnard",
+       "postalCode": "95520",
+       "addressLocality": "Osny",
+       "addressRegion": "Île-de-France",
+       "addressCountry": "FR"
+      },
+      "employee": {
+       "@id": "https://drelard.com/#dr-stephane-elard"
+      },
+      "parentOrganization": {
+       "@type": "Hospital",
+       "name": "CHP Sainte-Marie",
+       "url": "https://chpsaintemarie.vivalto-sante.com/"
+      },
+      "sameAs": [
+       "https://chpsaintemarie.vivalto-sante.com/praticien/dr-elard-stephane/",
+       "https://chpsaintemarie.vivalto-sante.com/"
+      ],
+      "areaServed": {
+       "@type": "AdministrativeArea",
+       "name": "Val-d’Oise"
+      }
+     }
+    ]
+   }
+  }
+ ]
+}

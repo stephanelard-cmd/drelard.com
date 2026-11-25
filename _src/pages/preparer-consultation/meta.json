@@ -1,0 +1,77 @@
+{
+ "title": "Préparer votre consultation | Dr Stéphane Elard",
+ "description": "Préparez votre rendez-vous à Osny ou Enghien : lieu de consultation, documents utiles, questions sur les honoraires et contacts du secrétariat.",
+ "canonical": "https://drelard.com/preparer-consultation/",
+ "robots": "index,follow,max-image-preview:large",
+ "lastmod": "2026-11-25",
+ "nav": null,
+ "crumbs": [
+  [
+   "Accueil",
+   "/"
+  ],
+  [
+   "Rendez-vous et contacts",
+   "/rendez-vous/"
+  ],
+  [
+   "Préparer votre consultation",
+   "/preparer-consultation/"
+  ]
+ ],
+ "sitemap": {
+  "priority": "0.7",
+  "changefreq": "monthly"
+ },
+ "extra": [],
+ "social": [
+  [
+   "property",
+   "og:title",
+   "Préparer votre consultation — Dr Stéphane Elard"
+  ],
+  [
+   "property",
+   "og:type",
+   "website"
+  ],
+  [
+   "property",
+   "og:url",
+   "https://drelard.com/preparer-consultation/"
+  ],
+  [
+   "property",
+   "og:description",
+   "Informations pratiques pour votre rendez-vous à Osny et Enghien-les-Bains."
+  ],
+  [
+   "property",
+   "og:image",
+   "https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg"
+  ],
+  [
+   "name",
+   "twitter:card",
+   "summary_large_image"
+  ]
+ ],
+ "jsonld": [
+  {
+   "id": null,
+   "data": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Préparer votre consultation — Dr Stéphane Elard",
+    "url": "https://drelard.com/preparer-consultation/",
+    "inLanguage": "fr-FR",
+    "datePublished": "2026-11-18",
+    "dateModified": "2026-11-18",
+    "isPartOf": {
+     "@type": "WebSite",
+     "url": "https://drelard.com/"
+    }
+   }
+  }
+ ]
+}

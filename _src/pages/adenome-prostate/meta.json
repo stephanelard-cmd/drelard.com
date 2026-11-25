@@ -1,0 +1,272 @@
+{
+ "title": "Adénome de la prostate | Dr Stéphane Elard",
+ "description": "Adénome de la prostate : symptômes urinaires, bilan, traitements médicaux et chirurgicaux. Information du Dr Stéphane Elard, urologue à Enghien-les-Bains et Osny.",
+ "canonical": "https://drelard.com/adenome-prostate/",
+ "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+ "lastmod": "2026-11-25",
+ "nav": "/urologie/",
+ "crumbs": [
+  [
+   "Accueil",
+   "/"
+  ],
+  [
+   "Urologie",
+   "/urologie/"
+  ],
+  [
+   "Adénome de la prostate",
+   "/adenome-prostate/"
+  ]
+ ],
+ "sitemap": {
+  "priority": "0.85",
+  "changefreq": "monthly",
+  "image": "/assets/dr-stephane-elard-social-1200x630.jpg",
+  "image_title": "Adénome de la prostate — Dr Stéphane Elard"
+ },
+ "related": [
+  "/cancer-prostate/",
+  "/calculs-urinaires/",
+  "/prolapsus-genital/",
+  "/urologie/"
+ ],
+ "share": "Adénome de la prostate : informations du Dr Stéphane Elard",
+ "book": {
+  "title": "Faire le point sur des troubles urinaires",
+  "text": "Une consultation permet de mesurer la gêne réelle, d’écarter les autres causes et de choisir, avec vous, la prise en charge adaptée.",
+  "osny": "Débitmétrie, échographie, cystoscopie ambulatoire et chirurgie endoscopique selon l’indication.",
+  "enghien": "Consultations d’urologie et d’andrologie, bilan des troubles mictionnels et téléconsultation sur rendez-vous."
+ },
+ "extra": [],
+ "social": [
+  [
+   "property",
+   "og:type",
+   "article"
+  ],
+  [
+   "property",
+   "og:locale",
+   "fr_FR"
+  ],
+  [
+   "property",
+   "og:site_name",
+   "Dr Stéphane Elard"
+  ],
+  [
+   "property",
+   "og:url",
+   "https://drelard.com/adenome-prostate/"
+  ],
+  [
+   "property",
+   "og:title",
+   "Adénome de la prostate — Dr Stéphane Elard"
+  ],
+  [
+   "property",
+   "og:description",
+   "Symptômes, bilan et options thérapeutiques de l’hypertrophie bénigne de la prostate."
+  ],
+  [
+   "property",
+   "og:image",
+   "https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg"
+  ],
+  [
+   "property",
+   "og:image:secure_url",
+   "https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg"
+  ],
+  [
+   "property",
+   "og:image:type",
+   "image/jpeg"
+  ],
+  [
+   "property",
+   "og:image:width",
+   "1200"
+  ],
+  [
+   "property",
+   "og:image:height",
+   "630"
+  ],
+  [
+   "property",
+   "og:image:alt",
+   "Dr Stéphane Elard — prise en charge de l’adénome de la prostate"
+  ],
+  [
+   "property",
+   "article:published_time",
+   "2026-09-15"
+  ],
+  [
+   "property",
+   "article:modified_time",
+   "2026-09-15"
+  ],
+  [
+   "property",
+   "article:section",
+   "Urologie masculine"
+  ],
+  [
+   "name",
+   "twitter:card",
+   "summary_large_image"
+  ],
+  [
+   "name",
+   "twitter:title",
+   "Adénome de la prostate — Dr Stéphane Elard"
+  ],
+  [
+   "name",
+   "twitter:description",
+   "Symptômes, bilan et options thérapeutiques de l’hypertrophie bénigne de la prostate."
+  ],
+  [
+   "name",
+   "twitter:image",
+   "https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg"
+  ]
+ ],
+ "jsonld": [
+  {
+   "id": null,
+   "data": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "MedicalWebPage",
+      "@id": "https://drelard.com/adenome-prostate/#webpage",
+      "url": "https://drelard.com/adenome-prostate/",
+      "name": "Adénome de la prostate — Dr Stéphane Elard",
+      "description": "Information médicale sur les symptômes, le bilan et le traitement de l’adénome de la prostate par le Dr Stéphane Elard.",
+      "datePublished": "2026-09-15",
+      "dateModified": "2026-09-15",
+      "inLanguage": "fr-FR",
+      "about": {
+       "@type": "MedicalCondition",
+       "name": "Hypertrophie bénigne de la prostate",
+       "alternateName": "Adénome de la prostate"
+      },
+      "reviewedBy": {
+       "@id": "https://drelard.com/#dr-stephane-elard"
+      },
+      "isPartOf": {
+       "@id": "https://drelard.com/urologie/#collection"
+      }
+     },
+     {
+      "@type": "Person",
+      "@id": "https://drelard.com/#dr-stephane-elard",
+      "name": "Stéphane Elard",
+      "honorificPrefix": "Dr",
+      "url": "https://drelard.com/",
+      "telephone": "+33139641494",
+      "knowsAbout": [
+       "Adénome de la prostate",
+       "Hypertrophie bénigne de la prostate",
+       "Troubles mictionnels de l’homme",
+       "Chirurgie endoscopique de la prostate"
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://drelard.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Urologie",
+        "item": "https://drelard.com/urologie/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Adénome de la prostate",
+        "item": "https://drelard.com/adenome-prostate/"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v6-faq-schema",
+   "data": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "@id": "https://drelard.com/adenome-prostate/#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Un adénome de la prostate évolue-t-il en cancer ?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Non. L’adénome est une tumeur bénigne et il n’augmente pas le risque de cancer de la prostate. Les deux situations sont distinctes, même si elles peuvent coexister chez un même homme."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Faut-il opérer dès que les symptômes apparaissent ?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Non. Lorsque la gêne reste modérée et qu’il n’existe pas de complication, une surveillance accompagnée de mesures d’hygiène de vie est souvent suffisante. Un traitement médicamenteux est proposé ensuite, la chirurgie n’intervenant qu’en cas d’échec ou de complication."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Quels signes doivent conduire à consulter rapidement ?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "L’impossibilité totale d’uriner malgré une envie pressante correspond à une rétention aiguë d’urine et constitue une urgence. La présence de sang dans les urines, une fièvre ou des infections urinaires répétées justifient également un avis rapide."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "v6-agent-actions",
+   "data": {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "@id": "https://drelard.com/adenome-prostate/#agent-actions",
+    "url": "https://drelard.com/adenome-prostate/",
+    "about": {
+     "@type": "MedicalCondition",
+     "name": "Hypertrophie bénigne de la prostate",
+     "alternateName": "Adénome de la prostate"
+    },
+    "potentialAction": [
+     {
+      "@type": "ScheduleAction",
+      "name": "Prendre rendez-vous",
+      "target": "https://www.doctolib.fr/chirurgien-urologue/osny/stephane-elard"
+     },
+     {
+      "@type": "CommunicateAction",
+      "name": "Appeler Enghien-les-Bains",
+      "target": "tel:+33139641494"
+     },
+     {
+      "@type": "CommunicateAction",
+      "name": "Appeler Osny",
+      "target": "tel:+33130756301"
+     }
+    ]
+   }
+  }
+ ]
+}
