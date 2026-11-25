@@ -20,7 +20,53 @@
   "changefreq": "monthly"
  },
  "extra": [],
- "social": [],
+ "social": [
+  [
+   "property",
+   "og:type",
+   "website"
+  ],
+  [
+   "property",
+   "og:locale",
+   "fr_FR"
+  ],
+  [
+   "property",
+   "og:site_name",
+   "Dr Stéphane Elard"
+  ],
+  [
+   "property",
+   "og:url",
+   "https://drelard.com/rendez-vous/"
+  ],
+  [
+   "property",
+   "og:title",
+   "Rendez-vous urologue Enghien et Osny | Dr Stéphane Elard"
+  ],
+  [
+   "property",
+   "og:description",
+   "Téléphones des consultations d’urologie à Enghien-les-Bains et Osny, e-mail du secrétariat d’Osny, accès Doctolib, téléconsultation, OPTAM-ACO et SOS Calcul."
+  ],
+  [
+   "property",
+   "og:image",
+   "https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg"
+  ],
+  [
+   "name",
+   "twitter:card",
+   "summary_large_image"
+  ],
+  [
+   "name",
+   "twitter:image",
+   "https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg"
+  ]
+ ],
  "jsonld": [
   {
    "id": null,
