@@ -1,0 +1,35 @@
+{
+ "title": "Accessibilité | Dr Stéphane Elard",
+ "description": "Démarche d’accessibilité du site drelard.com, navigation clavier, lecteurs d’écran et signalement des difficultés.",
+ "canonical": "https://drelard.com/accessibilite/",
+ "robots": "index,follow,max-image-preview:large",
+ "lastmod": "2026-11-25",
+ "nav": null,
+ "crumbs": [
+  [
+   "Accueil",
+   "/"
+  ],
+  [
+   "Accessibilité",
+   "/accessibilite/"
+  ]
+ ],
+ "sitemap": {
+  "priority": "0.3",
+  "changefreq": "yearly"
+ },
+ "extra": [],
+ "social": [],
+ "jsonld": [
+  {
+   "id": null,
+   "data": {
+    "@context": "https://schema.org",
+    "@type": "WebPage",
+    "name": "Accessibilité",
+    "url": "https://drelard.com/accessibilite/"
+   }
+  }
+ ]
+}

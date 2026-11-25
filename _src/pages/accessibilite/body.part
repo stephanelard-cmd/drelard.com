@@ -1,0 +1,15 @@
+<header class="intro wrap">
+<h1>Accessibilité</h1>
+<p class="lead">Le site vise une utilisation simple au clavier, avec lecteur d’écran, sur mobile et avec agrandissement du texte.</p>
+</header>
+
+<section class="sec sec--mist" aria-label="Démarche d’accessibilité">
+<div class="wrap">
+<div class="cards">
+<article><h2>Démarche</h2><p>La maquette conserve une structure HTML sémantique, un lien d’évitement, des intitulés de liens explicites, un focus visible, des zones tactiles suffisantes et une prise en compte de la réduction des animations. Le texte est affiché dans une taille de base de 18 pixels, avec des contrastes élevés entre le texte et le fond.</p></article>
+<article><h2>État actuel</h2><p>Des contrôles automatisés SEO et accessibilité sont exécutés à chaque modification. Une vérification automatique ne suffit toutefois pas à déclarer une conformité complète aux WCAG 2.2 AA ; des tests manuels complémentaires restent nécessaires.</p></article>
+<article><h2>Signaler une difficulté</h2><p>Vous pouvez signaler un problème d’accès au contenu en appelant la consultation d’Osny au <a href="tel:+33130756301">01 30 75 63 01</a> ou celle d’Enghien-les-Bains au <a href="tel:+33139641494">01 39 64 14 94</a>.</p></article>
+<article><h2>Alternatives disponibles</h2><p>Le <a href="/plan-du-site/">plan du site</a> et le <a href="/llms.txt">résumé texte</a> fournissent des chemins d’accès simplifiés aux informations essentielles. Les fiches s’impriment proprement, sans menus ni boutons.</p></article>
+</div>
+</div>
+</section>

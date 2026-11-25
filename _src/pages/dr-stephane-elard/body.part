@@ -1,0 +1,74 @@
+<section class="hero dark">
+<div class="wrap">
+<p class="hero__who">Chirurgien urologue et andrologue diplômé</p>
+{{portrait}}
+<div class="hero__body">
+<h1>Dr Stéphane Elard</h1>
+<p class="lead">Chirurgien urologue et andrologue diplômé, ancien interne et ancien chef de clinique des Hôpitaux de Paris. Le Dr Stéphane Elard exerce au CHP Sainte-Marie d’Osny, son lieu principal d’exercice, et consulte également à Enghien-les-Bains.</p>
+<ul class="points" aria-label="Titres principaux"><li>Ancien chef de clinique des Hôpitaux de Paris</li><li>DESC de chirurgie urologique</li><li>DESC d’andrologie</li><li>Médecin accrédité par la HAS</li></ul>
+<div class="actions"><a class="btn" href="https://www.doctolib.fr/chirurgien-urologue/osny/stephane-elard">Prendre rendez-vous</a><a class="btn btn--line" href="#lieux">Lieux de consultation</a></div>
+</div>
+</div>
+</section>
+
+<section class="sec sec--mist" id="parcours" aria-labelledby="parcours-title">
+<div class="wrap">
+<div class="head"><h2 id="parcours-title">Un parcours hospitalo-universitaire et chirurgical</h2><p>Ancien interne des Hôpitaux de Paris et ancien chef de clinique des Hôpitaux de Paris, le Dr Stéphane Elard a été formé notamment à la Pitié-Salpêtrière, à l’hôpital Ambroise-Paré et à l’hôpital Foch. Son activité associe urologie générale, andrologie, cancérologie urologique et chirurgie mini-invasive.</p></div>
+<ul class="trio">
+<li><h3>Prélèvement rénal chez le donneur vivant</h3><p>Plus de 250 prélèvements rénaux chez des donneurs vivants apparentés, expertise acquise à l’hôpital Foch de Suresnes.</p></li>
+<li><h3>Enseignement de la cœlioscopie</h3><p>Plus de dix années d’enseignement théorique et pratique de la cœlioscopie destiné aux aides opératoires.</p></li>
+<li><h3>Publications scientifiques</h3><p>Auteur et coauteur de publications médicales diffusées dans des revues scientifiques internationales. <a href="#publications">Voir la sélection d’articles</a></p></li>
+</ul>
+</div>
+</section>
+
+<section class="sec" id="diplomes" aria-labelledby="diplomes-title">
+<div class="wrap split">
+<div class="prose">
+<h2 id="diplomes-title">Formations, titres et accréditation</h2>
+<p class="note"><strong>Accréditation HAS :</strong> le Dr Stéphane Elard est médecin accrédité par la Haute Autorité de santé en chirurgie urologique (date d’accréditation : 20 novembre 2025, CHP Sainte-Marie d’Osny). <a href="https://www.has-sante.fr/jcms/p_3793934/en/docteur-stephane-elard">Vérifier sur le site de la HAS</a></p>
+<h3 id="sources">Sources institutionnelles</h3>
+<p>Pour éviter les confusions liées aux annuaires et aux fiches tierces, les références ci-dessous permettent de vérifier l’identité professionnelle, la spécialité et le lieu principal d’exercice.</p>
+<ul class="list">
+<li><a href="https://www.has-sante.fr/jcms/p_3793934/en/docteur-stephane-elard">Haute Autorité de Santé — Dr Stéphane Elard</a></li>
+<li><a href="https://chpsaintemarie.vivalto-sante.com/praticien/dr-elard-stephane/">CHP Sainte-Marie — fiche praticien officielle</a></li>
+<li><a href="https://chpsaintemarie.vivalto-sante.com/notre-offre-de-soins/poles-d-excellence/urologie/">CHP Sainte-Marie — pôle d’urologie</a></li>
+<li><a href="https://dunf.fr/lequipe/">Département d’Urologie Nord-Francilien — équipe</a></li>
+</ul>
+</div>
+<dl class="creds" aria-label="Diplômes et distinctions">
+<div><dt>DESC</dt><dd>Chirurgie urologique</dd></div>
+<div><dt>DESC</dt><dd>Andrologie, andrologue diplômé</dd></div>
+<div><dt>DIU</dt><dd>Cancérologie urologique</dd></div>
+<div><dt>DIU</dt><dd>Cœlioscopie urogynécologique</dd></div>
+<div><dt>Distinction</dt><dd>Médaille d’argent de thèse, lauréat de la Faculté</dd></div>
+<div><dt>Hôpitaux de Paris</dt><dd>Ancien interne et ancien chef de clinique</dd></div>
+</dl>
+</div>
+</section>
+
+<section class="sec sec--mist" id="publications" aria-labelledby="publications-title">
+<div class="wrap">
+<div class="head"><h2 id="publications-title">Publications scientifiques (sélection)</h2><p>Articles référencés dans PubMed, issus des travaux du service d’urologie de l’hôpital Henri-Mondor (Créteil).</p></div>
+<ol class="pubs">
+<li>Antiphon P, <strong>Elard S</strong>, Benyoussef A, et al. Laparoscopic promontory sacral colpopexy: is the posterior, recto-vaginal, mesh mandatory? <cite>European Urology</cite>. 2004;45(5):655-61. <a href="https://doi.org/10.1016/j.eururo.2004.01.004">doi:10.1016/j.eururo.2004.01.004</a></li>
+<li>Antiphon P, Hoznek A, Benyoussef A, et al. (dont <strong>Elard S</strong>). Complete solo laparoscopic radical prostatectomy: initial experience. <cite>Urology</cite>. 2003;61(4):724-8. <a href="https://doi.org/10.1016/s0090-4295(03)00027-x">doi:10.1016/s0090-4295(03)00027-x</a></li>
+<li><strong>Elard S</strong>, Cicco A, Salomon L, et al. Embolization for arterial injury incurred during tension-free vaginal tape procedure. <cite>The Journal of Urology</cite>. 2002;168(4 Pt 1):1503. <a href="https://doi.org/10.1016/S0022-5347(05)64492-8">doi:10.1016/S0022-5347(05)64492-8</a></li>
+</ol>
+</div>
+</section>
+
+<section class="sec" id="expertises" aria-labelledby="expertises-title">
+<div class="wrap">
+<div class="head"><h2 id="expertises-title">Prises en charge et fiches d’information</h2><p>Du symptôme courant à la pathologie complexe, le bilan est adapté à chaque situation. Les fiches d’information, rédigées et validées par le Dr Stéphane Elard, détaillent les principales pathologies prises en charge.</p></div>
+<ul class="grid">
+<li><h3>Prostate</h3><p>Troubles urinaires de l’homme, adénome de prostate, bilan du PSA et cancer de la prostate.</p><ul class="linklist"><li><a href="/adenome-prostate/">Adénome de la prostate</a></li><li><a href="/cancer-prostate/">Cancer de la prostate</a></li></ul></li>
+<li><h3>Calculs urinaires</h3><p>Colique néphrétique, calculs du rein ou de l’uretère, urétéroscopie laser et prévention des récidives.</p><ul class="linklist"><li><a href="/calculs-urinaires/">Calculs urinaires</a></li><li><a href="https://dunf.fr/sos-calcul/">SOS Calcul</a></li></ul></li>
+<li><h3>Urologie féminine</h3><p>Incontinence, hyperactivité vésicale et descente d’organes, avec une formation spécifique en cœlioscopie urogynécologique.</p><ul class="linklist"><li><a href="/prolapsus-genital/">Prolapsus génital</a></li></ul></li>
+<li><h3>Cancérologie urologique</h3><p>Diagnostic, traitement et suivi des cancers de la prostate, du rein, de la vessie, de la voie excrétrice et du testicule.</p></li>
+<li><h3>Andrologie</h3><p>Troubles de l’érection ou de l’éjaculation, infertilité masculine, varicocèle et maladie de Lapeyronie.</p></li>
+<li><h3>Chirurgie mini-invasive</h3><p>Endoscopie et laser, chirurgie cœlioscopique et robot-assistée, la voie d’abord étant choisie selon l’indication.</p></li>
+</ul>
+<p class="src"><a href="/urologie/">Toutes les fiches d’information en urologie</a></p>
+</div>
+</section>

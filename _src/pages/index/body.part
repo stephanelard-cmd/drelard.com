@@ -1,0 +1,75 @@
+<section class="hero dark" id="accueil">
+<div class="wrap">
+<p class="hero__who">Dr Stéphane Elard, chirurgien urologue et andrologue diplômé, ancien chef de clinique des Hôpitaux de Paris</p>
+{{portrait}}
+<div class="hero__body">
+<h1>Chirurgien urologue à Enghien-les-Bains et Osny</h1>
+<p class="lead">Le Dr Stéphane Elard prend en charge l’urologie générale de l’homme et de la femme, l’andrologie, les cancers urologiques, les calculs urinaires et les troubles de la statique pelvienne. Les options médicales, endoscopiques ou chirurgicales sont discutées selon la situation de chaque patient.</p>
+<div class="actions"><a class="btn" href="https://www.doctolib.fr/chirurgien-urologue/osny/stephane-elard">Prendre rendez-vous sur Doctolib</a><a class="btn btn--line" href="/rendez-vous/">Rendez-vous et contacts</a></div>
+</div>
+<ul class="sites" aria-label="Lieux de consultation">
+<li class="site"><h2><a href="/urologue-osny/">Osny, CHP Sainte-Marie</a></h2><p>Lieu principal de consultation et plateau technique. 1 rue Christian Barnard</p><a class="tel" href="tel:+33130756301">01 30 75 63 01</a></li>
+<li class="site"><h2><a href="/urologue-enghien-les-bains/">Enghien-les-Bains</a></h2><p>Cabinet médical, consultations sur rendez-vous. 8 rue de Malleville</p><a class="tel" href="tel:+33139641494">01 39 64 14 94</a></li>
+</ul>
+</div>
+</section>
+
+<section class="motifs" id="expertises" aria-labelledby="motifs-title">
+<div class="wrap">
+<h2 id="motifs-title">Pour quel motif consultez-vous ?</h2>
+<p class="mlead">Choisissez la situation qui ressemble à la vôtre pour lire la fiche correspondante. Ces informations aident à comprendre, sans remplacer un examen médical.</p>
+<ul class="rows">
+<li><a href="/adenome-prostate/"><span class="sym">Envies fréquentes, levers la nuit, jet faible ou impression de mal vider la vessie</span><span class="fiche">Adénome de la prostate</span></a></li>
+<li><a href="/cancer-prostate/"><span class="sym">PSA élevé, IRM ou biopsies de la prostate à comprendre</span><span class="fiche">Cancer de la prostate</span></a></li>
+<li><a href="/calculs-urinaires/"><span class="sym">Douleur lombaire brutale d’un seul côté, colique néphrétique, calcul découvert à l’imagerie</span><span class="fiche">Calculs urinaires</span></a></li>
+<li><a href="/prolapsus-genital/"><span class="sym">Sensation de boule ou de pesanteur dans le vagin, descente d’organes</span><span class="fiche">Prolapsus génital</span></a></li>
+</ul>
+<dl class="others">
+<div><dt>Vessie, infections et hématurie</dt><dd>Urgenturie, pollakiurie, infections urinaires récidivantes, sang dans les urines, douleurs vésicales et troubles de la vidange.</dd></div>
+<div><dt>Reins et voies urinaires</dt><dd>Tumeurs rénales, obstruction, pathologies de l’uretère et stratégies visant à préserver la fonction rénale lorsque cela est possible.</dd></div>
+<div><dt>Cancérologie urologique</dt><dd>Diagnostic, traitement et suivi des cancers de la prostate, du rein, de la vessie, de la voie excrétrice et du testicule.</dd></div>
+<div><dt>Sexualité et fertilité masculine</dt><dd>Troubles de l’érection ou de l’éjaculation, infertilité masculine, varicocèle, maladie de Lapeyronie et pathologies génitales.</dd></div>
+<div><dt>Incontinence chez la femme</dt><dd>Évaluation de l’incontinence et de l’hyperactivité vésicale, avec discussion des traitements conservateurs ou chirurgicaux.</dd></div>
+<div><dt>Techniques mini-invasives</dt><dd>Endoscopie et laser, chirurgie cœlioscopique et robot-assistée. La voie d’abord est choisie selon l’indication et l’anatomie.</dd></div>
+</dl>
+<p class="more"><a href="/urologie/">Toutes les fiches d’information en urologie</a>. En cas de colique néphrétique, le CHP Sainte-Marie participe à la filière <a href="https://dunf.fr/sos-calcul/">SOS Calcul</a>.</p>
+</div>
+</section>
+
+<section class="sec" id="comprendre" aria-labelledby="comprendre-title">
+<div class="wrap split">
+<div class="prose">
+<h2 id="comprendre-title">L’urologie en quelques repères</h2>
+<p class="lead">Ces réponses aident à comprendre les principaux motifs de consultation sans remplacer un examen médical individualisé.</p>
+<p class="note note--alert"><strong>Quand consulter sans délai ?</strong> Impossibilité complète d’uriner, douleur testiculaire brutale, douleur lombaire avec fièvre, saignement urinaire abondant, absence d’urines ou malaise : appelez le 15 ou le 112.</p>
+</div>
+<div class="faq">
+<details><summary>Quand consulter pour des troubles urinaires ?</summary><p>Un jet faible, une difficulté à démarrer, des envies fréquentes ou nocturnes, une urgence urinaire, des fuites ou une sensation de mauvaise vidange méritent un bilan lorsqu’ils sont nouveaux, persistants ou gênants.</p></details>
+<details><summary>Sang dans les urines : pourquoi consulter ?</summary><p>Une hématurie visible ou persistante doit être évaluée. Une infection, un calcul ou une pathologie de la prostate, de la vessie, de l’uretère ou du rein peuvent être en cause.</p></details>
+<details><summary>Calculs urinaires et colique néphrétique</summary><p>La douleur est souvent lombaire, brutale et unilatérale. L’imagerie et les analyses précisent la taille, la localisation et le retentissement du calcul afin de choisir entre surveillance, lithotritie ou endoscopie.</p></details>
+<details><summary>Examens urodynamiques et cystoscopie</summary><p>Lorsqu’ils sont indiqués, les examens urodynamiques étudient le fonctionnement de la vessie et la cystoscopie permet d’examiner l’intérieur de la vessie. Ces examens peuvent être réalisés en ambulatoire au CHP Sainte-Marie d’Osny.</p></details>
+<details><summary>Andrologie et fertilité masculine</summary><p>Le bilan tient compte du contexte médical, cardiovasculaire, hormonal, médicamenteux et sexuel. En cas d’infertilité, le spermogramme, l’examen clinique et des examens complémentaires adaptés orientent la prise en charge.</p></details>
+<details><summary>Incontinence et descente d’organes</summary><p>Les symptômes, leur retentissement et l’examen clinique guident la prise en charge. Les solutions peuvent associer mesures comportementales, rééducation, pessaire, traitements médicamenteux ou chirurgie selon la situation. <a href="/prolapsus-genital/">Fiche sur la descente d’organes</a>.</p></details>
+</div>
+</div>
+</section>
+
+<section class="sec sec--mist" id="parcours" aria-labelledby="parcours-title">
+<div class="wrap split">
+<div class="prose">
+<h2 id="parcours-title">Un parcours hospitalo-universitaire, scientifique et chirurgical</h2>
+<p class="lead">Ancien interne et ancien chef de clinique des Hôpitaux de Paris, le Dr Stéphane Elard a été formé notamment à la Pitié-Salpêtrière, à l’hôpital Ambroise-Paré et à l’hôpital Foch.</p>
+<p>Il a réalisé plus de 250 prélèvements rénaux chez des donneurs vivants apparentés à l’hôpital Foch de Suresnes, enseigné la cœlioscopie aux aides opératoires pendant plus de dix ans et publié dans des revues scientifiques internationales.</p>
+<p id="competences">Andrologue diplômé, il est aussi formé à la cœlioscopie urogynécologique et pratique la chirurgie robot-assistée lorsqu’elle est adaptée à l’indication, notamment pour certaines descentes d’organes.</p>
+<p><a href="/dr-stephane-elard/">Parcours complet, diplômes et accréditation HAS</a></p>
+</div>
+<dl class="creds" aria-label="Diplômes et titres">
+<div><dt>DESC</dt><dd>Chirurgie urologique</dd></div>
+<div><dt>DESC</dt><dd>Andrologie</dd></div>
+<div><dt>DIU</dt><dd>Cancérologie urologique</dd></div>
+<div><dt>DIU</dt><dd>Cœlioscopie urogynécologique</dd></div>
+<div><dt>Distinction</dt><dd>Médaille d’argent de thèse, lauréat de la Faculté</dd></div>
+<div><dt>Hôpitaux de Paris</dt><dd>Ancien interne et ancien chef de clinique</dd></div>
+</dl>
+</div>
+</section>

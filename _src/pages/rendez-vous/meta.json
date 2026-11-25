@@ -1,0 +1,58 @@
+{
+ "title": "Rendez-vous urologue Enghien et Osny | Dr Stéphane Elard",
+ "description": "Téléphones des consultations d’urologie à Enghien-les-Bains et Osny, e-mail du secrétariat d’Osny, accès Doctolib, téléconsultation, OPTAM-ACO et SOS Calcul.",
+ "canonical": "https://drelard.com/rendez-vous/",
+ "robots": "index,follow,max-image-preview:large",
+ "lastmod": "2026-11-25",
+ "nav": "/rendez-vous/",
+ "crumbs": [
+  [
+   "Accueil",
+   "/"
+  ],
+  [
+   "Rendez-vous et contacts",
+   "/rendez-vous/"
+  ]
+ ],
+ "sitemap": {
+  "priority": "0.8",
+  "changefreq": "monthly"
+ },
+ "extra": [],
+ "social": [],
+ "jsonld": [
+  {
+   "id": null,
+   "data": {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Rendez-vous et contacts — Dr Stéphane Elard",
+    "url": "https://drelard.com/rendez-vous/",
+    "dateModified": "2026-11-18",
+    "mainEntity": {
+     "@type": "Person",
+     "@id": "https://drelard.com/#dr-stephane-elard"
+    },
+    "potentialAction": [
+     {
+      "@type": "ScheduleAction",
+      "target": "https://www.doctolib.fr/chirurgien-urologue/osny/stephane-elard"
+     },
+     {
+      "@type": "CommunicateAction",
+      "target": "tel:+33139641494"
+     },
+     {
+      "@type": "CommunicateAction",
+      "target": "tel:+33130756301"
+     },
+     {
+      "@type": "CommunicateAction",
+      "target": "mailto:chir3osny@gmail.com"
+     }
+    ]
+   }
+  }
+ ]
+}

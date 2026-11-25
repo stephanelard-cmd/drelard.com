@@ -1,0 +1,227 @@
+{
+ "title": "Dr Stéphane Elard, chirurgien urologue : parcours et diplômes",
+ "description": "Parcours du Dr Stéphane Elard, chirurgien urologue et andrologue : ancien chef de clinique des Hôpitaux de Paris, DESC, DIU, accréditation HAS. Osny et Enghien.",
+ "canonical": "https://drelard.com/dr-stephane-elard/",
+ "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+ "lastmod": "2026-11-25",
+ "nav": "/dr-stephane-elard/",
+ "portrait": "Dr Stéphane Elard, chirurgien urologue",
+ "crumbs": [
+  [
+   "Accueil",
+   "/"
+  ],
+  [
+   "Dr Stéphane Elard",
+   "/dr-stephane-elard/"
+  ]
+ ],
+ "sitemap": {
+  "priority": "1.0",
+  "changefreq": "monthly",
+  "image": "/assets/dr-stephane-elard-social-1200x630.jpg",
+  "image_title": "Dr Stéphane Elard, chirurgien urologue — parcours et diplômes"
+ },
+ "book": {
+  "id": "lieux",
+  "title": "Consultations à Osny et Enghien-les-Bains",
+  "text": "Secteur 2, adhérent à l’OPTAM-ACO. RPPS 10001530970. Téléconsultation selon la situation.",
+  "osny": "Lieu principal d’exercice et plateau technique, au sein du Département d’Urologie Nord-Francilien (DUNF).",
+  "enghien": "Consultations d’urologie et d’andrologie au 8 rue de Malleville.",
+  "note": "<strong>Politique de réputation en ligne :</strong> drelard.com ne publie ni note, ni classement, ni témoignage patient et ne sollicite aucun avis personnel."
+ },
+ "extra": [],
+ "social": [
+  [
+   "property",
+   "og:type",
+   "profile"
+  ],
+  [
+   "property",
+   "og:locale",
+   "fr_FR"
+  ],
+  [
+   "property",
+   "og:site_name",
+   "Dr Stéphane Elard"
+  ],
+  [
+   "property",
+   "og:url",
+   "https://drelard.com/dr-stephane-elard/"
+  ],
+  [
+   "property",
+   "og:title",
+   "Dr Stéphane Elard, chirurgien urologue : parcours et diplômes"
+  ],
+  [
+   "property",
+   "og:description",
+   "Parcours hospitalo-universitaire, diplômes, accréditation HAS et lieux d’exercice du Dr Stéphane Elard, chirurgien urologue à Osny et Enghien-les-Bains."
+  ],
+  [
+   "property",
+   "og:image",
+   "https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg"
+  ],
+  [
+   "property",
+   "og:image:width",
+   "1200"
+  ],
+  [
+   "property",
+   "og:image:height",
+   "630"
+  ],
+  [
+   "name",
+   "twitter:card",
+   "summary_large_image"
+  ],
+  [
+   "name",
+   "twitter:image",
+   "https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg"
+  ]
+ ],
+ "jsonld": [
+  {
+   "id": null,
+   "data": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "ProfilePage",
+      "@id": "https://drelard.com/dr-stephane-elard/#webpage",
+      "url": "https://drelard.com/dr-stephane-elard/",
+      "name": "Dr Stéphane Elard, chirurgien urologue : parcours et diplômes",
+      "description": "Parcours hospitalo-universitaire, diplômes, accréditation HAS et lieux d’exercice du Dr Stéphane Elard, chirurgien urologue à Osny et Enghien-les-Bains.",
+      "inLanguage": "fr-FR",
+      "isPartOf": {
+       "@id": "https://drelard.com/#website"
+      },
+      "dateCreated": "2026-08-19T17:20:12+02:00",
+      "dateModified": "2026-09-28T14:01:45+02:00",
+      "breadcrumb": {
+       "@id": "https://drelard.com/dr-stephane-elard/#breadcrumb"
+      },
+      "primaryImageOfPage": {
+       "@type": "ImageObject",
+       "url": "https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg",
+       "width": 1200,
+       "height": 630
+      },
+      "mainEntity": {
+       "@id": "https://drelard.com/#dr-stephane-elard"
+      }
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://drelard.com/dr-stephane-elard/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://drelard.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Dr Stéphane Elard",
+        "item": "https://drelard.com/dr-stephane-elard/"
+       }
+      ]
+     },
+     {
+      "@type": "Person",
+      "@id": "https://drelard.com/#dr-stephane-elard",
+      "name": "Stéphane Elard",
+      "givenName": "Stéphane",
+      "familyName": "Elard",
+      "honorificPrefix": "Dr",
+      "jobTitle": [
+       "Chirurgien urologue",
+       "Andrologue diplômé"
+      ],
+      "url": "https://drelard.com/",
+      "image": "https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg",
+      "identifier": {
+       "@type": "PropertyValue",
+       "propertyID": "RPPS",
+       "value": "10001530970"
+      },
+      "award": "Médaille d’argent de thèse — Lauréat de la Faculté",
+      "hasCredential": [
+       {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "DESC",
+        "name": "DESC de chirurgie urologique"
+       },
+       {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "DESC",
+        "name": "DESC d’andrologie"
+       },
+       {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "DIU",
+        "name": "DIU de cancérologie urologique"
+       },
+       {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "DIU",
+        "name": "DIU de cœlioscopie urogynécologique"
+       },
+       {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "Accréditation",
+        "name": "Accréditation des médecins — chirurgie urologique",
+        "dateCreated": "2025-11-20",
+        "url": "https://www.has-sante.fr/jcms/p_3793934/en/docteur-stephane-elard",
+        "recognizedBy": {
+         "@type": "Organization",
+         "name": "Haute Autorité de santé",
+         "url": "https://www.has-sante.fr/"
+        }
+       }
+      ],
+      "knowsAbout": [
+       "Urologie générale",
+       "Andrologie",
+       "Cancérologie urologique",
+       "Adénome de la prostate",
+       "Cancer de la prostate",
+       "Calculs urinaires",
+       "Prolapsus génital",
+       "Cœlioscopie urogynécologique",
+       "Chirurgie robot-assistée",
+       "Prélèvement rénal chez le donneur vivant apparenté"
+      ],
+      "worksFor": {
+       "@type": "Hospital",
+       "name": "CHP Sainte-Marie",
+       "alternateName": "Clinique Sainte-Marie",
+       "url": "https://chpsaintemarie.vivalto-sante.com/"
+      },
+      "affiliation": {
+       "@type": "MedicalOrganization",
+       "name": "Département d’Urologie Nord-Francilien (DUNF)",
+       "url": "https://dunf.fr/"
+      },
+      "sameAs": [
+       "https://www.has-sante.fr/jcms/p_3793934/en/docteur-stephane-elard",
+       "https://chpsaintemarie.vivalto-sante.com/praticien/dr-elard-stephane/",
+       "https://www.doctolib.fr/chirurgien-urologue/osny/stephane-elard",
+       "https://dunf.fr/lequipe/"
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

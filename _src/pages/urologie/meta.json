@@ -1,0 +1,221 @@
+{
+ "title": "Urologie : pathologies et prises en charge | Dr Stéphane Elard",
+ "description": "Fiches d’information en urologie du Dr Stéphane Elard : adénome et cancer de la prostate, calculs urinaires, prolapsus génital. Symptômes, bilan et prises en charge.",
+ "canonical": "https://drelard.com/urologie/",
+ "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+ "lastmod": "2026-11-25",
+ "nav": "/urologie/",
+ "crumbs": [
+  [
+   "Accueil",
+   "/"
+  ],
+  [
+   "Urologie",
+   "/urologie/"
+  ]
+ ],
+ "sitemap": {
+  "priority": "0.9",
+  "changefreq": "monthly",
+  "image": "/assets/dr-stephane-elard-social-1200x630.jpg",
+  "image_title": "Urologie — pathologies et prises en charge — Dr Stéphane Elard"
+ },
+ "share": "Fiches d’information en urologie du Dr Stéphane Elard",
+ "book": {
+  "title": "Prendre rendez-vous",
+  "text": "Une consultation permet d’évaluer votre situation personnelle et de déterminer les examens réellement utiles.",
+  "osny": "Consultations, examens et chirurgie urologique au CHP Sainte-Marie.",
+  "enghien": "Consultations d’urologie, d’andrologie et d’urologie féminine, téléconsultation sur rendez-vous."
+ },
+ "extra": [],
+ "social": [
+  [
+   "property",
+   "og:type",
+   "website"
+  ],
+  [
+   "property",
+   "og:locale",
+   "fr_FR"
+  ],
+  [
+   "property",
+   "og:site_name",
+   "Dr Stéphane Elard"
+  ],
+  [
+   "property",
+   "og:url",
+   "https://drelard.com/urologie/"
+  ],
+  [
+   "property",
+   "og:title",
+   "Urologie — pathologies et prises en charge | Dr Stéphane Elard"
+  ],
+  [
+   "property",
+   "og:description",
+   "Fiches d’information sur les pathologies urologiques, rédigées à partir de sources institutionnelles."
+  ],
+  [
+   "property",
+   "og:image",
+   "https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg"
+  ],
+  [
+   "property",
+   "og:image:secure_url",
+   "https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg"
+  ],
+  [
+   "property",
+   "og:image:type",
+   "image/jpeg"
+  ],
+  [
+   "property",
+   "og:image:width",
+   "1200"
+  ],
+  [
+   "property",
+   "og:image:height",
+   "630"
+  ],
+  [
+   "property",
+   "og:image:alt",
+   "Dr Stéphane Elard — fiches d’information en urologie"
+  ],
+  [
+   "property",
+   "article:published_time",
+   "2026-09-15"
+  ],
+  [
+   "property",
+   "article:modified_time",
+   "2026-09-15"
+  ],
+  [
+   "property",
+   "article:section",
+   "Urologie"
+  ],
+  [
+   "name",
+   "twitter:card",
+   "summary_large_image"
+  ],
+  [
+   "name",
+   "twitter:title",
+   "Urologie — pathologies et prises en charge | Dr Stéphane Elard"
+  ],
+  [
+   "name",
+   "twitter:description",
+   "Fiches d’information sur les pathologies urologiques, rédigées à partir de sources institutionnelles."
+  ],
+  [
+   "name",
+   "twitter:image",
+   "https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg"
+  ]
+ ],
+ "jsonld": [
+  {
+   "id": null,
+   "data": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "CollectionPage",
+      "@id": "https://drelard.com/urologie/#collection",
+      "url": "https://drelard.com/urologie/",
+      "name": "Urologie — pathologies et prises en charge",
+      "description": "Fiches d’information médicale en urologie rédigées et validées par le Dr Stéphane Elard.",
+      "datePublished": "2026-09-15",
+      "dateModified": "2026-09-15",
+      "inLanguage": "fr-FR",
+      "isPartOf": {
+       "@type": "WebSite",
+       "url": "https://drelard.com/",
+       "name": "Dr Stéphane Elard"
+      },
+      "about": {
+       "@type": "MedicalSpecialty",
+       "name": "Urologic"
+      },
+      "mainEntity": {
+       "@type": "ItemList",
+       "itemListOrder": "https://schema.org/ItemListUnordered",
+       "numberOfItems": 4,
+       "itemListElement": [
+        {
+         "@type": "ListItem",
+         "position": 1,
+         "name": "Adénome de la prostate",
+         "url": "https://drelard.com/adenome-prostate/"
+        },
+        {
+         "@type": "ListItem",
+         "position": 2,
+         "name": "Cancer de la prostate",
+         "url": "https://drelard.com/cancer-prostate/"
+        },
+        {
+         "@type": "ListItem",
+         "position": 3,
+         "name": "Calculs urinaires",
+         "url": "https://drelard.com/calculs-urinaires/"
+        },
+        {
+         "@type": "ListItem",
+         "position": 4,
+         "name": "Prolapsus génital",
+         "url": "https://drelard.com/prolapsus-genital/"
+        }
+       ]
+      }
+     },
+     {
+      "@type": "Person",
+      "@id": "https://drelard.com/#dr-stephane-elard",
+      "name": "Stéphane Elard",
+      "honorificPrefix": "Dr",
+      "url": "https://drelard.com/",
+      "telephone": "+33139641494",
+      "knowsAbout": [
+       "Urologie",
+       "Andrologie",
+       "Urologie féminine",
+       "Cancérologie urologique",
+       "Chirurgie robot-assistée"
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://drelard.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Urologie",
+        "item": "https://drelard.com/urologie/"
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

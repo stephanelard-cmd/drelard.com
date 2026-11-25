@@ -1,0 +1,34 @@
+<header class="intro wrap">
+<h1>Urologie <span class="sub">pathologies et prises en charge</span></h1>
+<p class="lead">Cette rubrique rassemble les fiches d’information rédigées par le <a href="/dr-stephane-elard/">Dr Stéphane Elard</a> sur les pathologies urologiques les plus fréquemment rencontrées en consultation. Chaque fiche décrit les symptômes, le bilan et les options de prise en charge, et s’appuie sur des sources institutionnelles. Elle ne remplace pas une consultation.</p>
+<ul class="points" aria-label="Domaines"><li>Urologie générale</li><li>Andrologie</li><li>Urologie féminine</li><li>Cancérologie urologique</li></ul>
+</header>
+
+<section class="sec sec--mist" id="fiches" aria-labelledby="fiches-title">
+<div class="wrap">
+<div class="head"><h2 id="fiches-title">Pathologies documentées</h2><p>Les fiches ci-dessous sont mises à jour au fil des recommandations. D’autres sujets seront ajoutés progressivement.</p></div>
+<ul class="cards">
+<li><h2><a href="/adenome-prostate/">Adénome de la prostate</a></h2><p>Hypertrophie bénigne de la prostate : envies fréquentes, jet faible, vidange incomplète. Du suivi simple aux traitements médicaux et chirurgicaux.</p></li>
+<li><h2><a href="/cancer-prostate/">Cancer de la prostate</a></h2><p>Interprétation du PSA, place de l’IRM et des biopsies, dépistage individuel et options thérapeutiques, de la surveillance active à la chirurgie.</p></li>
+<li><h2><a href="/calculs-urinaires/">Calculs urinaires</a></h2><p>Colique néphrétique, signes qui imposent l’urgence, examens, urétéroscopie laser et prévention des récidives.</p></li>
+<li><h2><a href="/prolapsus-genital/">Prolapsus génital</a></h2><p>Descente d’organes : bilan, rééducation, pessaire et chirurgie vaginale, cœlioscopique ou robot-assistée selon l’indication.</p></li>
+</ul>
+</div>
+</section>
+
+<section class="sec" id="domaines" aria-labelledby="domaines-title">
+<div class="wrap">
+<div class="head"><h2 id="domaines-title">Ce que recouvre la consultation d’urologie</h2><p>Au-delà des fiches détaillées, la consultation couvre l’ensemble de l’urologie de l’adulte, en explorant d’abord la gêne ressentie et son retentissement.</p></div>
+<ul class="trio">
+<li><h3>Urologie masculine et andrologie</h3><p>Troubles mictionnels, prostate, troubles sexuels et de la fertilité, contraception masculine définitive.</p></li>
+<li><h3>Urologie féminine</h3><p>Incontinence urinaire, infections urinaires récidivantes, descente d’organes.</p></li>
+<li><h3>Cancérologie urologique</h3><p>Prostate, vessie, rein et testicule : diagnostic, chirurgie et suivi en concertation pluridisciplinaire.</p></li>
+</ul>
+<div class="note" id="politique-editoriale">
+<h3>Une information vérifiable, sans avis ni notation</h3>
+<p>Les contenus de cette rubrique sont rédigés à partir de sources institutionnelles françaises et validés par le Dr Stéphane Elard. Conformément au code de déontologie médicale, ce site ne publie ni témoignage, ni note, ni classement de patients.</p>
+<p><strong>Sources utilisées :</strong> Association française d’urologie, Assurance Maladie et Haute Autorité de santé. Chaque fiche indique ses références et sa date de mise à jour.</p>
+<p><strong>Portée de l’information :</strong> ces pages décrivent des situations générales. Elles ne constituent ni un diagnostic, ni une prescription, et ne remplacent pas un avis médical personnalisé.</p>
+</div>
+</div>
+</section>

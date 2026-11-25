@@ -1,0 +1,271 @@
+{
+ "title": "Cancer de la prostate | Dr Stéphane Elard",
+ "description": "Cancer de la prostate : signes, interprétation du PSA, IRM et biopsies, dépistage et traitements. Information du Dr Stéphane Elard, urologue à Osny et Enghien.",
+ "canonical": "https://drelard.com/cancer-prostate/",
+ "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+ "lastmod": "2026-11-25",
+ "nav": "/urologie/",
+ "crumbs": [
+  [
+   "Accueil",
+   "/"
+  ],
+  [
+   "Urologie",
+   "/urologie/"
+  ],
+  [
+   "Cancer de la prostate",
+   "/cancer-prostate/"
+  ]
+ ],
+ "sitemap": {
+  "priority": "0.85",
+  "changefreq": "monthly",
+  "image": "/assets/dr-stephane-elard-social-1200x630.jpg",
+  "image_title": "Cancer de la prostate — Dr Stéphane Elard"
+ },
+ "related": [
+  "/adenome-prostate/",
+  "/calculs-urinaires/",
+  "/prolapsus-genital/",
+  "/urologie/"
+ ],
+ "share": "Cancer de la prostate : informations du Dr Stéphane Elard",
+ "book": {
+  "title": "Faire le point sur un PSA ou un résultat",
+  "text": "Une consultation permet d’interpréter un dosage, d’expliquer les examens utiles et, si un diagnostic est posé, d’exposer les options possibles.",
+  "osny": "Biopsies prostatiques, chirurgie et suivi oncologique en lien avec la concertation pluridisciplinaire.",
+  "enghien": "Consultations d’urologie, information et suivi, téléconsultation sur rendez-vous."
+ },
+ "extra": [],
+ "social": [
+  [
+   "property",
+   "og:type",
+   "article"
+  ],
+  [
+   "property",
+   "og:locale",
+   "fr_FR"
+  ],
+  [
+   "property",
+   "og:site_name",
+   "Dr Stéphane Elard"
+  ],
+  [
+   "property",
+   "og:url",
+   "https://drelard.com/cancer-prostate/"
+  ],
+  [
+   "property",
+   "og:title",
+   "Cancer de la prostate — Dr Stéphane Elard"
+  ],
+  [
+   "property",
+   "og:description",
+   "PSA, IRM, biopsies, surveillance active et traitements : repères pour comprendre."
+  ],
+  [
+   "property",
+   "og:image",
+   "https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg"
+  ],
+  [
+   "property",
+   "og:image:secure_url",
+   "https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg"
+  ],
+  [
+   "property",
+   "og:image:type",
+   "image/jpeg"
+  ],
+  [
+   "property",
+   "og:image:width",
+   "1200"
+  ],
+  [
+   "property",
+   "og:image:height",
+   "630"
+  ],
+  [
+   "property",
+   "og:image:alt",
+   "Dr Stéphane Elard — prise en charge du cancer de la prostate"
+  ],
+  [
+   "property",
+   "article:published_time",
+   "2026-09-15"
+  ],
+  [
+   "property",
+   "article:modified_time",
+   "2026-09-15"
+  ],
+  [
+   "property",
+   "article:section",
+   "Cancérologie urologique"
+  ],
+  [
+   "name",
+   "twitter:card",
+   "summary_large_image"
+  ],
+  [
+   "name",
+   "twitter:title",
+   "Cancer de la prostate — Dr Stéphane Elard"
+  ],
+  [
+   "name",
+   "twitter:description",
+   "PSA, IRM, biopsies, surveillance active et traitements : repères pour comprendre."
+  ],
+  [
+   "name",
+   "twitter:image",
+   "https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg"
+  ]
+ ],
+ "jsonld": [
+  {
+   "id": null,
+   "data": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "MedicalWebPage",
+      "@id": "https://drelard.com/cancer-prostate/#webpage",
+      "url": "https://drelard.com/cancer-prostate/",
+      "name": "Cancer de la prostate — Dr Stéphane Elard",
+      "description": "Information médicale sur le cancer de la prostate : diagnostic, dépistage et options thérapeutiques.",
+      "datePublished": "2026-09-15",
+      "dateModified": "2026-09-15",
+      "inLanguage": "fr-FR",
+      "about": {
+       "@type": "MedicalCondition",
+       "name": "Cancer de la prostate"
+      },
+      "reviewedBy": {
+       "@id": "https://drelard.com/#dr-stephane-elard"
+      },
+      "isPartOf": {
+       "@id": "https://drelard.com/urologie/#collection"
+      }
+     },
+     {
+      "@type": "Person",
+      "@id": "https://drelard.com/#dr-stephane-elard",
+      "name": "Stéphane Elard",
+      "honorificPrefix": "Dr",
+      "url": "https://drelard.com/",
+      "telephone": "+33139641494",
+      "knowsAbout": [
+       "Cancer de la prostate",
+       "Biopsies prostatiques",
+       "Prostatectomie",
+       "Chirurgie robot-assistée",
+       "Cancérologie urologique"
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://drelard.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Urologie",
+        "item": "https://drelard.com/urologie/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 3,
+        "name": "Cancer de la prostate",
+        "item": "https://drelard.com/cancer-prostate/"
+       }
+      ]
+     }
+    ]
+   }
+  },
+  {
+   "id": "v6-faq-schema",
+   "data": {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "@id": "https://drelard.com/cancer-prostate/#faq",
+    "mainEntity": [
+     {
+      "@type": "Question",
+      "name": "Un taux de PSA élevé signifie-t-il un cancer ?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Non. Un taux supérieur à 4 nanogrammes par millilitre n’est pas synonyme de cancer. Un adénome, une infection de la prostate ou un rapport sexuel récent peuvent également l’élever. L’interprétation tient compte de l’évolution du taux et de l’examen clinique."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Existe-t-il un dépistage organisé en France ?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Non. Aucune autorité de santé ne recommande un dépistage systématique par dosage du PSA chez l’homme sans symptôme, le bénéfice n’étant pas clairement démontré. La démarche relève d’un choix personnel, pris après une information complète sur les avantages et les inconvénients."
+      }
+     },
+     {
+      "@type": "Question",
+      "name": "Un cancer de la prostate impose-t-il toujours un traitement immédiat ?",
+      "acceptedAnswer": {
+       "@type": "Answer",
+       "text": "Non. Certains cancers peu évolutifs relèvent d’une surveillance active, avec des contrôles réguliers et un traitement différé si la maladie progresse. Le choix dépend du stade, du profil de la tumeur, de l’âge et de l’état de santé général."
+      }
+     }
+    ]
+   }
+  },
+  {
+   "id": "v6-agent-actions",
+   "data": {
+    "@context": "https://schema.org",
+    "@type": "MedicalWebPage",
+    "@id": "https://drelard.com/cancer-prostate/#agent-actions",
+    "url": "https://drelard.com/cancer-prostate/",
+    "about": {
+     "@type": "MedicalCondition",
+     "name": "Cancer de la prostate"
+    },
+    "potentialAction": [
+     {
+      "@type": "ScheduleAction",
+      "name": "Prendre rendez-vous",
+      "target": "https://www.doctolib.fr/chirurgien-urologue/osny/stephane-elard"
+     },
+     {
+      "@type": "CommunicateAction",
+      "name": "Appeler Enghien-les-Bains",
+      "target": "tel:+33139641494"
+     },
+     {
+      "@type": "CommunicateAction",
+      "name": "Appeler Osny",
+      "target": "tel:+33130756301"
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,5 @@
+<header class="intro wrap">
+<h1>Page introuvable</h1>
+<p class="lead">L’adresse demandée n’existe pas ou a changé. Les liens ci-dessous mènent aux pages les plus consultées.</p>
+<div class="actions"><a class="btn" href="/">Retour à l’accueil</a><a class="btn btn--line" href="/urologie/">Fiches d’information</a><a class="btn btn--line" href="/rendez-vous/">Rendez-vous et contacts</a><a class="btn btn--line" href="/plan-du-site/">Plan du site</a></div>
+</header>
