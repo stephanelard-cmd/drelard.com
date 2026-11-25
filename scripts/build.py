@@ -109,14 +109,14 @@ def head(meta: dict, css: str) -> str:
         f"<title>{esc(meta['title'])}</title>",
         f'<meta name="description" content="{esc(meta["description"])}">',
         f'<link rel="canonical" href="{esc(meta["canonical"])}">',
-        '<link rel="preload" href="/assets/fonts/atkinson-next.woff2" as="font" type="font/woff2" crossorigin>',
+        '<link rel="preload" href="/assets/fonts/onest.woff2" as="font" type="font/woff2" crossorigin>',
     ]
     if meta.get("portrait"):
         out.append(f'<link rel="preload" as="image" type="image/avif" imagesrcset="{srcset("avif")}" '
                    f'imagesizes="{PORTRAIT_SIZES}" media="(min-width: 860px)" fetchpriority="high">')
     out += [
         f"<style>{css}</style>",
-        '<meta name="theme-color" content="#0a5862">',
+        '<meta name="theme-color" content="#0f1d36">',
         '<meta name="color-scheme" content="light">',
         f'<meta name="robots" content="{esc(meta.get("robots") or "index,follow")}">',
         '<meta name="author" content="Dr Stéphane Elard">',
@@ -186,7 +186,8 @@ def book(meta: dict, url: str) -> str:
     b = meta.get("book")
     if not b:
         return ""
-    out = [f'<section class="book" id="{b.get("id", "rendez-vous")}" aria-labelledby="book-title"><div class="wrap">',
+    tone = " book--white" if b.get("white") else ""
+    out = [f'<section class="book{tone}" id="{b.get("id", "rendez-vous")}" aria-labelledby="book-title"><div class="wrap">',
            f'<div class="head"><h2 id="book-title">{b["title"]}</h2><p>{b["text"]}</p>'
            f'<div class="actions"><a class="btn" href="{DOCTOLIB}">Prendre rendez-vous sur Doctolib</a></div></div>',
            '<div class="places">', place(OSNY, b["osny"]), place(ENGHIEN, b["enghien"]), "</div>"]
@@ -247,7 +248,12 @@ def render(slug: str, meta: dict, body: str, css: str, year: int) -> str:
     if "<!-- article -->" in body:
         intro, article = body.split("<!-- article -->", 1)
         body = f'{intro}<div class="wrap doc">{toc(article)}<div class="article">{article}</div></div>'
-    main = (crumbs(meta["crumbs"]) if meta.get("crumbs") else "") + body + book(meta, url)
+    # Bandeau sombre d’en-tête : fil d’Ariane + premier bloc de la page (accueil ou titre)
+    m = re.match(r'\s*(<header class="intro[^"]*">.*?</header>|<section class="hero[^"]*"[^>]*>.*?</section>)', body, re.S)
+    if not m:
+        raise SystemExit(f"{slug}: la page doit commencer par <header class=\"intro\"> ou <section class=\"hero\">")
+    top = '<div class="top dark">' + (crumbs(meta["crumbs"]) if meta.get("crumbs") else "") + m.group(1) + "</div>"
+    main = top + body[m.end():] + book(meta, url)
     # Ne jamais couper « Enghien-les-Bains » en fin de ligne dans un titre
     main = re.sub(r"<h([123])([^>]*)>(.*?)</h\1>",
                   lambda m: f'<h{m[1]}{m[2]}>' + m[3].replace("Enghien-les-Bains", '<span class="nw">Enghien-les-Bains</span>') + f'</h{m[1]}>',

@@ -1,4 +1,4 @@
-<section class="hero">
+<section class="hero dark">
 <div class="wrap">
 <p class="hero__who">Chirurgien urologue et andrologue diplômé</p>
 {{portrait}}

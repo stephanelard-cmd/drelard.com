@@ -1,4 +1,4 @@
-<section class="hero" id="accueil">
+<section class="hero dark" id="accueil">
 <div class="wrap">
 <p class="hero__who">Dr Stéphane Elard, chirurgien urologue et andrologue diplômé, ancien chef de clinique des Hôpitaux de Paris</p>
 {{portrait}}
@@ -36,7 +36,7 @@
 </div>
 </section>
 
-<section class="sec sec--mist" id="comprendre" aria-labelledby="comprendre-title">
+<section class="sec" id="comprendre" aria-labelledby="comprendre-title">
 <div class="wrap split">
 <div class="prose">
 <h2 id="comprendre-title">L’urologie en quelques repères</h2>
@@ -54,7 +54,7 @@
 </div>
 </section>
 
-<section class="sec" id="parcours" aria-labelledby="parcours-title">
+<section class="sec sec--mist" id="parcours" aria-labelledby="parcours-title">
 <div class="wrap split">
 <div class="prose">
 <h2 id="parcours-title">Un parcours hospitalo-universitaire, scientifique et chirurgical</h2>

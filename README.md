@@ -20,4 +20,4 @@ L’intégration continue refuse une modification si les pages ne correspondent 
 - Aucun JavaScript exécuté : menu mobile en `<details>`, navigation instantanée par `speculationrules`.
 - CSS inline (≈ 13 Ko, ≈ 3,5 Ko compressé), aucune requête bloquante.
 - Une seule photo, en AVIF/WebP/JPEG responsive (`assets/img/`).
-- Police Atkinson Hyperlegible Next auto-hébergée (18 Ko, sous-ensemble latin, `font-display: optional`), licence dans `assets/fonts/OFL.txt`.
+- Police Onest auto-hébergée (20 Ko, sous-ensemble latin, graisses 400 à 700, `font-display: optional`), licence dans `assets/fonts/OFL.txt`.

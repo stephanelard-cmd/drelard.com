@@ -19,7 +19,8 @@
   "osny": "Lieu principal d’exercice et site de l’activité médico-chirurgicale : consultations, chirurgie, endoscopie, cystoscopie ambulatoire et examens urodynamiques selon indication. <a href=\"https://chpsaintemarie.vivalto-sante.com/praticien/dr-elard-stephane/\">Fiche du Dr Elard au CHP Sainte-Marie</a>.",
   "enghien": "Consultations d’urologie générale, d’andrologie, de cancérologie urologique et d’urologie féminine, sur rendez-vous. Téléconsultation disponible selon la situation.",
   "note_id": "politique-editoriale",
-  "note": "<strong>Information médicale, fiabilité et absence de notation :</strong> les contenus sont rédigés ou validés par le Dr Stéphane Elard. Ils ont une finalité d’information générale et ne remplacent pas une consultation. Le site ne publie ni note, ni classement, ni témoignage de patient, ni commentaire public et ne sollicite aucun avis en ligne."
+  "note": "<strong>Information médicale, fiabilité et absence de notation :</strong> les contenus sont rédigés ou validés par le Dr Stéphane Elard. Ils ont une finalité d’information générale et ne remplacent pas une consultation. Le site ne publie ni note, ni classement, ni témoignage de patient, ni commentaire public et ne sollicite aucun avis en ligne.",
+  "white": true
  },
  "extra": [
   "<link rel=\"alternate\" hreflang=\"fr\" href=\"https://drelard.com/\">",
