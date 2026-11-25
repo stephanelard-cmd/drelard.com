@@ -1,0 +1,38 @@
+<header class="intro wrap">
+<h1>Rendez-vous et contacts</h1>
+<p class="lead">Choisissez le lieu de consultation ou l’action correspondant à votre besoin. Aucun renseignement médical confidentiel ne doit être transmis par une messagerie non sécurisée.</p>
+<div class="actions"><a class="btn" href="https://www.doctolib.fr/chirurgien-urologue/osny/stephane-elard">Prendre rendez-vous sur Doctolib</a></div>
+</header>
+
+<section class="sec sec--mist" aria-label="Lieux et contacts">
+<div class="wrap">
+<div class="cards">
+<article>
+<h2>Osny, CHP Sainte-Marie</h2>
+<p><strong>Lieu principal de consultation et plateau technique du Dr Stéphane Elard.</strong><br>1 rue Christian Barnard, 95520 Osny</p>
+<a class="tel" href="tel:+33130756301">01 30 75 63 01</a>
+<p>Secrétariat : <a href="mailto:chir3osny@gmail.com">chir3osny@gmail.com</a><br><strong>Conventionnement :</strong> adhérent à l’OPTAM-ACO.</p>
+<p>Examens urodynamiques, cystoscopie ambulatoire, chirurgie urologique et accès au plateau technique selon indication.</p>
+<ul class="linklist"><li><a href="/urologue-osny/">Informations sur la consultation d’Osny</a></li><li><a href="https://chpsaintemarie.vivalto-sante.com/">Site officiel du CHP Sainte-Marie</a></li><li><a href="https://chpsaintemarie.vivalto-sante.com/praticien/dr-elard-stephane/">Fiche officielle du Dr Elard au CHP</a></li></ul>
+</article>
+<article>
+<h2>Enghien-les-Bains</h2>
+<p>8 rue de Malleville, 95880 Enghien-les-Bains</p>
+<a class="tel" href="tel:+33139641494">01 39 64 14 94</a>
+<p>Consultations d’urologie générale et d’andrologie sur rendez-vous. Téléconsultation disponible selon la situation.</p>
+<ul class="linklist"><li><a href="/urologue-enghien-les-bains/">Informations sur le cabinet d’Enghien</a></li></ul>
+</article>
+<article>
+<h2>SOS Calcul, DUNF</h2>
+<p>Accès au dispositif d’orientation pour une suspicion de calcul urinaire ou de colique néphrétique.</p>
+<div class="actions"><a class="btn btn--line btn--sm" href="https://dunf.fr/sos-calcul/">Accéder à SOS Calcul</a></div>
+</article>
+<article>
+<h2>Avant votre rendez-vous</h2>
+<p>Vérifiez le lieu de consultation, préparez vos documents et retrouvez les contacts utiles pour vos questions administratives.</p>
+<div class="actions"><a class="btn btn--line btn--sm" href="/preparer-consultation/">Préparer votre consultation</a></div>
+</article>
+</div>
+<p class="note note--alert"><strong>Urgence médicale :</strong> en cas d’impossibilité complète d’uriner, douleur testiculaire brutale, douleur lombaire avec fièvre, saignement important ou autre urgence, appelez le <a href="tel:15">15</a> ou le <a href="tel:112">112</a>.</p>
+</div>
+</section>

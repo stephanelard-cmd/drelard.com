@@ -1,0 +1,211 @@
+{
+ "title": "Urologue à Enghien-les-Bains | Consultations – Dr Elard",
+ "description": "Dr Stéphane Elard, chirurgien urologue à Enghien-les-Bains : consultations d’urologie, prostate et andrologie au 8 rue de Malleville. Rendez-vous sur Doctolib.",
+ "canonical": "https://drelard.com/urologue-enghien-les-bains/",
+ "robots": "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1",
+ "lastmod": "2026-11-25",
+ "nav": "/urologue-enghien-les-bains/",
+ "crumbs": [
+  [
+   "Accueil",
+   "/"
+  ],
+  [
+   "Urologue à Enghien-les-Bains",
+   "/urologue-enghien-les-bains/"
+  ]
+ ],
+ "sitemap": {
+  "priority": "0.95",
+  "changefreq": "monthly",
+  "image": "/assets/dr-stephane-elard-social-1200x630.jpg",
+  "image_title": "Urologue à Enghien-les-Bains — Dr Stéphane Elard"
+ },
+ "book": {
+  "title": "Prendre rendez-vous à Enghien-les-Bains",
+  "text": "Consultations au 8 rue de Malleville. Les créneaux disponibles sont présentés sur Doctolib.",
+  "osny": "Examens urodynamiques, cystoscopies ambulatoires et chirurgie lorsqu’ils sont indiqués.",
+  "enghien": "Consultations sur rendez-vous, téléconsultation disponible. Secteur 2, OPTAM-ACO, carte Vitale acceptée."
+ },
+ "extra": [
+  "<link rel=\"alternate\" hreflang=\"fr\" href=\"https://drelard.com/urologue-enghien-les-bains/\">",
+  "<link rel=\"alternate\" hreflang=\"x-default\" href=\"https://drelard.com/urologue-enghien-les-bains/\">",
+  "<meta name=\"geo.region\" content=\"FR-95\">",
+  "<meta name=\"geo.placename\" content=\"Enghien-les-Bains\">"
+ ],
+ "social": [
+  [
+   "property",
+   "og:type",
+   "website"
+  ],
+  [
+   "property",
+   "og:locale",
+   "fr_FR"
+  ],
+  [
+   "property",
+   "og:site_name",
+   "Dr Stéphane Elard"
+  ],
+  [
+   "property",
+   "og:url",
+   "https://drelard.com/urologue-enghien-les-bains/"
+  ],
+  [
+   "property",
+   "og:title",
+   "Urologue à Enghien-les-Bains | Consultations – Dr Elard"
+  ],
+  [
+   "property",
+   "og:description",
+   "Consultations d’urologie générale, prostate et andrologie avec le Dr Stéphane Elard au 8 rue de Malleville à Enghien-les-Bains."
+  ],
+  [
+   "property",
+   "og:image",
+   "https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg"
+  ],
+  [
+   "property",
+   "og:image:alt",
+   "Dr Stéphane Elard, chirurgien urologue à Enghien-les-Bains"
+  ],
+  [
+   "name",
+   "twitter:card",
+   "summary_large_image"
+  ],
+  [
+   "name",
+   "twitter:title",
+   "Urologue à Enghien-les-Bains | Dr Stéphane Elard"
+  ],
+  [
+   "name",
+   "twitter:description",
+   "Consultations d’urologie générale et d’andrologie à Enghien-les-Bains. Secteur 2, adhérent OPTAM-ACO."
+  ],
+  [
+   "name",
+   "twitter:image",
+   "https://drelard.com/assets/dr-stephane-elard-social-1200x630.jpg"
+  ]
+ ],
+ "jsonld": [
+  {
+   "id": null,
+   "data": {
+    "@context": "https://schema.org",
+    "@graph": [
+     {
+      "@type": "MedicalWebPage",
+      "@id": "https://drelard.com/urologue-enghien-les-bains/#webpage",
+      "url": "https://drelard.com/urologue-enghien-les-bains/",
+      "name": "Urologue à Enghien-les-Bains | Consultations – Dr Elard",
+      "description": "Consultations d’urologie générale et d’andrologie au 8 rue de Malleville à Enghien-les-Bains. Secteur 2, adhérent OPTAM-ACO.",
+      "inLanguage": "fr-FR",
+      "datePublished": "2026-08-14",
+      "dateModified": "2026-09-28",
+      "about": {
+       "@id": "https://drelard.com/urologue-enghien-les-bains/#cabinet"
+      },
+      "author": {
+       "@id": "https://drelard.com/#dr-stephane-elard"
+      },
+      "breadcrumb": {
+       "@id": "https://drelard.com/urologue-enghien-les-bains/#breadcrumb"
+      }
+     },
+     {
+      "@type": "Physician",
+      "@id": "https://drelard.com/urologue-enghien-les-bains/#cabinet",
+      "name": "Dr Stéphane Elard — Chirurgien urologue à Enghien-les-Bains",
+      "url": "https://drelard.com/urologue-enghien-les-bains/",
+      "telephone": "+33139641494",
+      "medicalSpecialty": "Urologic",
+      "identifier": {
+       "@type": "PropertyValue",
+       "propertyID": "RPPS",
+       "value": "10001530970"
+      },
+      "address": {
+       "@type": "PostalAddress",
+       "streetAddress": "8 rue de Malleville",
+       "postalCode": "95880",
+       "addressLocality": "Enghien-les-Bains",
+       "addressRegion": "Île-de-France",
+       "addressCountry": "FR"
+      },
+      "areaServed": {
+       "@type": "City",
+       "name": "Enghien-les-Bains"
+      },
+      "sameAs": [
+       "https://www.doctolib.fr/chirurgien-urologue/osny/stephane-elard",
+       "https://dunf.fr/"
+      ]
+     },
+     {
+      "@type": "BreadcrumbList",
+      "@id": "https://drelard.com/urologue-enghien-les-bains/#breadcrumb",
+      "itemListElement": [
+       {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Accueil",
+        "item": "https://drelard.com/"
+       },
+       {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Urologue à Enghien-les-Bains",
+        "item": "https://drelard.com/urologue-enghien-les-bains/"
+       }
+      ]
+     },
+     {
+      "@type": "FAQPage",
+      "mainEntity": [
+       {
+        "@type": "Question",
+        "name": "Pour quels symptômes peut-on consulter ?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Une consultation peut être indiquée pour des troubles urinaires, des douleurs ou calculs, du sang dans les urines, des infections récidivantes, un problème de prostate, une question d’andrologie, une incontinence, une descente d’organes ou un suivi en cancérologie urologique."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Les examens urodynamiques et cystoscopies sont-ils réalisés à Enghien ?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Non. Lorsqu’ils sont nécessaires, les examens urodynamiques et les cystoscopies ambulatoires sont organisés au CHP Sainte-Marie à Osny."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Quel est le conventionnement du Dr Stéphane Elard ?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Le Dr Stéphane Elard exerce en secteur 2 et est adhérent à l’OPTAM-ACO."
+        }
+       },
+       {
+        "@type": "Question",
+        "name": "Comment prendre rendez-vous avec le Dr Elard ?",
+        "acceptedAnswer": {
+         "@type": "Answer",
+         "text": "Le rendez-vous peut être pris sur Doctolib ou par téléphone auprès du cabinet d’Enghien-les-Bains au 01 39 64 14 94."
+        }
+       }
+      ]
+     }
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+<header class="intro wrap">
+<h1>Plan du site</h1>
+<p class="lead">Accès aux pages officielles, aux informations médicales et aux lieux de consultation du Dr Stéphane Elard.</p>
+</header>
+
+<section class="sec sec--mist" aria-label="Pages du site">
+<div class="wrap">
+<div class="cards">
+<nav aria-labelledby="plan-pages"><h2 id="plan-pages">Pages principales</h2><ul class="list">
+<li><a href="/">Accueil</a></li>
+<li><a href="/dr-stephane-elard/">Dr Stéphane Elard — page officielle</a></li>
+<li><a href="/urologue-osny/">Urologue à Osny — CHP Sainte-Marie</a></li>
+<li><a href="/urologue-enghien-les-bains/">Urologue à Enghien-les-Bains</a></li>
+<li><a href="/urologie/">Urologie — pathologies et prises en charge</a></li>
+<li><a href="/rendez-vous/">Rendez-vous et contacts</a></li>
+<li><a href="/preparer-consultation/">Préparer votre consultation</a></li>
+<li><a href="/accessibilite/">Accessibilité</a></li>
+</ul></nav>
+<nav aria-labelledby="plan-fiches"><h2 id="plan-fiches">Fiches d’information médicale</h2><ul class="list">
+<li><a href="/urologie/">Toutes les fiches d’urologie</a></li>
+<li><a href="/adenome-prostate/">Adénome de la prostate</a></li>
+<li><a href="/cancer-prostate/">Cancer de la prostate</a></li>
+<li><a href="/calculs-urinaires/">Calculs urinaires et colique néphrétique</a></li>
+<li><a href="/prolapsus-genital/">Descente d’organes et prolapsus génital</a></li>
+</ul></nav>
+<nav aria-labelledby="plan-accueil"><h2 id="plan-accueil">Rubriques de l’accueil</h2><ul class="list">
+<li><a href="/#expertises">Motifs de consultation</a></li>
+<li><a href="/#comprendre">Informations médicales</a></li>
+<li><a href="/#parcours">Parcours et compétences</a></li>
+<li><a href="/#cabinets">Lieux de consultation</a></li>
+<li><a href="/#politique-editoriale">Politique éditoriale</a></li>
+</ul></nav>
+</div>
+</div>
+</section>

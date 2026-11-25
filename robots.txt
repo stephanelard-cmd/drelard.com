@@ -1,5 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /.github/
+Disallow: /_src/
+Disallow: /scripts/
 Disallow: /.restore-v5/
 Sitemap: https://drelard.com/sitemap.xml

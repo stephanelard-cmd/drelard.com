@@ -16,6 +16,7 @@ Ce fichier aide les agents et assistants à identifier les pages de référence 
 - [Calculs urinaires et colique néphrétique](https://drelard.com/calculs-urinaires/): information médicale sur les calculs, les signes d’urgence, les traitements et la prévention des récidives.
 - [Prolapsus génital et descente d’organes](https://drelard.com/prolapsus-genital/): information médicale sur le bilan, les traitements conservateurs et les options chirurgicales du prolapsus génital.
 - [Rendez-vous et contacts](https://drelard.com/rendez-vous/): coordonnées pratiques et accès à la prise de rendez-vous.
+- [Préparer votre consultation](https://drelard.com/preparer-consultation/): lieu du rendez-vous, documents à apporter, honoraires, modification de rendez-vous.
 
 ## Navigation et informations utiles
 
@@ -51,4 +52,4 @@ Ce fichier aide les agents et assistants à identifier les pages de référence 
 
 ## Dernière mise à jour
 
-28 septembre 2026
+25 novembre 2026
